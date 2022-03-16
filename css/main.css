@@ -29,11 +29,11 @@ header {
 
 /***************************** Hamburger Menu Styling *************************/
 .hamburger{
-   background-color:#2a2d2d;
+   background-color:#051938;
    position:absolute;
    top:0;
    right:0;
-   line-height:42px;
+   line-height:54px;
    padding: 9px 4% 2px 4%;
    color:white;
    border:0;
@@ -45,12 +45,12 @@ header {
  }
  
  .cross{
-   background-color:#2a2d2d;;
+   background-color:#051938;
    position:absolute;
    top:0px;
    right:0;
    padding: 9px 4% 2px 4%;
-   color:white;
+   color: rgba(53, 207, 233, 0.9);
    border:0;
    font-size:3em;
    line-height:42px;
@@ -90,7 +90,9 @@ img {
 .coupon-code {
     background-color: #051938;
     color: white;
-    padding: 10px 0px;
+    /* padding: 10px 0px; */
+    width: 90%;
+    height: 65px;
 }
 
 .coupon-code p {
@@ -98,6 +100,7 @@ img {
     font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
+    padding: 2%;
 }
 
 .logo {
@@ -168,6 +171,12 @@ footer ul a {
 /************** DESKTOP NAV STYLING **************/
 
 @media (min-width: 600px) {
+   .hamburger, .cross, .menu, .mobile-logo-container {
+      display: none;
+   }
+   .coupon-code {
+      width: 100%;
+   }
     .flex-nav {
         display: flex;
     }
