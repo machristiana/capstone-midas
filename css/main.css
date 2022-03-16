@@ -11,6 +11,10 @@
    display: none;
 }
 
+.flex-nav {
+   display: none;
+}
+
 header {
 	background-color: white;
 }
@@ -144,6 +148,33 @@ footer ul a {
     color: #051938;
 }
 
+/************************* START HOMEPAGE STYLING ************************/
+#girl-top-homepage {
+   width: 100%;
+   max-width: 1000px;
+}
+
+#frames-blue-bg {
+   width: 100%;
+   max-width: 1000px;
+}
+
+#mens-collection-pic {
+   width: 100%;
+   max-width: 1000px;
+}
+
+#womens-collection-pic {
+   width: 100%;
+   max-width: 1000px;
+}
+
+#store-locator {
+   width: 100%;
+   max-width: 1000px;
+}
+   
+/************************* END HOMEPAGE STYLING ************************/
 
 /************************* START ABOUT PAGE STYLING ************************/
 
