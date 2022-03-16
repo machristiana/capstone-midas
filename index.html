@@ -30,40 +30,101 @@
 </head>
 <body>
    <header class="mobile_header">
+      <div class="coupon-code">
+         <p>Get 10% off your first order with code MIDAS10</p>
+     </div>
+ 
       <figure class="mobile-logo-container">
          <img id="mobile_logo" src="images/logo-white.png" alt="Midas white logo" />
       </figure>
 
-      <img id="desktop_logo" src="images/midas-logo.png" alt="Midas navy logo" />
+      <!-- <img id="desktop_logo" src="images/midas-logo.png" alt="Midas navy logo" /> -->
 
       <button class="hamburger">&#9776;</button>
-   <button class="cross">&#735;</button>
+      <button class="cross">&#735;</button>
 
 <!--- Mobile Hamburger Nav ---------------------------------------------------->
 
       <nav class="menu">
-         <ul>
-            <li><a href="index.html">Home</a></li>
+         <ul> 
             <li><a href="about.html">About</a></li>
-            <li><a href="#">Shop</a></li>
+            <div class="dropdown">
+               <li><a href="#">Shop</a></li>
+               <div class="dropdown-content">
+                  <a href="eyeglasses.html">EYEGLASSES</a>
+                  <a href="sunglasses.html">SUNGLASSES</a>
+               </div>
+            </div>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="contact.html">Contact</a></li>
          </ul>
       </nav>
 
 <!--- Desktop Nav ------------------------------------------------------------->
+      <div class="flex-nav">
+         <figure>
+            <a href="index.html"><img class="logo" src="images/midas-logo2.png" alt="Midas logo" title="Midas logo"></a>
+         </figure>
 
-      <nav class="menu">
-         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-         </ul>
-      </nav>
+         <!-- Desktop Nav Menu -->
+         <nav class="desktop-nav">
+            <!-- Main Menu -->
+            <ul class="topnav">
+               <li>
+                     <a class="btn" href="about.html">ABOUT</a></li>
+               <div class="dropdown">
+                     <li><a href="#" class="btn">SHOP</a></li>
+                     <!-- Sub Menu -->
+                     <div class="dropdown-content">
+                        <a href="eyeglasses.html">EYEGLASSES</a>
+                        <a href="sunglasses.html">SUNGLASSES</a>
+                     </div>
+               </div>
+               <li>
+                     <a class="btn" href="blog.html">BLOG</a></li>
+               <li>
+                     <a class="btn" href="contact.html">CONTACT</a></li>
+            </ul>
+         </nav>
+      </div>
    </header>
 
+   <main>
+      <div class="homepage-top-image">
+         <h2>Fashion Frames</h2>
+         <figure class="girl-looking-left">
+            <img id="girl-top-homepage" src="images/girl-looking-left.jpg" alt="girl wearing fashion frames glancing to the left" title="Girl looking left"/>
+         </figure>
+      </div>
+
+      <div>
+         <figure class="frames-homepage">
+            <img id="frames-blue-bg" src="images/midas-frames-homepage.png" alt="eyeglasses on blue background" title="Midas frames" >
+         </figure>
+      </div>
+
+      <div class="mens-collection-container">
+         <h2>MEN</h2>
+         <figure class="men-black-white">
+            <img id="mens-collection-pic" src="images/mens-collection.jpg" alt="black and white photo of man wearing glasses" title="Mens Collection" >
+         </figure>
+      </div>
+
+      <div class="womens-collection-container">
+         <h2>WOMEN</h2>
+         <figure class="women-black-white">
+            <img id="womens-collection-pic" src="images/womens-collection.jpg" alt="black and white photo of woman wearing glasses" title="Womens Collection" >
+         </figure>
+      </div>
+
+      <div>
+         <h2>STORE LOCATOR</h2>
+         <figure class="map-container">
+            <img id="store-locator" src="images/map.jpeg" alt="map of Canada with pin and magnifying glass" title="Map of Canada" >
+         </figure>
+      </div>
+   </main>
+   
    <script src="js/hamburger.js"></script>
 </body>
 
