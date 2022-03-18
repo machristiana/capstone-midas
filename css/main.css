@@ -275,10 +275,15 @@ img {
         color: #051938;
     }
     /************************* START HOMEPAGE STYLING ************************/
-    
+    .girl-looking-left h2 {
+       font-family: 'Montserrat', sans-serif;
+       color: white;
+    }
+   
     #girl-top-homepage {
         width: 100%;
         max-width: 1000px;
+        padding: 38px 0 0px;
     }
     
     #frames-blue-bg {
@@ -286,6 +291,29 @@ img {
         max-width: 1000px;
     }
     
+    .mens-collection-container,
+    .womens-collection-container {
+       position: relative;
+    }
+
+    .mens-collection-container h2 {
+      position: absolute;
+      bottom: 10%;
+      left: 34%;
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      font-size: 2.5rem;
+    }
+
+    .womens-collection-container h2 {
+      position: absolute;
+      bottom: 10%;
+      left: 22%;
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      font-size: 2.5rem;
+    }
+
     #mens-collection-pic {
         width: 100%;
         max-width: 1000px;
@@ -296,6 +324,28 @@ img {
         max-width: 1000px;
     }
 
+    .virtual-container {
+       position: relative;
+    }
+
+    .virtual-container a {
+      text-decoration: none;
+      /* color: white; */
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      font-size: 1em;
+      position: absolute;
+      bottom: 5%;
+      left: 15%;
+    }
+
+    .virtual-container h2 {
+      background-color: #051938;
+      color: white;
+      padding: 10px 5px;
+      /* margin: 0 70px; */
+    }
+
     #virtual-tryon {
        width: 100%;
        max-width: 1000px;
@@ -304,6 +354,10 @@ img {
     #store-locator {
         width: 100%;
         max-width: 1000px;
+    }
+
+    .whats-trending {
+       display: none;
     }
     /************************* END HOMEPAGE STYLING ************************/
     /************************* START ABOUT PAGE STYLING ************************/
@@ -321,6 +375,46 @@ img {
         border-width: 5px;
         border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
     }
+
+    /********************** START 400PX MEDIA QUERY **********************/
+    @media (min-width:400PX) {
+       /* HOMEPAGE START */
+    .mens-collection-container h2 {
+      left: 38%;
+   }
+
+   .womens-collection-container h2 {
+      left: 28%;
+   }
+
+   .virtual-container a {
+      left: 22%;
+   }
+   /* HOMEPAGE END*/
+
+    }
+    /********************** END 400PX MEDIA QUERY **********************/
+
+    /********************** START 500PX MEDIA QUERY **********************/
+    @media (min-width:500px) {
+       /* HOMEPAGE START */
+       .mens-collection-container h2 {
+          font-size: 3rem;
+       }
+       .womens-collection-container h2 {
+          font-size: 3rem;
+          left: 30%;
+       }
+
+       .virtual-container a {
+         left: 19%;
+         font-size: 1.5em;
+     }
+
+       /* HOMEPAGE END */
+    }
+    /********************** START 500PX MEDIA QUERY **********************/
+
     /********************** START 600PX MEDIA QUERY **********************/
     /************** DESKTOP NAV STYLING **************/
     
@@ -442,14 +536,49 @@ img {
             width: 100%;
             height: 100%;
         }
+
+        /* HOMEPAGE */
+        .mens-collection-container h2 {
+         font-size: 4rem;
+         left: 40%;
+        }
+
+        .womens-collection-container h2 {
+         font-size: 4rem;
+         left: 28%;
+        }
+
+        .virtual-container a {
+           left: 24%;
+        }
     }
+   /********************** START 700PX MEDIA QUERY **********************/
+    @media (min-width: 700px) {
+       /* HOMEPAGE START*/
+       .womens-collection-container h2 {
+          left: 33%;
+       }
+
+       .virtual-container a {
+         left: 28%;
+      }
+       /* HOMEPAGE END */
+    }
+
+   /********************** END 700PX MEDIA QUERY **********************/
+
     /********************** START 800PX MEDIA QUERY **********************/
     
     @media (min-width: 800px) {
        /* Homepage */
+      #girl-top-homepage {
+         padding: 0px;
+      }
+
        .home-hero-container,
        .collections-container,
-       .store-tryon-container {
+       .store-tryon-container,
+       .whats-trending {
           display: flex;
        }
 
@@ -461,6 +590,38 @@ img {
        .map-container {
           width: 50%;
        }
+
+       .border-gradient-gold-home {
+         border: 10px solid;
+         border-image-slice: 1;
+         border-width: 5px;
+         border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
+         margin: 2% 0;
+     }
+
+     .girl-looking-left,
+     .frames-container {
+         margin-bottom: -6px;
+     }
+
+     .mens-collection-container h2 {
+        left: 31%;
+     }
+
+     .womens-collection-container h2 {
+         left: 19%;
+      }
+
+     .virtual-container a {
+         left: 17%;
+         font-size: 1.25em;
+         bottom: 12%;
+      }
+
+       #whats-trending-pic {
+          width: 100%;
+          max-width: 1920px;
+       }
        /* Homepage End */
         .logo {
             width: 170px;
@@ -470,6 +631,7 @@ img {
             width: 80%;
             margin: 0 auto;
         }
+
     }
     /* @media screen and (max-width: 600px) {
     .topnav a:not(:first-child),
@@ -508,3 +670,50 @@ img {
         text-align: left;
     }
 } */
+
+/********************** END 800PX MEDIA QUERY **********************/
+
+/********************** START 950PX MEDIA QUERY **********************/
+@media (min-width: 950px) {
+   /* Homepage */
+   .womens-collection-container h2 {
+      left: 23%;
+  }
+
+  .virtual-container a {
+   left: 22%;
+  }
+}
+
+/********************** END 950PX MEDIA QUERY **********************/
+
+/********************** START 1050PX MEDIA QUERY **********************/
+@media (min-width: 1050px) {
+   /* Homepage */
+   .womens-collection-container h2 {
+      left: 27%;
+   }
+
+   .mens-collection-container h2 {
+      left: 36%;
+   }
+}
+
+/********************** END 1050PX MEDIA QUERY **********************/
+
+/********************** START 1200PX MEDIA QUERY **********************/
+@media (min-width: 1200px) {
+   .womens-collection-container h2 {
+      left: 32%;
+   }
+
+   .mens-collection-container h2 {
+      left: 40%;
+   }
+
+   .virtual-container a {
+      left: 30%;
+     }
+}
+
+/********************** END 12000PX MEDIA QUERY **********************/

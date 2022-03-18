@@ -17,8 +17,10 @@
     <!-- Main CSS -->
     <link type="text/css" rel="stylesheet" href="css/main.css" />
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,200&display=swap" rel="stylesheet">
 
     <!-- JQuery Library -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -90,10 +92,10 @@
    </header>
 
    <main>
-      <div class="home-hero-container">
+      <div class="home-hero-container border-gradient-gold-home">
          <div class="homepage-top-image">
-            <h2>Fashion Frames</h2>
             <figure class="girl-looking-left">
+               <!-- <h2>Fashion Frames</h2> -->
                <img id="girl-top-homepage" src="images/girl-looking-left.jpg" alt="girl wearing fashion frames glancing to the left" title="Girl looking left"/>
             </figure>
          </div>
@@ -123,7 +125,7 @@
 
       <div class="store-tryon-container">
          <div class="virtual-container">
-            <h2>VIRTUAL TRY-ON</h2>
+            <a href="#"><h2>VIRTUAL TRY-ON</h2></a>
             <figure>
                <img id="virtual-tryon" src="images/virtual-tryon.jpg" alt="girl smiling wearing glasses with hand in hair" title="Virtual Try-on Model" >
             </figure>
@@ -137,8 +139,27 @@
          </div>
       </div>
 
+      <figure class="whats-trending">
+         <img id="whats-trending-pic" src="images/trending.jpg" alt="girl smiling with glasses on in front of a grafitti wall" title="Whats Trending" >
+      </figure>
+
       
    </main>
+
+   <footer>
+      <div>
+          <a href="index.html"><img class="logo" src="images/midas-logo2.png" alt="Midas logo" title="Midas logo"></a>
+      </div>
+
+      <ul>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="eyeglasses.html">EYEGLASSES</a></li>
+          <li><a href="sunglasses.html">SUNGLASSES</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+
+  </footer>
    
    <script src="js/hamburger.js"></script>
 </body>
