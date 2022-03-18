@@ -324,11 +324,13 @@ img {
         max-width: 1000px;
     }
 
-    .virtual-container {
+    .virtual-container,
+    .map-container {
        position: relative;
     }
 
-    .virtual-container a {
+    .virtual-container a,
+    .map-container a {
       text-decoration: none;
       /* color: white; */
       font-family: 'Montserrat', sans-serif;
@@ -339,7 +341,8 @@ img {
       left: 15%;
     }
 
-    .virtual-container h2 {
+    .virtual-container h2,
+    .map-container h2 {
       background-color: #051938;
       color: white;
       padding: 10px 5px;
@@ -354,6 +357,26 @@ img {
     #store-locator {
         width: 100%;
         max-width: 1000px;
+    }
+
+    .testimonials {
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      color: #051938;
+      font-size: 1.25em;
+      margin: 20px 0;
+    }
+
+    .testimonial-1,
+    .testimonial-2,
+    .testimonial-3 {
+      border: 10px solid;
+      border-image-slice: 1;
+      border-width: 5px;
+      border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
+      /* margin: 2% 0; */
+      margin: 20px 10%;
+      padding: 20px 5%;
     }
 
     .whats-trending {
@@ -387,7 +410,8 @@ img {
       left: 28%;
    }
 
-   .virtual-container a {
+   .virtual-container a,
+   .map-container a {
       left: 22%;
    }
    /* HOMEPAGE END*/
@@ -406,7 +430,8 @@ img {
           left: 30%;
        }
 
-       .virtual-container a {
+       .virtual-container a,
+       .map-container a {
          left: 19%;
          font-size: 1.5em;
      }
@@ -548,7 +573,8 @@ img {
          left: 28%;
         }
 
-        .virtual-container a {
+        .virtual-container a,
+        .map-container a {
            left: 24%;
         }
     }
@@ -559,7 +585,8 @@ img {
           left: 33%;
        }
 
-       .virtual-container a {
+       .virtual-container a,
+       .map-container a {
          left: 28%;
       }
        /* HOMEPAGE END */
@@ -618,9 +645,26 @@ img {
          bottom: 12%;
       }
 
+      .map-container a {
+         left: 18%;
+         font-size: 1.25em;
+         bottom: 12%;
+      }
+
        #whats-trending-pic {
           width: 100%;
           max-width: 1920px;
+       }
+
+       .test-container {
+          display: flex;
+       }
+
+       .testimonial-1,
+       .testimonial-2,
+       .testimonial-3 {
+          width: 33.333333333333%;
+          margin: 20px 2%;
        }
        /* Homepage End */
         .logo {
@@ -683,6 +727,10 @@ img {
   .virtual-container a {
    left: 22%;
   }
+
+  .map-container a {
+     left: 23%;
+  }
 }
 
 /********************** END 950PX MEDIA QUERY **********************/
@@ -696,6 +744,10 @@ img {
 
    .mens-collection-container h2 {
       left: 36%;
+   }
+
+   .map-container a {
+      left: 26%;
    }
 }
 
@@ -714,6 +766,10 @@ img {
    .virtual-container a {
       left: 30%;
      }
+
+   .map-container a {
+      left: 32%;
+   }
 }
 
 /********************** END 12000PX MEDIA QUERY **********************/
