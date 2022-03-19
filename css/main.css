@@ -418,86 +418,14 @@ img {
        text-align: center;
     }
 
-    #frames1 {
-       width: 100%;
-       max-width: 334px;
-       border-bottom: solid;
-       border-image-slice: 1;
-       border-width: 3px;
-       border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
-       padding: 25px 3%;
-    }
-
-    #frames2 {
-       width: 100%;
-       max-width: 334px;
-       border-bottom: solid;
-       border-image-slice: 1;
-       border-width: 3px;
-       border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
-       padding: 25px 3%;
-    }
-
-    #frames3 {
-       width: 100%;
-       max-width: 334px;
-       border-bottom: solid;
-       border-image-slice: 1;
-       border-width: 3px;
-       border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
-       padding: 25px 3%;
-    }
-
-    #frames4 {
-       width: 100%;
-       max-width: 334px;
-       border-bottom: solid;
-       border-image-slice: 1;
-       border-width: 3px;
-       border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
-       padding: 25px 3%;
-    }
-
-    #frames5 {
-       width: 100%;
-       max-width: 334px;
-       border-bottom: solid;
-       border-image-slice: 1;
-       border-width: 3px;
-       border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
-       padding: 25px 3%;
-    }
-
-    #frames6 {
-       width: 100%;
-       max-width: 334px;
-       border-bottom: solid;
-       border-image-slice: 1;
-       border-width: 3px;
-       border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
-       padding: 25px 3%;
-    }
-
-    #frames7 {
-       width: 100%;
-       max-width: 334px;
-       border-bottom: solid;
-       border-image-slice: 1;
-       border-width: 3px;
-       border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
-       padding: 25px 3%;
-    }
-
-    #frames8 {
-       width: 100%;
-       max-width: 334px;
-       border-bottom: solid;
-       border-image-slice: 1;
-       border-width: 3px;
-       border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
-       padding: 25px 3%;
-    }
-
+    #frames1,
+    #frames2,
+    #frames3,
+    #frames4,
+    #frames5,
+    #frames6,
+    #frames7,
+    #frames8,
     #frames9 {
        width: 100%;
        max-width: 334px;
@@ -507,7 +435,6 @@ img {
        border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
        padding: 25px 3%;
     }
-
     /************************* END EYEGLASSES PAGE STYLING ************************/
 
     /************************* START ABOUT PAGE STYLING ************************/
