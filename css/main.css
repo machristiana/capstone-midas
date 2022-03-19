@@ -383,6 +383,104 @@ img {
        display: none;
     }
     /************************* END HOMEPAGE STYLING ************************/
+
+    /************************* START EYEGLASSES PAGE STYLING ************************/
+    .eyeglasses-container {
+       text-align: center;
+    }
+
+    #frames1 {
+       width: 100%;
+       max-width: 334px;
+       border-bottom: solid;
+       border-image-slice: 1;
+       border-width: 3px;
+       border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
+       padding: 25px 3%;
+    }
+
+    #frames2 {
+       width: 100%;
+       max-width: 334px;
+       border-bottom: solid;
+       border-image-slice: 1;
+       border-width: 3px;
+       border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
+       padding: 25px 3%;
+    }
+
+    #frames3 {
+       width: 100%;
+       max-width: 334px;
+       border-bottom: solid;
+       border-image-slice: 1;
+       border-width: 3px;
+       border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
+       padding: 25px 3%;
+    }
+
+    #frames4 {
+       width: 100%;
+       max-width: 334px;
+       border-bottom: solid;
+       border-image-slice: 1;
+       border-width: 3px;
+       border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
+       padding: 25px 3%;
+    }
+
+    #frames5 {
+       width: 100%;
+       max-width: 334px;
+       border-bottom: solid;
+       border-image-slice: 1;
+       border-width: 3px;
+       border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
+       padding: 25px 3%;
+    }
+
+    #frames6 {
+       width: 100%;
+       max-width: 334px;
+       border-bottom: solid;
+       border-image-slice: 1;
+       border-width: 3px;
+       border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
+       padding: 25px 3%;
+    }
+
+    #frames7 {
+       width: 100%;
+       max-width: 334px;
+       border-bottom: solid;
+       border-image-slice: 1;
+       border-width: 3px;
+       border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
+       padding: 25px 3%;
+    }
+
+    #frames8 {
+       width: 100%;
+       max-width: 334px;
+       border-bottom: solid;
+       border-image-slice: 1;
+       border-width: 3px;
+       border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
+       padding: 25px 3%;
+    }
+
+    #frames9 {
+       width: 100%;
+       max-width: 334px;
+       border-bottom: solid;
+       border-image-slice: 1;
+       border-width: 3px;
+       border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
+       padding: 25px 3%;
+    }
+
+    /************************* END EYEGLASSES PAGE STYLING ************************/
+
     /************************* START ABOUT PAGE STYLING ************************/
     
     .about-hero {
@@ -755,6 +853,7 @@ img {
 
 /********************** START 1200PX MEDIA QUERY **********************/
 @media (min-width: 1200px) {
+   /* HOMEPAGE START */
    .womens-collection-container h2 {
       left: 32%;
    }
@@ -770,6 +869,19 @@ img {
    .map-container a {
       left: 32%;
    }
+   /* HOMEPAGE END */
+
+   /* EYEGLASSES START */
+   #frames1,
+   #frames2,
+   #frames4,
+   #frames5,
+   #frames7,
+   #frames8 {
+      border-right: solid;
+   }
+
+   /* EYEGLASSES END */
 }
 
 /********************** END 12000PX MEDIA QUERY **********************/
