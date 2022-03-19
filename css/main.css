@@ -385,6 +385,35 @@ img {
     /************************* END HOMEPAGE STYLING ************************/
 
     /************************* START EYEGLASSES PAGE STYLING ************************/
+    #desktop-shop-hero {
+       display: none;
+    }
+
+    #mobile-shop-hero {
+      width: 100%;
+      max-width: 634px;
+      margin: 30px 0 10px;
+      border-top: solid;
+      border-bottom: solid;
+      border-image-slice: 1;
+      border-width: 10px;
+      border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
+    }
+
+    .shop-hero {
+       position: relative;
+    }
+
+    .shop-hero p {
+       position: absolute;
+       font-family: 'Montserrat', sans-serif;
+       color: white;
+       bottom: 41px;
+       font-size: .85em;
+       padding: 0 4%;
+       text-align: center;
+    }
+
     .eyeglasses-container {
        text-align: center;
     }
@@ -513,6 +542,13 @@ img {
       left: 22%;
    }
    /* HOMEPAGE END*/
+
+   /* EYEGLASSES START */
+   .shop-hero p {
+      font-size: 1em;
+      bottom: 60px;
+   }
+   /* EYEGLASSES END */
 
     }
     /********************** END 400PX MEDIA QUERY **********************/
@@ -675,6 +711,25 @@ img {
         .map-container a {
            left: 24%;
         }
+        /* END HOMEPAGE */
+
+        /* EYEGLASSES PAGE */
+        #mobile-shop-hero {
+           display: none;
+        }
+
+        #desktop-shop-hero {
+           display: flex;
+           width: 100%;
+           max-width: 1495px;
+           margin: 30px 0 30px;
+           border-top: solid;
+           border-bottom: solid;
+           border-image-slice: 1;
+           border-width: 10px;
+           border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
+        }
+        /* END EYEGLASSES */
     }
    /********************** START 700PX MEDIA QUERY **********************/
     @media (min-width: 700px) {
@@ -774,6 +829,13 @@ img {
             margin: 0 auto;
         }
 
+        /* EYEGLASSES START */
+        .shop-hero p {
+         bottom: 29%;
+         margin: 0 14%;
+        }
+        /* EYEGLASSES END */
+
     }
     /* @media screen and (max-width: 600px) {
     .topnav a:not(:first-child),
@@ -828,6 +890,11 @@ img {
 
   .map-container a {
      left: 23%;
+  }
+
+  /* EYEGLASSES */
+  .shop-hero p {
+     font-size: 1.45em;
   }
 }
 
