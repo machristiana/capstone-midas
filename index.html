@@ -23,162 +23,167 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,200&display=swap" rel="stylesheet">
 
     <!-- JQuery Library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!--[if lt IE 9]>
 			<script src="js/html5shiv-printshiv.min.js"></script>
 		<![endif]-->
 
 </head>
+
 <body>
-   <header class="mobile_header">
-      <div class="coupon-code">
-         <p>Get 10% off your first order with code MIDAS10</p>
-     </div>
- 
-      <figure class="mobile-logo-container">
-         <img id="mobile_logo" src="images/logo-white.png" alt="Midas white logo" />
-      </figure>
+    <header class="mobile_header">
+        <div class="coupon-code">
+            <p>Get 10% off your first order with code MIDAS10</p>
+        </div>
 
-      <!-- <img id="desktop_logo" src="images/midas-logo.png" alt="Midas navy logo" /> -->
+        <figure class="mobile-logo-container">
+            <img id="mobile_logo" src="images/logo-white.png" alt="Midas white logo" />
+        </figure>
 
-      <button class="hamburger">&#9776;</button>
-      <button class="cross">&#735;</button>
+        <!-- <img id="desktop_logo" src="images/midas-logo.png" alt="Midas navy logo" /> -->
 
-<!--- Mobile Hamburger Nav ---------------------------------------------------->
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
 
-      <nav class="menu">
-         <ul> 
-            <li><a href="about.html">About</a></li>
-            <div class="dropdown">
-               <li><a href="#">Shop</a></li>
-               <div class="dropdown-content">
-                  <a href="eyeglasses.html">EYEGLASSES</a>
-                  <a href="sunglasses.html">SUNGLASSES</a>
-               </div>
-            </div>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-         </ul>
-      </nav>
+        <!--- Mobile Hamburger Nav ---------------------------------------------------->
 
-<!--- Desktop Nav ------------------------------------------------------------->
-      <div class="flex-nav">
-         <figure>
-            <a href="index.html"><img class="logo" src="images/midas-logo2.png" alt="Midas logo" title="Midas logo"></a>
-         </figure>
-
-         <!-- Desktop Nav Menu -->
-         <nav class="desktop-nav">
-            <!-- Main Menu -->
-            <ul class="topnav">
-               <li>
-                     <a class="btn" href="about.html">ABOUT</a></li>
-               <div class="dropdown">
-                     <li><a href="#" class="btn">SHOP</a></li>
-                     <!-- Sub Menu -->
-                     <div class="dropdown-content">
+        <nav class="menu">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <div class="dropdown">
+                    <li><a href="#">Shop</a></li>
+                    <div class="dropdown-content">
                         <a href="eyeglasses.html">EYEGLASSES</a>
                         <a href="sunglasses.html">SUNGLASSES</a>
-                     </div>
-               </div>
-               <li>
-                     <a class="btn" href="blog.html">BLOG</a></li>
-               <li>
-                     <a class="btn" href="contact.html">CONTACT</a></li>
+                    </div>
+                </div>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
-         </nav>
-      </div>
-   </header>
+        </nav>
 
-   <main>
-      <div class="home-hero-container border-gradient-gold-home">
-         <div class="homepage-top-image">
-            <figure class="girl-looking-left">
-               <!-- <h2>Fashion Frames</h2> -->
-               <img id="girl-top-homepage" src="images/girl-looking-left.jpg" alt="girl wearing fashion frames glancing to the left" title="Girl looking left"/>
-            </figure>
-         </div>
-
-         <div class="frames-container"> 
-            <figure class="frames-homepage">
-               <img id="frames-blue-bg" src="images/homepage-frames.jpg" alt="eyeglasses on blue background" title="Midas frames" >
-            </figure>
-         </div>
-      </div>
-
-      <div class="collections-container">
-         <div class="mens-collection-container">
-            <h2>MEN</h2>
-            <figure class="men-black-white">
-               <img id="mens-collection-pic" src="images/mens-collection.jpg" alt="black and white photo of man wearing glasses" title="Mens Collection" >
-            </figure>
-         </div>
-
-         <div class="womens-collection-container">
-            <h2>WOMEN</h2>
-            <figure class="women-black-white">
-               <img id="womens-collection-pic" src="images/womens-collection.jpg" alt="black and white photo of woman wearing glasses" title="Womens Collection" >
-            </figure>
-         </div>
-      </div>
-
-      <div class="store-tryon-container">
-         <div class="virtual-container">
-            <a href="#"><h2>VIRTUAL TRY-ON</h2></a>
+        <!--- Desktop Nav ------------------------------------------------------------->
+        <div class="flex-nav">
             <figure>
-               <img id="virtual-tryon" src="images/virtual-tryon.jpg" alt="girl smiling wearing glasses with hand in hair" title="Virtual Try-on Model" >
+                <a href="index.html"><img class="logo" src="images/midas-logo2.png" alt="Midas logo" title="Midas logo"></a>
             </figure>
-         </div>
-         
-         <div class="map-container">
-            <a href="#"><h2>STORE LOCATOR</h2></a>
-            <figure>
-               <img id="store-locator" src="images/store-map.png" alt="map of Canada with pin" title="Map of Canada" >
-            </figure>
-         </div>
-      </div>
 
-      <div class="testimonials">
-         <p>What our customers are saying...</p>
-         <div class="test-container">
-            <section class="testimonial-1">
-               <p>Midas glasses are the best glasses I've ever had. They're not too big on my face, they're lightweight, and the colors are vibrant.</p>
-            </section>
+            <!-- Desktop Nav Menu -->
+            <nav class="desktop-nav">
+                <!-- Main Menu -->
+                <ul class="topnav">
+                    <li>
+                        <a class="btn" href="about.html">ABOUT</a></li>
+                    <div class="dropdown">
+                        <li><a href="#" class="btn">SHOP</a></li>
+                        <!-- Sub Menu -->
+                        <div class="dropdown-content">
+                            <a href="eyeglasses.html">EYEGLASSES</a>
+                            <a href="sunglasses.html">SUNGLASSES</a>
+                        </div>
+                    </div>
+                    <li>
+                        <a class="btn" href="blog.html">BLOG</a></li>
+                    <li>
+                        <a class="btn" href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-            <section class="testimonial-2">
-               <p>The best part about Midas glasses is that they are so stylish and you can find a style that suits your need.</p>
-            </section>
+    <main>
+        <div class="home-hero-container border-gradient-gold-home">
+            <div class="homepage-top-image">
+                <figure class="girl-looking-left">
+                    <!-- <h2>Fashion Frames</h2> -->
+                    <img id="girl-top-homepage" src="images/girl-looking-left.jpg" alt="girl wearing fashion frames glancing to the left" title="Girl looking left" />
+                </figure>
+            </div>
 
-            <section class="testimonial-3">
-               <p>Midas glasses are the best. I've been wearing them for two years now and would never go back to any other brand.</p>
-            </section>
-         </div>
-      </div>
+            <div class="frames-container">
+                <figure class="frames-homepage">
+                    <img id="frames-blue-bg" src="images/homepage-frames.jpg" alt="eyeglasses on blue background" title="Midas frames">
+                </figure>
+            </div>
+        </div>
 
-      <figure class="whats-trending">
-         <img id="whats-trending-pic" src="images/trending.jpg" alt="girl smiling with glasses on in front of a grafitti wall" title="Whats Trending" >
-      </figure>
+        <div class="collections-container">
+            <div class="mens-collection-container">
+                <h2>MEN</h2>
+                <figure class="men-black-white">
+                    <img id="mens-collection-pic" src="images/mens-collection.jpg" alt="black and white photo of man wearing glasses" title="Mens Collection">
+                </figure>
+            </div>
 
-      
-   </main>
+            <div class="womens-collection-container">
+                <h2>WOMEN</h2>
+                <figure class="women-black-white">
+                    <img id="womens-collection-pic" src="images/womens-collection.jpg" alt="black and white photo of woman wearing glasses" title="Womens Collection">
+                </figure>
+            </div>
+        </div>
 
-   <footer>
-      <div>
-          <a href="index.html"><img class="logo" src="images/midas-logo2.png" alt="Midas logo" title="Midas logo"></a>
-      </div>
+        <div class="store-tryon-container">
+            <div class="virtual-container">
+                <a href="#">
+                    <h2>VIRTUAL TRY-ON</h2>
+                </a>
+                <figure>
+                    <img id="virtual-tryon" src="images/virtual-tryon.jpg" alt="girl smiling wearing glasses with hand in hair" title="Virtual Try-on Model">
+                </figure>
+            </div>
 
-      <ul>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="eyeglasses.html">EYEGLASSES</a></li>
-          <li><a href="sunglasses.html">SUNGLASSES</a></li>
-          <li><a href="blog.html">BLOG</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-      </ul>
+            <div class="map-container">
+                <a href="store-locator.html">
+                    <h2>STORE LOCATOR</h2>
+                </a>
+                <figure>
+                    <img id="store-locator" src="images/store-map.png" alt="map of Canada with pin" title="Map of Canada">
+                </figure>
+            </div>
+        </div>
 
-  </footer>
-   
-   <script src="js/hamburger.js"></script>
+        <div class="testimonials">
+            <p>What our customers are saying...</p>
+            <div class="test-container">
+                <section class="testimonial-1">
+                    <p>Midas glasses are the best glasses I've ever had. They're not too big on my face, they're lightweight, and the colors are vibrant.</p>
+                </section>
+
+                <section class="testimonial-2">
+                    <p>The best part about Midas glasses is that they are so stylish and you can find a style that suits your need.</p>
+                </section>
+
+                <section class="testimonial-3">
+                    <p>Midas glasses are the best. I've been wearing them for two years now and would never go back to any other brand.</p>
+                </section>
+            </div>
+        </div>
+
+        <figure class="whats-trending">
+            <img id="whats-trending-pic" src="images/trending.jpg" alt="girl smiling with glasses on in front of a grafitti wall" title="Whats Trending">
+        </figure>
+
+
+    </main>
+
+    <footer>
+        <div>
+            <a href="index.html"><img class="logo" src="images/midas-logo2.png" alt="Midas logo" title="Midas logo"></a>
+        </div>
+
+        <ul>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="eyeglasses.html">EYEGLASSES</a></li>
+            <li><a href="sunglasses.html">SUNGLASSES</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+
+    </footer>
+
+    <script src="js/hamburger.js"></script>
 </body>
 
 
