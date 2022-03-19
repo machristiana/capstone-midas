@@ -16,6 +16,7 @@
         
         header {
             background-color: white;
+            position: relative;
         }
         
         .mobile-logo-container {
@@ -89,7 +90,7 @@
         
         .menu li:hover {
             display: block;
-            background: #ffffff;
+            background: rgba(53, 207, 233, 0.9);
             padding: 15px 0 15px 0;
             border-bottom: #dddddd 1px solid;
         }
@@ -97,22 +98,22 @@
         .menu ul li a {
             text-decoration: none;
             margin: 0px;
-            color: #666;
+            color: rgba(53, 207, 233, 0.9);
         }
         
         .menu ul li a:hover {
-            color: #666;
+            color: rgba(53, 207, 233, 0.9);
             text-decoration: none;
         }
         
         .menu a {
             text-decoration: none;
-            color: #666;
+            color: rgba(53, 207, 233, 0.9);
         }
         
         .menu a:hover {
             text-decoration: none;
-            color: #666;
+            color: rgba(53, 207, 233, 0.9);
         }
         
         .hamburger {
@@ -140,7 +141,7 @@
             color: rgba(53, 207, 233, 0.9);
             border: 0;
             font-size: 3em;
-            line-height: 42px;
+            line-height: 54px;
             font-weight: bold;
             cursor: pointer;
             outline: none;
@@ -156,6 +157,7 @@
             position: absolute;
             text-align: center;
             font-size: 12px;
+            top: 65px;
         }
         
         .menu ul {
@@ -181,7 +183,9 @@
         .menu ul li a {
             text-decoration: none;
             margin: 0px;
-            color: #666;
+            color: #051938;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.5em;
         }
         
         .menu ul li a:hover {
@@ -315,7 +319,11 @@ img {
         #girl-top-homepage {
             width: 100%;
             max-width: 1000px;
-            padding: 38px 0 0px;
+            border-top: solid;
+            border-image-slice: 1;
+            border-width: 10px;
+            border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
+            margin-top: 38px;
         }
         
         #frames-blue-bg {
@@ -398,6 +406,10 @@ img {
             font-size: 1.25em;
             margin: 20px 0;
         }
+
+        .customers {
+            margin: 0 5%;
+        }
         
         .testimonial-1,
         .testimonial-2,
@@ -409,6 +421,14 @@ img {
             /* margin: 2% 0; */
             margin: 20px 10%;
             padding: 20px 5%;
+        }
+
+        .testimonials h3 {
+           font-family:'Coustard', serif;
+           color: #051938;
+           font-size: 5rem;
+           margin-bottom: -44px;
+           margin-top: -14px;
         }
         
         .whats-trending {
@@ -818,6 +838,8 @@ img {
             /* Homepage */
             #girl-top-homepage {
                 padding: 0px;
+                margin: 0;
+                border-top: none;
             }
             .home-hero-container,
             .collections-container,
@@ -867,6 +889,12 @@ img {
             .test-container {
                 display: flex;
             }
+            .customers {
+               font-weight: 600;
+               font-size: 2rem;
+               margin: 0 5% 14px;
+            }
+
             .testimonial-1,
             .testimonial-2,
             .testimonial-3 {
