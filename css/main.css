@@ -1,214 +1,214 @@
-        * {
-            margin: 0;
-            padding: 0;
-            border: 0;
-            box-sizing: border-box;
-        }
-        /* Mobile Header */
-        
-        #desktop_logo {
-            display: none;
-        }
-        
-        .flex-nav {
-            display: none;
-        }
-        
-        header {
-            background-color: white;
-            position: relative;
-        }
-        
-        .mobile-logo-container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        #mobile_logo {
-            width: 100%;
-            max-width: 340px;
-        }
-        /***************************** Hamburger Menu Styling *************************/
-        
-        .hamburger {
-            background-color: #2a2d2d;
-            position: absolute;
-            top: 0;
-            right: 0;
-            line-height: 42px;
-            padding: 9px 4% 2px 4%;
-            color: white;
-            border: 0;
-            font-size: 1.4em;
-            font-weight: bold;
-            cursor: pointer;
-            outline: none;
-            z-index: 10000000000000;
-        }
-        
-        .cross {
-            background-color: #2a2d2d;
-            ;
-            position: absolute;
-            top: 0px;
-            right: 0;
-            padding: 9px 4% 2px 4%;
-            color: white;
-            border: 0;
-            font-size: 3em;
-            line-height: 42px;
-            font-weight: bold;
-            cursor: pointer;
-            outline: none;
-            z-index: 10000000000000;
-        }
-        
-        .menu {
-            z-index: 1000000;
-            font-weight: bold;
-            font-size: 0.8em;
-            width: 100%;
-            background: #f1f1f1;
-            position: absolute;
-            text-align: center;
-            font-size: 12px;
-        }
-        
-        .menu ul {
-            margin: 0;
-            padding: 0;
-            list-style-type: none;
-            list-style-image: none;
-        }
-        
-        .menu li {
-            display: block;
-            padding: 15px 0 15px 0;
-            border-bottom: #dddddd 1px solid;
-        }
-        
-        .menu li:hover {
-            display: block;
-            background: rgba(53, 207, 233, 0.9);
-            padding: 15px 0 15px 0;
-            border-bottom: #dddddd 1px solid;
-        }
-        
-        .menu ul li a {
-            text-decoration: none;
-            margin: 0px;
-            color: rgba(53, 207, 233, 0.9);
-        }
-        
-        .menu ul li a:hover {
-            color: rgba(53, 207, 233, 0.9);
-            text-decoration: none;
-        }
-        
-        .menu a {
-            text-decoration: none;
-            color: rgba(53, 207, 233, 0.9);
-        }
-        
-        .menu a:hover {
-            text-decoration: none;
-            color: rgba(53, 207, 233, 0.9);
-        }
-        
-        .hamburger {
-            background-color: #051938;
-            position: absolute;
-            top: 0;
-            right: 0;
-            line-height: 54px;
-            padding: 9px 4% 2px 4%;
-            color: white;
-            border: 0;
-            font-size: 1.4em;
-            font-weight: bold;
-            cursor: pointer;
-            outline: none;
-            z-index: 10000000000000;
-        }
-        
-        .cross {
-            background-color: #051938;
-            position: absolute;
-            top: 0px;
-            right: 0;
-            padding: 9px 4% 2px 4%;
-            color: rgba(53, 207, 233, 0.9);
-            border: 0;
-            font-size: 3em;
-            line-height: 54px;
-            font-weight: bold;
-            cursor: pointer;
-            outline: none;
-            z-index: 10000000000000;
-        }
-        
-        .menu {
-            z-index: 1000000;
-            font-weight: bold;
-            font-size: 0.8em;
-            width: 100%;
-            background: #f1f1f1;
-            position: absolute;
-            text-align: center;
-            font-size: 12px;
-            top: 65px;
-        }
-        
-        .menu ul {
-            margin: 0;
-            padding: 0;
-            list-style-type: none;
-            list-style-image: none;
-        }
-        
-        .menu li {
-            display: block;
-            padding: 15px 0 15px 0;
-            border-bottom: #dddddd 1px solid;
-        }
-        
-        .menu li:hover {
-            display: block;
-            background: #ffffff;
-            padding: 15px 0 15px 0;
-            border-bottom: #dddddd 1px solid;
-        }
-        
-        .menu ul li a {
-            text-decoration: none;
-            margin: 0px;
-            color: #051938;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 1.5em;
-        }
-        
-        .menu ul li a:hover {
-            color: #666;
-            text-decoration: none;
-        }
-        
-        .menu a {
-            text-decoration: none;
-            color: #666;
-        }
-        
-        .menu a:hover {
-            text-decoration: none;
-            color: #666;
-        }
-        
-        .menu ul li {
-            font-family: "Roboto", sans-serif;
-        }
-        /*******************************************Hamburger Menu Styling **********/
-        /* Desktop Header */
-        /* margin: 0;
+            * {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                box-sizing: border-box;
+            }
+            /* Mobile Header */
+            
+            #desktop_logo {
+                display: none;
+            }
+            
+            .flex-nav {
+                display: none;
+            }
+            
+            header {
+                background-color: white;
+                position: relative;
+            }
+            
+            .mobile-logo-container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            #mobile_logo {
+                width: 100%;
+                max-width: 340px;
+            }
+            /***************************** Hamburger Menu Styling *************************/
+            
+            .hamburger {
+                background-color: #2a2d2d;
+                position: absolute;
+                top: 0;
+                right: 0;
+                line-height: 42px;
+                padding: 9px 4% 2px 4%;
+                color: white;
+                border: 0;
+                font-size: 1.4em;
+                font-weight: bold;
+                cursor: pointer;
+                outline: none;
+                z-index: 10000000000000;
+            }
+            
+            .cross {
+                background-color: #2a2d2d;
+                ;
+                position: absolute;
+                top: 0px;
+                right: 0;
+                padding: 9px 4% 2px 4%;
+                color: white;
+                border: 0;
+                font-size: 3em;
+                line-height: 42px;
+                font-weight: bold;
+                cursor: pointer;
+                outline: none;
+                z-index: 10000000000000;
+            }
+            
+            .menu {
+                z-index: 1000000;
+                font-weight: bold;
+                font-size: 0.8em;
+                width: 100%;
+                background: #f1f1f1;
+                position: absolute;
+                text-align: center;
+                font-size: 12px;
+            }
+            
+            .menu ul {
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+                list-style-image: none;
+            }
+            
+            .menu li {
+                display: block;
+                padding: 15px 0 15px 0;
+                border-bottom: #dddddd 1px solid;
+            }
+            
+            .menu li:hover {
+                display: block;
+                background: rgba(53, 207, 233, 0.9);
+                padding: 15px 0 15px 0;
+                border-bottom: #dddddd 1px solid;
+            }
+            
+            .menu ul li a {
+                text-decoration: none;
+                margin: 0px;
+                color: rgba(53, 207, 233, 0.9);
+            }
+            
+            .menu ul li a:hover {
+                color: rgba(53, 207, 233, 0.9);
+                text-decoration: none;
+            }
+            
+            .menu a {
+                text-decoration: none;
+                color: rgba(53, 207, 233, 0.9);
+            }
+            
+            .menu a:hover {
+                text-decoration: none;
+                color: rgba(53, 207, 233, 0.9);
+            }
+            
+            .hamburger {
+                background-color: #051938;
+                position: absolute;
+                top: 0;
+                right: 0;
+                line-height: 54px;
+                padding: 9px 4% 2px 4%;
+                color: white;
+                border: 0;
+                font-size: 1.4em;
+                font-weight: bold;
+                cursor: pointer;
+                outline: none;
+                z-index: 10000000000000;
+            }
+            
+            .cross {
+                background-color: #051938;
+                position: absolute;
+                top: 0px;
+                right: 0;
+                padding: 9px 4% 2px 4%;
+                color: rgba(53, 207, 233, 0.9);
+                border: 0;
+                font-size: 3em;
+                line-height: 54px;
+                font-weight: bold;
+                cursor: pointer;
+                outline: none;
+                z-index: 10000000000000;
+            }
+            
+            .menu {
+                z-index: 1000000;
+                font-weight: bold;
+                font-size: 0.8em;
+                width: 100%;
+                background: #f1f1f1;
+                position: absolute;
+                text-align: center;
+                font-size: 12px;
+                top: 65px;
+            }
+            
+            .menu ul {
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+                list-style-image: none;
+            }
+            
+            .menu li {
+                display: block;
+                padding: 15px 0 15px 0;
+                border-bottom: #dddddd 1px solid;
+            }
+            
+            .menu li:hover {
+                display: block;
+                background: #ffffff;
+                padding: 15px 0 15px 0;
+                border-bottom: #dddddd 1px solid;
+            }
+            
+            .menu ul li a {
+                text-decoration: none;
+                margin: 0px;
+                color: #051938;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1.5em;
+            }
+            
+            .menu ul li a:hover {
+                color: #666;
+                text-decoration: none;
+            }
+            
+            .menu a {
+                text-decoration: none;
+                color: #666;
+            }
+            
+            .menu a:hover {
+                text-decoration: none;
+                color: #666;
+            }
+            
+            .menu ul li {
+                font-family: "Roboto", sans-serif;
+            }
+            /*******************************************Hamburger Menu Styling **********/
+            /* Desktop Header */
+            /* margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -216,1144 +216,1204 @@
 img {
     width: 100%;
 } */
-        /********************** START HEADER STYLING ************************/
-        
-        .coupon-code {
-            background-color: #051938;
-            color: white;
-            /* padding: 10px 0px; */
-            width: 90%;
-            height: 65px;
-        }
-        
-        .coupon-code p {
-            text-align: center;
-            font-family: montserrat, sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            padding: 2%;
-        }
-        
-        .logo {
-            width: 150px;
-            padding-bottom: 12px;
-            padding-left: 5px;
-        }
-        
-        .container {
-            padding-bottom: 2%;
-        }
-        /************************* START STICKY FOOTER ***************************/
-        
-        .site {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            margin: 25px;
-            border: #3e3d3d 1px solid;
-            position: relative;
-        }
-        
-        .site-content {
-            flex: 1;
-        }
-        /****************** START NEWSLETTER STYLING ***************************/
-        
-        .newsletter {
-            background-color: #E3F2FD;
-            margin-top: 5%;
-        }
-        
-        .newsletter p {
-            text-align: center;
-            padding: 2%;
-            font-family: montserrat, sans-serif;
-            font-weight: 700;
-            font-style: normal;
-        }
-        
-        .newsletter-form {
-            display: flex;
-            justify-content: center;
-            padding-bottom: 2%;
-        }
-        
-        .newsletter-submit {
-            padding-left: 2%;
-            transition: 0.3s;
-        }
-        
-        .submit-hover:hover {
-            background-color: #35CFE9;
-            color: white;
-            transition: 0.3s;
-            cursor: pointer;
-        }
-        /****************** END NEWSLETTER STYLING ***************************/
-        /************************* START FOOTER STYLING ***************************/
-        
-        footer {
-            text-align: center;
-        }
-        
-        footer ul {
-            list-style: none;
-            padding-bottom: 18px;
-            padding-top: 20px;
-        }
-        
-        footer ul li {
-            padding-bottom: 5%;
-        }
-        
-        footer ul li a {
-            text-decoration: none;
-            font-family: montserrat, sans-serif;
-            font-weight: 700;
-            font-style: normal;
-            color: #051938 !important;
-            transition: 0.3s;
-        }
-        
-        footer ul li a:hover {
-            border-bottom: #35CFE9 4px solid !important;
-            transition: 0.3s;
-            text-decoration: none !important;
-        }
-        
-        footer p {
-            font-family: montserrat, sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            color: #051938;
-            padding: 0 2% 5% 2%;
-        }
-        
-        footer .footer-icons {
-            text-align: center;
-            padding-bottom: 5%;
-            font-size: 35px;
-        }
-        
-        .footer-icons a {
-            color: #051938;
-            text-decoration: none;
-            padding-right: 1%;
-        }
-        
-        .footer-icons a:hover {
-            border-bottom: 2px solid #35CFE9;
-            transition: 0.1s;
-        }
-        /************************* START HOMEPAGE STYLING ************************/
-        
-        .homepage-top-image {
-            position: relative;
-        }
-        
-        .girl-looking-left h2 {
-            font-family: 'Montserrat', sans-serif;
-            color: #051938;
-            position: absolute;
-            top: 68px;
-            left: 4%;
-            width: 40%;
-        }
-        
-        .affordable-prices {
-            display: none;
-        }
-        
-        .girl-looking-left a {
-            text-decoration: none;
-            font-family: 'Montserrat', sans-serif;
-            position: absolute;
-            top: 165px;
-            left: 4%;
-        }
-        
-        .girl-looking-left a p {
-            background-color: #051938;
-            color: white;
-            padding: 10px 10px;
-        }
-        
-        .girl-looking-left a p:hover {
-            color: rgba(53, 207, 233, 0.9);
-        }
-        
-        .sparkle {
-            max-width: 10em;
-            margin: auto auto;
-        }
-        
-        .sparkle:hover {
-            cursor: pointer;
-        }
-        
-        .u-hover--sparkle {
-            box-sizing: border-box;
-            position: relative;
-        }
-        
-        .u-hover--sparkle::before,
-        .u-hover--sparkle::after {
-            content: '';
-            box-sizing: border-box;
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 100%;
-            width: 100%;
-            transform-origin: center;
-        }
-        
-        .u-hover--sparkle::before {
-            border-top: 0.2em solid rgba(53, 207, 233, 0.9);
-            border-bottom: 0.2em solid rgba(53, 207, 233, 0.9);
-            transform: scale3d(0, 1, 1);
-        }
-        
-        .u-hover--sparkle::after {
-            border-left: 0.2em solid rgba(53, 207, 233, 0.9);
-            border-right: 0.2em solid rgba(53, 207, 233, 0.9);
-            transform: scale3d(1, 0, 1);
-        }
-        
-        .u-hover--sparkle:hover::before,
-        .u-hover--sparkle:hover::after {
-            transform: scale3d(1, 1, 1);
-            transition: transform 900ms;
-        }
-        
-        #girl-top-homepage {
-            width: 100%;
-            max-width: 1000px;
-            border-top: solid;
-            border-image-slice: 1;
-            border-width: 10px;
-            border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
-            margin-top: 38px;
-        }
-        
-        #frames-blue-bg {
-            width: 100%;
-            max-width: 1000px;
-        }
-        
-        .mens-collection-container,
-        .womens-collection-container {
-            position: relative;
-        }
-        
-        .mens-collection-container h2 {
-            position: absolute;
-            bottom: 10%;
-            left: 34%;
-            font-family: 'Montserrat', sans-serif;
-            color: white;
-            font-size: 2.5rem;
-        }
-        
-        .womens-collection-container h2 {
-            position: absolute;
-            bottom: 10%;
-            left: 22%;
-            font-family: 'Montserrat', sans-serif;
-            color: white;
-            font-size: 2.5rem;
-        }
-        
-        #mens-collection-pic {
-            width: 100%;
-            max-width: 1000px;
-        }
-        
-        #womens-collection-pic {
-            width: 100%;
-            max-width: 1000px;
-        }
-        
-        .virtual-container,
-        .map-container {
-            position: relative;
-        }
-        
-        .virtual-container a,
-        .map-container a {
-            text-decoration: none;
-            /* color: white; */
-            font-family: 'Montserrat', sans-serif;
-            text-align: center;
-            font-size: 1em;
-            position: absolute;
-            bottom: 5%;
-            left: 15%;
-        }
-        
-        .virtual-container h2,
-        .map-container h2 {
-            background-color: #051938;
-            color: white;
-            padding: 10px 5px;
-            /* margin: 0 70px; */
-        }
-        
-        #virtual-tryon {
-            width: 100%;
-            max-width: 1000px;
-        }
-        
-        #store-locator {
-            width: 100%;
-            max-width: 1000px;
-        }
-        
-        .testimonials {
-            font-family: 'Montserrat', sans-serif;
-            text-align: center;
-            color: #051938;
-            font-size: 1.25em;
-        }
-        
-        .customers {
-            margin: 15px 5%;
-        }
-        
-        .testimonial-1,
-        .testimonial-2,
-        .testimonial-3 {
-            border: 10px solid;
-            border-image-slice: 1;
-            border-width: 5px;
-            border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
-            /* margin: 2% 0; */
-            margin: 20px 10%;
-            padding: 20px 5%;
-        }
-        
-        .testimonials h3 {
-            font-family: 'Coustard', serif;
-            color: #051938;
-            font-size: 5rem;
-            margin-bottom: -44px;
-            margin-top: -14px;
-        }
-        
-        .whats-trending {
-            display: none;
-        }
-        /************************* END HOMEPAGE STYLING ************************/
-        /************************* START EYEGLASSES PAGE STYLING ************************/
-        
-        #desktop-shop-hero {
-            display: none;
-        }
-        
-        #mobile-shop-hero {
-            width: 100%;
-            max-width: 634px;
-            margin: 30px 0 10px;
-            border-top: solid;
-            border-bottom: solid;
-            border-image-slice: 1;
-            border-width: 10px;
-            border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
-        }
-        
-        .shop-hero {
-            position: relative;
-        }
-        
-        .shop-hero p {
-            position: absolute;
-            font-family: 'Montserrat', sans-serif;
-            color: white;
-            bottom: 41px;
-            font-size: .85em;
-            padding: 0 4%;
-            text-align: center;
-        }
-        
-        #womens-collection,
-        #mens-collection {
-            font-family: 'Montserrat', sans-serif;
-            text-align: center;
-            font-size: 2rem;
-            padding: 20px 3%;
-            border-left: gold solid 5px;
-            position: absolute;
-            z-index: 100;
-            left: 5%;
-            font-weight: 700;
-        }
-        
-        .womens-collection-hero,
-        .mens-collection-hero {
-            width: 100%;
-            max-width: 1920px;
-            opacity: .7;
-        }
-        
-        .inline {
-            text-align: center;
-            font-family: 'Montserrat', sans-serif;
-        }
-        
-        .inline a {
-            color: rgba(53, 207, 233, 0.9);
-        }
-        
-        .inline li {
-            list-style-type: none;
-        }
-        
-        .womens-container,
-        .mens-container {
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: space-evenly;
-        }
-        
-        .womens-container .col-md-4 img,
-        .mens-container .col-md-4 img {
-            padding: 8% 0;
-        }
-        
-        .womens-container .row,
-        .mens-container .row {
-            padding: 7%;
-        }
-        
-        .womens-container .card-text,
-        .mens-container .card-text {
-            text-align: left;
-        }
-        
-        .womens-container .card-title,
-        .mens-container .card-title {
-            text-align: left;
-        }
-        
-        .womens-container .back-style,
-        .mens-container .back-style {
-            width: 100%;
-        }
-        
-        .womens-container .line,
-        .mens-container .line {
-            width: 100%;
-            border-bottom: 1px solid #D7745B;
-            margin: 5% 0;
-        }
-        
-        .eyeglasses-container {
-            text-align: center;
-        }
-        
-        #frames1,
-        #frames2,
-        #frames3,
-        #frames4,
-        #frames5,
-        #frames6,
-        #frames7,
-        #frames8,
-        #frames9,
-        #mens-frames1,
-        #mens-frames2,
-        #mens-frames3,
-        #mens-frames4,
-        #mens-frames5,
-        #mens-frames6,
-        #mens-frames7,
-        #mens-frames8 {
-            width: 100%;
-            max-width: 334px;
-            border-bottom: solid;
-            border-image-slice: 1;
-            border-width: 3px;
-            border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
-            padding: 25px 3%;
-        }
-        /************************* END EYEGLASSES PAGE STYLING ************************/
-        /************************* START ABOUT PAGE STYLING ************************/
-        
-        .about-hero {
-            background-image: url(../images/about-hero3.jpeg);
-            background-size: cover;
-            background-position: center;
-            min-height: 50vh;
-        }
-        
-        .border-gradient-gold {
-            border: 10px solid;
-            border-image-slice: 1;
-            border-width: 5px;
-            border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
-        }
-        
-        .about-title h1 {
-            font-size: 35px;
-            color: #051938;
-            font-family: condor, sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            padding: 2%;
-        }
-        /**
-        /************************* END ABOUT PAGE STYLING ************************/
-        /**************** START INDIVIDUAL PRODUCT PAGE STYLING *******************/
-        
-        .eyeglasses-product-hero {
-            background-image: url(../images/eyeglasses-product-hero.jpeg);
-            background-size: cover;
-            background-position: center;
-            min-height: 50vh;
-        }
-        
-        .eyeglasses-product-title h1 {
-            font-size: 35px;
-            color: #051938;
-            font-family: condor, sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            padding: 2%;
-        }
-        /**************** END INDIVIDUAL PRODUCT PAGE STYLING *******************/
-        /**************** START STORE LOCATOR PAGE STYLING ************************/
-        
-        .store-locator-hero {
-            background-image: url(../images/store-locator-hero.jpeg);
-            background-size: cover;
-            background-position: center;
-            min-height: 50vh;
-        }
-        
-        .store-locator-title h1 {
-            font-size: 35px;
-            color: #051938;
-            font-family: condor, sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            padding: 2%;
-        }
-        
-        #map {
-            width: 900px;
-            max-width: 100%;
-            height: 500px;
-            margin: 0 auto;
-        }
-        
-        #info_div {
-            text-align: center;
-            padding-top: 2%;
-            font-family: montserrat, sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            color: #051938;
-        }
-        /******************** END STORE LOCATOR PAGE STYLING *******************/
-        /********************* START CONTACT PAGE STYLING ************************/
-        
-        .contact-hero {
-            background-image: url(../images/contact-hero.jpg);
-            background-size: cover;
-            background-position: center;
-            min-height: 50vh;
-        }
-        
-        .contact-headings {
-            padding: 2%;
-        }
-        
-        .contact-headings h1 {
-            font-size: 35px;
-            color: #051938;
-            font-family: condor, sans-serif;
-            font-weight: 400;
-            font-style: normal;
-        }
-        
-        .contact-headings p {
-            padding-top: 3%;
-            font-family: hero-new, sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            color: #051938;
-        }
-        
-        .contact-headings .faq-p {
-            padding-top: 1%;
-        }
-        
-        .faq-title {
-            text-align: center;
-            padding-top: 5%;
-            font-family: montserrat, sans-serif;
-            font-weight: 700;
-            font-style: normal;
-            color: #051938;
-        }
-        
-        .faq {
-            padding: 5%;
-        }
-        /* ACCORDION START */
-        
-        .accordion {
-            background-color: #E3F2FD;
-            color: #051938;
-            cursor: pointer;
-            padding: 18px;
-            width: 100%;
-            border: none;
-            text-align: left;
-            outline: none;
-            font-size: 15px;
-            transition: 0.4s;
-            font-family: 'montserrat', sans-serif;
-            font-weight: 700;
-            font-style: normal;
-        }
-        
-        .active,
-        .accordion:hover {
-            background-color: #F9C784;
-        }
-        
-        .accordion:after {
-            content: '\002B';
-            color: #051938;
-            font-weight: bold;
-            float: right;
-            margin-left: 5px;
-        }
-        
-        .active:after {
-            content: "\2212";
-        }
-        
-        .panel {
-            padding: 0 18px;
-            background-color: white;
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.2s ease-out;
-        }
-        
-        .panel p {
-            margin-top: 2%;
-            margin-bottom: 2%;
-            font-family: 'montserrat', sans-serif;
-            font-weight: 400;
-            font-style: normal;
-        }
-        
-        .faq-space p {
-            padding-bottom: 4%;
-        }
-        /* ACCORDION END */
-        
-        .info {
-            padding: 5%;
-            font-family: hero-new, sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            color: #051938;
-        }
-        
-        .info p {
-            padding-top: 3%;
-        }
-        /* CONTACT FORM START */
-        
-        .contact-section {
-            max-width: 900px;
-            text-align: center;
-        }
-        
-        .contact-form {
-            background: #B89055;
-            padding: 20px;
-            max-width: 500px;
-            border-radius: 4px;
-            color: white;
-            font-family: montserrat, sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            margin: 20px auto;
-            text-align: left;
-        }
-        
-        .label_input_wrap {
-            display: block;
-        }
-        /* label {
-            font-weight: bold;
-        } */
-        
-        .reset input,
-        .submit input {
-            background: #051938;
-            color: white;
-            padding: 5px 20px;
-            display: inline;
-        }
-        
-        .reset,
-        .submit {
-            display: inline;
-        }
-        
-        .input-section {
-            margin-bottom: 10px;
-        }
-        
-        input {
-            padding: 5px 10px;
-            border-radius: 3px;
-        }
-        
-        textarea {
-            font-family: sans-serif;
-            padding: 10px 10px;
-            border-radius: 4px;
-        }
-        
-        .upload-file-copy {
-            margin-bottom: 5%;
-            font-weight: bold;
-        }
-        
-        select {
-            width: 185px;
-            padding: 8px 0;
-            border-radius: 4px;
-        }
-        
-        .submit-hover-form {
-            transition: 0.3s;
-        }
-        
-        .submit-hover-form:hover {
-            background-color: #35CFE9;
-            color: white;
-            transition: 0.3s;
-            cursor: pointer;
-        }
-        /* CONTACT FORM END */
-        /********************** END CONTACT PAGE STYLING ***********************/
-        /********************** START 400PX MEDIA QUERY **********************/
-        
-        @media (min-width: 400PX) {
-            /* HOMEPAGE START */
-            .mens-collection-container h2 {
-                left: 38%;
-            }
-            .womens-collection-container h2 {
-                left: 28%;
-            }
-            .virtual-container a,
-            .map-container a {
-                left: 22%;
-            }
-            /* HOMEPAGE END*/
-            /* EYEGLASSES START */
-            .shop-hero p {
-                font-size: 1em;
-                bottom: 60px;
-            }
-            /* EYEGLASSES END */
-        }
-        /********************** END 400PX MEDIA QUERY **********************/
-        /********************* START 450PX MEDIA QUERY **************************/
-        
-        @media (min-width: 450px) {
-            form {
-                width: 80%;
-            }
-        }
-        /********************** END 450PX MEDIA QUERY **********************/
-        /********************** START 480PX MEDIA QUERY **********************/
-        
-        @media (min-width:480px) {
-            /* HOMEPAGE */
-            .girl-looking-left a {
-                top: 138px;
-            }
-        }
-        /********************** END 480PX MEDIA QUERY **********************/
-        /********************** START 500PX MEDIA QUERY **********************/
-        
-        @media (min-width:500px) {
-            /* HOMEPAGE START */
-            .mens-collection-container h2 {
-                font-size: 3rem;
-            }
-            .womens-collection-container h2 {
-                font-size: 3rem;
-                left: 30%;
-            }
-            .virtual-container a,
-            .map-container a {
-                left: 19%;
-                font-size: 1.5em;
-            }
-            /* HOMEPAGE END */
-            #email {
-                width: 250px
-            }
-        }
-        /********************** END 500PX MEDIA QUERY **********************/
-        /********************* START 550PX MEDIA QUERY ************************/
-        
-        @media (min-width: 550px) {
-            form {
-                width: 70%;
-            }
-            textarea {
-                min-width: 307px;
-                min-height: 122px;
-            }
-        }
-        /********************* END 550PX MEDIA QUERY ************************/
-        /********************** START 600PX MEDIA QUERY **********************/
-        /************** DESKTOP NAV STYLING **************/
-        
-        @media (min-width: 600px) {
-            .hamburger,
-            .cross,
-            .menu,
-            .mobile-logo-container {
-                display: none;
-            }
+            /********************** START HEADER STYLING ************************/
+            
             .coupon-code {
-                width: 100%;
+                background-color: #051938;
+                color: white;
+                /* padding: 10px 0px; */
+                width: 90%;
+                height: 65px;
             }
-            .flex-nav {
+            
+            .coupon-code p {
+                text-align: center;
+                font-family: montserrat, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                padding: 2%;
+            }
+            
+            .logo {
+                width: 150px;
+                padding-bottom: 12px;
+                padding-left: 5px;
+            }
+            
+            .container {
+                padding-bottom: 2%;
+            }
+            /************************* START STICKY FOOTER ***************************/
+            
+            .site {
                 display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+                margin: 25px;
+                border: #3e3d3d 1px solid;
+                position: relative;
             }
-            .desktop-nav {
-                flex-grow: 2;
+            
+            .site-content {
+                flex: 1;
             }
-            .desktop-nav ul {
+            /****************** START NEWSLETTER STYLING ***************************/
+            
+            .newsletter {
+                background-color: #E3F2FD;
+                margin-top: 5%;
+            }
+            
+            .newsletter p {
+                text-align: center;
+                padding: 2%;
+                font-family: montserrat, sans-serif;
+                font-weight: 700;
+                font-style: normal;
+            }
+            
+            .newsletter-form {
                 display: flex;
+                justify-content: center;
+                padding-bottom: 2%;
+            }
+            
+            .newsletter-submit {
+                padding-left: 2%;
+                transition: 0.3s;
+            }
+            
+            .submit-hover:hover {
+                background-color: #35CFE9;
+                color: white;
+                transition: 0.3s;
+                cursor: pointer;
+            }
+            /****************** END NEWSLETTER STYLING ***************************/
+            /************************* START FOOTER STYLING ***************************/
+            
+            footer {
+                text-align: center;
+            }
+            
+            footer ul {
                 list-style: none;
-                justify-content: space-evenly;
-                padding-top: 90px
+                padding-bottom: 18px;
+                padding-top: 20px;
             }
-            .desktop-nav a {
+            
+            footer ul li {
+                padding-bottom: 5%;
+            }
+            
+            footer ul li a {
                 text-decoration: none;
                 font-family: montserrat, sans-serif;
                 font-weight: 700;
                 font-style: normal;
+                color: #051938 !important;
+                transition: 0.3s;
+            }
+            
+            footer ul li a:hover {
+                border-bottom: #35CFE9 4px solid !important;
+                transition: 0.3s;
+                text-decoration: none !important;
+            }
+            
+            footer p {
+                font-family: montserrat, sans-serif;
+                font-weight: 400;
+                font-style: normal;
                 color: #051938;
+                padding: 0 2% 5% 2%;
             }
-            .topnav a {
-                float: left;
-                display: block;
+            
+            footer .footer-icons {
                 text-align: center;
-                padding: 14px 16px;
+                padding-bottom: 5%;
+                font-size: 35px;
+            }
+            
+            .footer-icons a {
+                color: #051938;
                 text-decoration: none;
-                font-size: 17px;
+                padding-right: 1%;
             }
-            .dropdown {
-                float: left;
-                overflow: hidden;
+            
+            .footer-icons a:hover {
+                border-bottom: 2px solid #35CFE9;
+                transition: 0.1s;
             }
-            .dropdown .dropbtn {
-                font-size: 17px;
-                border: none;
-                outline: none;
-                color: white;
-                padding: 14px 16px;
-                background-color: inherit;
-                font-family: inherit;
-                margin: 20px;
+            /************************* START HOMEPAGE STYLING ************************/
+            
+            .homepage-top-image {
+                position: relative;
             }
-            .dropdown-content {
-                display: none;
+            
+            .girl-looking-left h2 {
+                font-family: 'Montserrat', sans-serif;
+                color: #051938;
                 position: absolute;
-                background-color: #f9f9f9;
-                min-width: 160px;
-                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-                z-index: 1;
-                margin-top: 48px;
+                top: 68px;
+                left: 4%;
+                width: 40%;
             }
-            .dropdown-content a {
-                float: none;
-                color: black;
-                padding: 12px 16px;
+            
+            .affordable-prices {
+                display: none;
+            }
+            
+            .girl-looking-left a {
                 text-decoration: none;
-                display: block;
-                text-align: left;
+                font-family: 'Montserrat', sans-serif;
+                position: absolute;
+                top: 165px;
+                left: 4%;
             }
-            .topnav a:hover,
-            .dropdown:hover .dropbtn {
+            
+            .girl-looking-left a p {
                 background-color: #051938;
                 color: white;
-            }
-            .dropdown-content a:hover {
-                background-color: #ddd;
-                color: black;
-            }
-            .dropdown:hover .dropdown-content {
-                display: block;
-            }
-            /********* DESKTOP NAV HOVER ANIMATION ********/
-            .btn {
-                cursor: pointer;
-                position: relative;
                 padding: 10px 10px;
-                border-top-right-radius: 10px;
-                border-bottom-left-radius: 10px;
-                transition: all 1s;
             }
-            .btn:after,
-            .btn:before {
-                content: " ";
-                width: 10px;
-                height: 10px;
+            
+            .girl-looking-left a p:hover {
+                color: rgba(53, 207, 233, 0.9);
+            }
+            
+            .sparkle {
+                max-width: 10em;
+                margin: auto auto;
+            }
+            
+            .sparkle:hover {
+                cursor: pointer;
+            }
+            
+            .u-hover--sparkle {
+                box-sizing: border-box;
+                position: relative;
+            }
+            
+            .u-hover--sparkle::before,
+            .u-hover--sparkle::after {
+                content: '';
+                box-sizing: border-box;
                 position: absolute;
-                transition: all 1s;
-            }
-            .btn:after {
-                top: -1px;
-                left: -1px;
-                border-top: 4px solid rgba(53, 207, 233, 0.9);
-                border-left: 4px solid rgba(53, 207, 233, 0.9);
-            }
-            .btn:before {
-                bottom: -1px;
-                right: -1px;
-                border-bottom: 4px solid rgba(53, 207, 233, 0.9);
-                border-right: 4px solid rgba(53, 207, 233, 0.9);
-            }
-            .btn:hover {
-                border-top-right-radius: 0px;
-                border-bottom-left-radius: 0px;
-            }
-            .btn:hover:before,
-            .btn:hover:after {
-                width: 100%;
+                top: 0;
+                left: 0;
                 height: 100%;
+                width: 100%;
+                transform-origin: center;
             }
-            /* HOMEPAGE */
-            .girl-looking-left h2 {
-                width: 50%;
-                font-size: 2rem;
+            
+            .u-hover--sparkle::before {
+                border-top: 0.2em solid rgba(53, 207, 233, 0.9);
+                border-bottom: 0.2em solid rgba(53, 207, 233, 0.9);
+                transform: scale3d(0, 1, 1);
             }
-            .affordable-prices {
-                display: flex;
-                position: absolute;
-                font-family: 'Montserrat';
-                top: 158px;
-                left: 4%;
-                width: 42%;
-                font-size: 1.15em;
-                color: #3f70da;
+            
+            .u-hover--sparkle::after {
+                border-left: 0.2em solid rgba(53, 207, 233, 0.9);
+                border-right: 0.2em solid rgba(53, 207, 233, 0.9);
+                transform: scale3d(1, 0, 1);
             }
-            .girl-looking-left a {
-                top: 221px;
+            
+            .u-hover--sparkle:hover::before,
+            .u-hover--sparkle:hover::after {
+                transform: scale3d(1, 1, 1);
+                transition: transform 900ms;
             }
+            
+            #girl-top-homepage {
+                width: 100%;
+                max-width: 1000px;
+                border-top: solid;
+                border-image-slice: 1;
+                border-width: 10px;
+                border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
+                margin-top: 38px;
+            }
+            
+            #frames-blue-bg {
+                width: 100%;
+                max-width: 1000px;
+            }
+            
+            .mens-collection-container,
+            .womens-collection-container {
+                position: relative;
+            }
+            
             .mens-collection-container h2 {
-                font-size: 4rem;
-                left: 40%;
+                position: absolute;
+                bottom: 10%;
+                left: 34%;
+                font-family: 'Montserrat', sans-serif;
+                color: white;
+                font-size: 2.5rem;
             }
+            
             .womens-collection-container h2 {
-                font-size: 4rem;
-                left: 28%;
+                position: absolute;
+                bottom: 10%;
+                left: 22%;
+                font-family: 'Montserrat', sans-serif;
+                color: white;
+                font-size: 2.5rem;
             }
+            
+            #mens-collection-pic {
+                width: 100%;
+                max-width: 1000px;
+            }
+            
+            #womens-collection-pic {
+                width: 100%;
+                max-width: 1000px;
+            }
+            
+            .virtual-container,
+            .map-container {
+                position: relative;
+            }
+            
             .virtual-container a,
             .map-container a {
-                left: 24%;
+                text-decoration: none;
+                /* color: white; */
+                font-family: 'Montserrat', sans-serif;
+                text-align: center;
+                font-size: 1em;
+                position: absolute;
+                bottom: 5%;
+                left: 15%;
             }
-            /* END HOMEPAGE */
-            /* EYEGLASSES PAGE */
-            #mobile-shop-hero {
+            
+            .virtual-container h2,
+            .map-container h2 {
+                background-color: #051938;
+                color: white;
+                padding: 10px 5px;
+                /* margin: 0 70px; */
+            }
+            
+            #virtual-tryon {
+                width: 100%;
+                max-width: 1000px;
+            }
+            
+            #store-locator {
+                width: 100%;
+                max-width: 1000px;
+            }
+            
+            .testimonials {
+                font-family: 'Montserrat', sans-serif;
+                text-align: center;
+                color: #051938;
+                font-size: 1.25em;
+            }
+            
+            .customers {
+                margin: 15px 5%;
+            }
+            
+            .testimonial-1,
+            .testimonial-2,
+            .testimonial-3 {
+                border: 10px solid;
+                border-image-slice: 1;
+                border-width: 5px;
+                border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
+                /* margin: 2% 0; */
+                margin: 20px 10%;
+                padding: 20px 5%;
+            }
+            
+            .testimonials h3 {
+                font-family: 'Coustard', serif;
+                color: #051938;
+                font-size: 5rem;
+                margin-bottom: -44px;
+                margin-top: -14px;
+            }
+            
+            .whats-trending {
                 display: none;
             }
+            /************************* END HOMEPAGE STYLING ************************/
+            /************************* START EYEGLASSES PAGE STYLING ************************/
+            
             #desktop-shop-hero {
-                display: flex;
+                display: none;
+            }
+            
+            #mobile-shop-hero {
                 width: 100%;
-                max-width: 1495px;
-                margin: 30px 0 30px;
+                max-width: 634px;
+                margin: 30px 0 10px;
                 border-top: solid;
                 border-bottom: solid;
                 border-image-slice: 1;
                 border-width: 10px;
                 border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
             }
+            
+            .shop-hero {
+                position: relative;
+            }
+            
+            .shop-hero p {
+                position: absolute;
+                font-family: 'Montserrat', sans-serif;
+                color: white;
+                bottom: 41px;
+                font-size: .85em;
+                padding: 0 4%;
+                text-align: center;
+            }
+            
+            #womens-collection,
+            #mens-collection {
+                font-family: 'Montserrat', sans-serif;
+                text-align: center;
+                font-size: 2rem;
+                padding: 20px 3%;
+                border-left: gold solid 5px;
+                position: absolute;
+                z-index: 100;
+                left: 5%;
+                font-weight: 700;
+            }
+            
+            .womens-collection-hero,
+            .mens-collection-hero {
+                width: 100%;
+                max-width: 1920px;
+                opacity: .7;
+            }
+            
+            .inline {
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+            }
+            
+            .inline a {
+                color: rgba(53, 207, 233, 0.9);
+            }
+            
             .inline li {
-                margin: 4% 8px;
-                display: inline;
+                list-style-type: none;
             }
-            /* END EYEGLASSES */
-            .faq-space p {
-                padding-bottom: 2%;
-            }
-        }
-        /********************** START 650PX MEDIA QUERY **********************/
-        
-        @media (min-width: 650px) {
-            form figure {
+            
+            .womens-container,
+            .mens-container {
                 display: flex;
+                flex-flow: row wrap;
+                justify-content: space-evenly;
             }
-            form .flex-grow {
-                flex-grow: 2;
+            
+            .womens-container .col-md-4 img,
+            .mens-container .col-md-4 img {
+                padding: 8% 0;
             }
-            textarea {
-                min-width: 390px;
-                min-height: 142px;
+            
+            .womens-container .row,
+            .mens-container .row {
+                padding: 7%;
             }
-        }
-        /********************** END 650PX MEDIA QUERY **********************/
-        /********************** START 700PX MEDIA QUERY **********************/
-        
-        @media (min-width: 700px) {
-            /* HOMEPAGE START*/
-            .girl-looking-left h2 {
-                width: 40%;
+            
+            .womens-container .card-text,
+            .mens-container .card-text {
+                text-align: left;
             }
-            .affordable-prices {
-                top: 154px;
+            
+            .womens-container .card-title,
+            .mens-container .card-title {
+                text-align: left;
             }
-            .womens-collection-container h2 {
-                left: 33%;
+            
+            .womens-container .back-style,
+            .mens-container .back-style {
+                width: 100%;
             }
-            .virtual-container a,
-            .map-container a {
-                left: 28%;
+            
+            .womens-container .line,
+            .mens-container .line {
+                width: 100%;
+                border-bottom: 1px solid #D7745B;
+                margin: 5% 0;
             }
-            /* HOMEPAGE END */
-            footer ul li {
-                padding-bottom: 2%;
+            
+            .eyeglasses-container {
+                text-align: center;
             }
-            footer p {
-                padding: 0 2% 2% 2%;
+            
+            #frames1,
+            #frames2,
+            #frames3,
+            #frames4,
+            #frames5,
+            #frames6,
+            #frames7,
+            #frames8,
+            #frames9,
+            #mens-frames1,
+            #mens-frames2,
+            #mens-frames3,
+            #mens-frames4,
+            #mens-frames5,
+            #mens-frames6,
+            #mens-frames7,
+            #mens-frames8 {
+                width: 100%;
+                max-width: 334px;
+                border-bottom: solid;
+                border-image-slice: 1;
+                border-width: 3px;
+                border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
+                padding: 25px 3%;
             }
-        }
-        /********************** END 700PX MEDIA QUERY **********************/
-        /********************** START 800PX MEDIA QUERY **********************/
-        
-        @media (min-width: 800px) {
-            /* Homepage */
-            .girl-looking-left h2 {
-                font-size: 1.75em;
-                top: 20px;
+            /************************* END EYEGLASSES PAGE STYLING ************************/
+            /************************* START ABOUT PAGE STYLING ************************/
+            
+            .about-page p {
+                font-family: montserrat, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                color: #051938;
             }
-            .affordable-prices {
-                top: 126px;
-                font-size: 1em;
-                width: 30%;
+            
+            .about-hero {
+                background-image: url(../images/about-hero6.jpg);
+                background-size: cover;
+                background-position: center;
+                min-height: 50vh;
             }
-            .girl-looking-left a {
-                top: 226px;
-            }
-            #girl-top-homepage {
-                padding: 0px;
-                margin: 0;
-                border-top: none;
-            }
-            .home-hero-container,
-            .collections-container,
-            .store-tryon-container,
-            .whats-trending {
-                display: flex;
-            }
-            .homepage-top-image,
-            .frames-container,
-            .mens-collection-container,
-            .womens-collection-container,
-            .virtual-container,
-            .map-container {
-                width: 50%;
-            }
-            .mens-collection-container {
-                padding: 3% 1.5% 1.5% 3%;
-            }
-            .womens-collection-container {
-                padding: 3% 3% 1.5% 1.5%;
-            }
-            .virtual-container {
-                padding: 1.5% 1.5% 3% 3%;
-            }
-            .map-container {
-                padding: 1.5% 3% 3% 1.5%;
-            }
-            .border-gradient-gold-home {
+            
+            .border-gradient-gold {
                 border: 10px solid;
                 border-image-slice: 1;
                 border-width: 5px;
                 border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
-                margin: 2% 0;
             }
-            .girl-looking-left,
-            .frames-container {
-                margin-bottom: -6px;
+            
+            .about-title h1 {
+                font-size: 35px;
+                color: #051938;
+                font-family: condor, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                padding: 2%;
             }
-            .mens-collection-container h2 {
-                left: 31%;
-            }
-            .womens-collection-container h2 {
-                left: 19%;
-            }
-            .virtual-container a {
-                left: 17%;
-                font-size: 1.25em;
-                bottom: 12%;
-            }
-            .map-container a {
-                left: 18%;
-                font-size: 1.25em;
-                bottom: 12%;
-            }
-            #whats-trending-pic {
+            
+            .headshot,
+            .about-image {
                 width: 100%;
-                max-width: 1920px;
             }
-            .test-container {
-                display: flex;
+            
+            .our-story {
+                padding: 5% 5% 0 5%;
             }
-            .customers {
-                font-weight: 600;
-                font-size: 2rem;
-                margin: 0 5% 14px;
+            
+            .our-story p {
+                padding-bottom: 5%;
             }
-            .testimonial-1,
-            .testimonial-2,
-            .testimonial-3 {
-                width: 33.333333333333%;
-                margin: 20px 2%;
+            
+            .meet-ella,
+            .about-process h2 {
+                font-size: 30px;
+                color: #051938;
+                font-family: condor, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                padding: 2%;
             }
-            /* Homepage End */
-            .logo {
-                width: 170px;
-                padding-left: 16px;
+            
+            .about-process p {
+                padding: 0 5% 0 5%;
             }
-            .desktop-nav ul {
-                width: 80%;
+            
+            .our-story h3 {
+                font-size: 25px;
+                color: #051938;
+                font-family: condor, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                padding-bottom: 6%;
+            }
+            /************************* END ABOUT PAGE STYLING ************************/
+            /**************** START INDIVIDUAL PRODUCT PAGE STYLING *******************/
+            
+            .eyeglasses-product-hero {
+                background-image: url(../images/eyeglasses-product-hero.jpeg);
+                background-size: cover;
+                background-position: center;
+                min-height: 50vh;
+            }
+            
+            .eyeglasses-product-title h1 {
+                font-size: 35px;
+                color: #051938;
+                font-family: condor, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                padding: 2%;
+            }
+            /**************** END INDIVIDUAL PRODUCT PAGE STYLING *******************/
+            /**************** START STORE LOCATOR PAGE STYLING ************************/
+            
+            .store-locator-hero {
+                background-image: url(../images/store-locator-hero.jpeg);
+                background-size: cover;
+                background-position: center;
+                min-height: 50vh;
+            }
+            
+            .store-locator-title h1 {
+                font-size: 35px;
+                color: #051938;
+                font-family: condor, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                padding: 2%;
+            }
+            
+            #map {
+                width: 900px;
+                max-width: 100%;
+                height: 500px;
                 margin: 0 auto;
             }
-            /* EYEGLASSES START */
-            .shop-hero p {
-                bottom: 29%;
-                margin: 0 14%;
-            }
-            /* EYEGLASSES END */
-            .faq-space p {
-                padding-bottom: 1%;
-            }
-            .info {
-                padding: 0 5% 5% 5%;
-            }
-            .info p {
+            
+            #info_div {
+                text-align: center;
                 padding-top: 2%;
+                font-family: montserrat, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                color: #051938;
             }
-        }
-        /* @media screen and (max-width: 600px) {
+            /******************** END STORE LOCATOR PAGE STYLING *******************/
+            /********************* START CONTACT PAGE STYLING ************************/
+            
+            .contact-hero {
+                background-image: url(../images/contact-hero.jpg);
+                background-size: cover;
+                background-position: center;
+                min-height: 50vh;
+            }
+            
+            .contact-headings {
+                padding: 2%;
+            }
+            
+            .contact-headings h1 {
+                font-size: 35px;
+                color: #051938;
+                font-family: condor, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+            
+            .contact-headings p {
+                padding-top: 3%;
+                font-family: hero-new, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                color: #051938;
+            }
+            
+            .contact-headings .faq-p {
+                padding-top: 1%;
+            }
+            
+            .faq-title {
+                text-align: center;
+                padding-top: 5%;
+                font-family: montserrat, sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                color: #051938;
+            }
+            
+            .faq {
+                padding: 5%;
+            }
+            /* ACCORDION START */
+            
+            .accordion {
+                background-color: #E3F2FD;
+                color: #051938;
+                cursor: pointer;
+                padding: 18px;
+                width: 100%;
+                border: none;
+                text-align: left;
+                outline: none;
+                font-size: 15px;
+                transition: 0.4s;
+                font-family: 'montserrat', sans-serif;
+                font-weight: 700;
+                font-style: normal;
+            }
+            
+            .active,
+            .accordion:hover {
+                background-color: #F9C784;
+            }
+            
+            .accordion:after {
+                content: '\002B';
+                color: #051938;
+                font-weight: bold;
+                float: right;
+                margin-left: 5px;
+            }
+            
+            .active:after {
+                content: "\2212";
+            }
+            
+            .panel {
+                padding: 0 18px;
+                background-color: white;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.2s ease-out;
+            }
+            
+            .panel p {
+                margin-top: 2%;
+                margin-bottom: 2%;
+                font-family: 'montserrat', sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+            
+            .faq-space p {
+                padding-bottom: 4%;
+            }
+            /* ACCORDION END */
+            
+            .info {
+                padding: 5%;
+                font-family: hero-new, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                color: #051938;
+            }
+            
+            .info p {
+                padding-top: 3%;
+            }
+            /* CONTACT FORM START */
+            
+            .contact-section {
+                max-width: 900px;
+                text-align: center;
+            }
+            
+            .contact-form {
+                background: #B89055;
+                padding: 20px;
+                max-width: 500px;
+                border-radius: 4px;
+                color: white;
+                font-family: montserrat, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                margin: 20px auto;
+                text-align: left;
+            }
+            
+            .label_input_wrap {
+                display: block;
+            }
+            /* label {
+            font-weight: bold;
+        } */
+            
+            .reset input,
+            .submit input {
+                background: #051938;
+                color: white;
+                padding: 5px 20px;
+                display: inline;
+            }
+            
+            .reset,
+            .submit {
+                display: inline;
+            }
+            
+            .input-section {
+                margin-bottom: 10px;
+            }
+            
+            input {
+                padding: 5px 10px;
+                border-radius: 3px;
+            }
+            
+            textarea {
+                font-family: sans-serif;
+                padding: 10px 10px;
+                border-radius: 4px;
+            }
+            
+            .upload-file-copy {
+                margin-bottom: 5%;
+                font-weight: bold;
+            }
+            
+            select {
+                width: 185px;
+                padding: 8px 0;
+                border-radius: 4px;
+            }
+            
+            .submit-hover-form {
+                transition: 0.3s;
+            }
+            
+            .submit-hover-form:hover {
+                background-color: #35CFE9;
+                color: white;
+                transition: 0.3s;
+                cursor: pointer;
+            }
+            /* CONTACT FORM END */
+            /********************** END CONTACT PAGE STYLING ***********************/
+            /********************** START 400PX MEDIA QUERY **********************/
+            
+            @media (min-width: 400PX) {
+                /* HOMEPAGE START */
+                .mens-collection-container h2 {
+                    left: 38%;
+                }
+                .womens-collection-container h2 {
+                    left: 28%;
+                }
+                .virtual-container a,
+                .map-container a {
+                    left: 22%;
+                }
+                /* HOMEPAGE END*/
+                /* EYEGLASSES START */
+                .shop-hero p {
+                    font-size: 1em;
+                    bottom: 60px;
+                }
+                /* EYEGLASSES END */
+            }
+            /********************** END 400PX MEDIA QUERY **********************/
+            /********************* START 450PX MEDIA QUERY **************************/
+            
+            @media (min-width: 450px) {
+                form {
+                    width: 80%;
+                }
+            }
+            /********************** END 450PX MEDIA QUERY **********************/
+            /********************** START 480PX MEDIA QUERY **********************/
+            
+            @media (min-width:480px) {
+                /* HOMEPAGE */
+                .girl-looking-left a {
+                    top: 138px;
+                }
+            }
+            /********************** END 480PX MEDIA QUERY **********************/
+            /********************** START 500PX MEDIA QUERY **********************/
+            
+            @media (min-width:500px) {
+                /* HOMEPAGE START */
+                .mens-collection-container h2 {
+                    font-size: 3rem;
+                }
+                .womens-collection-container h2 {
+                    font-size: 3rem;
+                    left: 30%;
+                }
+                .virtual-container a,
+                .map-container a {
+                    left: 19%;
+                    font-size: 1.5em;
+                }
+                /* HOMEPAGE END */
+                #email {
+                    width: 250px
+                }
+            }
+            /********************** END 500PX MEDIA QUERY **********************/
+            /********************* START 550PX MEDIA QUERY ************************/
+            
+            @media (min-width: 550px) {
+                form {
+                    width: 70%;
+                }
+                textarea {
+                    min-width: 307px;
+                    min-height: 122px;
+                }
+            }
+            /********************* END 550PX MEDIA QUERY ************************/
+            /********************** START 600PX MEDIA QUERY **********************/
+            /************** DESKTOP NAV STYLING **************/
+            
+            @media (min-width: 600px) {
+                .hamburger,
+                .cross,
+                .menu,
+                .mobile-logo-container {
+                    display: none;
+                }
+                .coupon-code {
+                    width: 100%;
+                }
+                .flex-nav {
+                    display: flex;
+                }
+                .desktop-nav {
+                    flex-grow: 2;
+                }
+                .desktop-nav ul {
+                    display: flex;
+                    list-style: none;
+                    justify-content: space-evenly;
+                    padding-top: 90px
+                }
+                .desktop-nav a {
+                    text-decoration: none;
+                    font-family: montserrat, sans-serif;
+                    font-weight: 700;
+                    font-style: normal;
+                    color: #051938;
+                }
+                .topnav a {
+                    float: left;
+                    display: block;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                    font-size: 17px;
+                }
+                .dropdown {
+                    float: left;
+                    overflow: hidden;
+                }
+                .dropdown .dropbtn {
+                    font-size: 17px;
+                    border: none;
+                    outline: none;
+                    color: white;
+                    padding: 14px 16px;
+                    background-color: inherit;
+                    font-family: inherit;
+                    margin: 20px;
+                }
+                .dropdown-content {
+                    display: none;
+                    position: absolute;
+                    background-color: #f9f9f9;
+                    min-width: 160px;
+                    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                    z-index: 1;
+                    margin-top: 48px;
+                }
+                .dropdown-content a {
+                    float: none;
+                    color: black;
+                    padding: 12px 16px;
+                    text-decoration: none;
+                    display: block;
+                    text-align: left;
+                }
+                .topnav a:hover,
+                .dropdown:hover .dropbtn {
+                    background-color: #051938;
+                    color: white;
+                }
+                .dropdown-content a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+                .dropdown:hover .dropdown-content {
+                    display: block;
+                }
+                /********* DESKTOP NAV HOVER ANIMATION ********/
+                .btn {
+                    cursor: pointer;
+                    position: relative;
+                    padding: 10px 10px;
+                    border-top-right-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                    transition: all 1s;
+                }
+                .btn:after,
+                .btn:before {
+                    content: " ";
+                    width: 10px;
+                    height: 10px;
+                    position: absolute;
+                    transition: all 1s;
+                }
+                .btn:after {
+                    top: -1px;
+                    left: -1px;
+                    border-top: 4px solid rgba(53, 207, 233, 0.9);
+                    border-left: 4px solid rgba(53, 207, 233, 0.9);
+                }
+                .btn:before {
+                    bottom: -1px;
+                    right: -1px;
+                    border-bottom: 4px solid rgba(53, 207, 233, 0.9);
+                    border-right: 4px solid rgba(53, 207, 233, 0.9);
+                }
+                .btn:hover {
+                    border-top-right-radius: 0px;
+                    border-bottom-left-radius: 0px;
+                }
+                .btn:hover:before,
+                .btn:hover:after {
+                    width: 100%;
+                    height: 100%;
+                }
+                /* HOMEPAGE */
+                .girl-looking-left h2 {
+                    width: 50%;
+                    font-size: 2rem;
+                }
+                .affordable-prices {
+                    display: flex;
+                    position: absolute;
+                    font-family: 'Montserrat';
+                    top: 158px;
+                    left: 4%;
+                    width: 42%;
+                    font-size: 1.15em;
+                    color: #3f70da;
+                }
+                .girl-looking-left a {
+                    top: 221px;
+                }
+                .mens-collection-container h2 {
+                    font-size: 4rem;
+                    left: 40%;
+                }
+                .womens-collection-container h2 {
+                    font-size: 4rem;
+                    left: 28%;
+                }
+                .virtual-container a,
+                .map-container a {
+                    left: 24%;
+                }
+                /* END HOMEPAGE */
+                /* EYEGLASSES PAGE */
+                #mobile-shop-hero {
+                    display: none;
+                }
+                #desktop-shop-hero {
+                    display: flex;
+                    width: 100%;
+                    max-width: 1495px;
+                    margin: 30px 0 30px;
+                    border-top: solid;
+                    border-bottom: solid;
+                    border-image-slice: 1;
+                    border-width: 10px;
+                    border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
+                }
+                .inline li {
+                    margin: 4% 8px;
+                    display: inline;
+                }
+                /* END EYEGLASSES */
+                .faq-space p {
+                    padding-bottom: 2%;
+                }
+            }
+            /********************** START 650PX MEDIA QUERY **********************/
+            
+            @media (min-width: 650px) {
+                form figure {
+                    display: flex;
+                }
+                form .flex-grow {
+                    flex-grow: 2;
+                }
+                textarea {
+                    min-width: 390px;
+                    min-height: 142px;
+                }
+                /* ABOUT PAGE START*/
+                .about-flex {
+                    display: flex;
+                    padding-left: 2%;
+                    padding-right: 2%;
+                    padding-bottom: 5%;
+                }
+                .our-story-flex {
+                    padding: 0% 5% 0 5%;
+                    width: 175%;
+                }
+                /* ABOUT PAGE END*/
+            }
+            /********************** END 650PX MEDIA QUERY **********************/
+            /********************** START 700PX MEDIA QUERY **********************/
+            
+            @media (min-width: 700px) {
+                /* HOMEPAGE START*/
+                .girl-looking-left h2 {
+                    width: 40%;
+                }
+                .affordable-prices {
+                    top: 154px;
+                }
+                .womens-collection-container h2 {
+                    left: 33%;
+                }
+                .virtual-container a,
+                .map-container a {
+                    left: 28%;
+                }
+                /* HOMEPAGE END */
+                footer ul li {
+                    padding-bottom: 2%;
+                }
+                footer p {
+                    padding: 0 2% 2% 2%;
+                }
+            }
+            /********************** END 700PX MEDIA QUERY **********************/
+            /********************** START 800PX MEDIA QUERY **********************/
+            
+            @media (min-width: 800px) {
+                /* Homepage */
+                .girl-looking-left h2 {
+                    font-size: 1.75em;
+                    top: 20px;
+                }
+                .affordable-prices {
+                    top: 126px;
+                    font-size: 1em;
+                    width: 30%;
+                }
+                .girl-looking-left a {
+                    top: 226px;
+                }
+                #girl-top-homepage {
+                    padding: 0px;
+                    margin: 0;
+                    border-top: none;
+                }
+                .home-hero-container,
+                .collections-container,
+                .store-tryon-container,
+                .whats-trending {
+                    display: flex;
+                }
+                .homepage-top-image,
+                .frames-container,
+                .mens-collection-container,
+                .womens-collection-container,
+                .virtual-container,
+                .map-container {
+                    width: 50%;
+                }
+                .mens-collection-container {
+                    padding: 3% 1.5% 1.5% 3%;
+                }
+                .womens-collection-container {
+                    padding: 3% 3% 1.5% 1.5%;
+                }
+                .virtual-container {
+                    padding: 1.5% 1.5% 3% 3%;
+                }
+                .map-container {
+                    padding: 1.5% 3% 3% 1.5%;
+                }
+                .border-gradient-gold-home {
+                    border: 10px solid;
+                    border-image-slice: 1;
+                    border-width: 5px;
+                    border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
+                    margin: 2% 0;
+                }
+                .girl-looking-left,
+                .frames-container {
+                    margin-bottom: -6px;
+                }
+                .mens-collection-container h2 {
+                    left: 31%;
+                }
+                .womens-collection-container h2 {
+                    left: 19%;
+                }
+                .virtual-container a {
+                    left: 17%;
+                    font-size: 1.25em;
+                    bottom: 12%;
+                }
+                .map-container a {
+                    left: 18%;
+                    font-size: 1.25em;
+                    bottom: 12%;
+                }
+                #whats-trending-pic {
+                    width: 100%;
+                    max-width: 1920px;
+                }
+                .test-container {
+                    display: flex;
+                }
+                .customers {
+                    font-weight: 600;
+                    font-size: 2rem;
+                    margin: 0 5% 14px;
+                }
+                .testimonial-1,
+                .testimonial-2,
+                .testimonial-3 {
+                    width: 33.333333333333%;
+                    margin: 20px 2%;
+                }
+                /* Homepage End */
+                .logo {
+                    width: 170px;
+                    padding-left: 16px;
+                }
+                .desktop-nav ul {
+                    width: 80%;
+                    margin: 0 auto;
+                }
+                /* EYEGLASSES START */
+                .shop-hero p {
+                    bottom: 29%;
+                    margin: 0 14%;
+                }
+                /* EYEGLASSES END */
+                .faq-space p {
+                    padding-bottom: 1%;
+                }
+                .info {
+                    padding: 0 5% 5% 5%;
+                }
+                .info p {
+                    padding-top: 2%;
+                }
+                .our-story {
+                    padding: 0% 5% 0 5%;
+                }
+                .our-story p {
+                    padding-bottom: 2%;
+                }
+            }
+            /* @media screen and (max-width: 600px) {
     .topnav a:not(:first-child),
     .dropdown .dropbtn {
         display: none;
@@ -1390,101 +1450,104 @@ img {
         text-align: left;
     }
 } */
-        /********************** END 800PX MEDIA QUERY **********************/
-        /********************** START 950PX MEDIA QUERY **********************/
-        
-        @media (min-width: 950px) {
-            /* Homepage */
-            .womens-collection-container h2 {
-                left: 23%;
+            /********************** END 800PX MEDIA QUERY **********************/
+            /********************** START 950PX MEDIA QUERY **********************/
+            
+            @media (min-width: 950px) {
+                /* Homepage */
+                .womens-collection-container h2 {
+                    left: 23%;
+                }
+                .virtual-container a {
+                    left: 22%;
+                }
+                .map-container a {
+                    left: 23%;
+                }
+                /* EYEGLASSES */
+                .shop-hero p {
+                    font-size: 1.45em;
+                }
             }
-            .virtual-container a {
-                left: 22%;
+            /********************** END 950PX MEDIA QUERY **********************/
+            /********************* START 1000PX MEDIA QUERY *********************/
+            
+            @media (min-width: 1000px) {
+                .contact-section {
+                    max-width: 1000px;
+                    margin: 0 auto;
+                }
+                .our-story-flex {
+                    width: 180%;
+                }
             }
-            .map-container a {
-                left: 23%;
+            /********************** END 1000PX MEDIA QUERY **********************/
+            /********************** START 1050PX MEDIA QUERY **********************/
+            
+            @media (min-width: 1050px) {
+                /* Homepage */
+                .girl-looking-left h2 {
+                    width: 50%;
+                    font-size: 2rem;
+                }
+                .affordable-prices {
+                    top: 108px;
+                    left: 4%;
+                    width: 40%;
+                    font-size: 1.15em;
+                }
+                .girl-looking-left a {
+                    top: 196px;
+                }
+                .womens-collection-container h2 {
+                    left: 27%;
+                }
+                .mens-collection-container h2 {
+                    left: 36%;
+                }
+                .map-container a {
+                    left: 26%;
+                }
             }
-            /* EYEGLASSES */
-            .shop-hero p {
-                font-size: 1.45em;
+            /********************** END 1050PX MEDIA QUERY **********************/
+            /********************** START 1200PX MEDIA QUERY **********************/
+            
+            @media (min-width: 1200px) {
+                /* HOMEPAGE START */
+                .girl-looking-left h2 {
+                    width: 40%;
+                    font-size: 2rem;
+                    top: 71px;
+                }
+                .affordable-prices {
+                    top: 157px;
+                    width: 42%;
+                }
+                .girl-looking-left a {
+                    top: 219px;
+                }
+                .womens-collection-container h2 {
+                    left: 32%;
+                }
+                .mens-collection-container h2 {
+                    left: 40%;
+                }
+                .virtual-container a {
+                    left: 30%;
+                }
+                .map-container a {
+                    left: 32%;
+                }
+                /* HOMEPAGE END */
+                /* EYEGLASSES START */
+                #frames1,
+                #frames2,
+                #frames4,
+                #frames5,
+                #frames7,
+                #frames8 {
+                    border-right: solid;
+                }
+                /* EYEGLASSES END */
             }
-        }
-        /********************** END 950PX MEDIA QUERY **********************/
-        /********************* START 1000PX MEDIA QUERY *********************/
-        
-        @media (min-width: 1000px) {
-            .contact-section {
-                max-width: 1000px;
-                margin: 0 auto;
-            }
-        }
-        /********************** END 1000PX MEDIA QUERY **********************/
-        /********************** START 1050PX MEDIA QUERY **********************/
-        
-        @media (min-width: 1050px) {
-            /* Homepage */
-            .girl-looking-left h2 {
-                width: 50%;
-                font-size: 2rem;
-            }
-            .affordable-prices {
-                top: 108px;
-                left: 4%;
-                width: 40%;
-                font-size: 1.15em;
-            }
-            .girl-looking-left a {
-                top: 196px;
-            }
-            .womens-collection-container h2 {
-                left: 27%;
-            }
-            .mens-collection-container h2 {
-                left: 36%;
-            }
-            .map-container a {
-                left: 26%;
-            }
-        }
-        /********************** END 1050PX MEDIA QUERY **********************/
-        /********************** START 1200PX MEDIA QUERY **********************/
-        
-        @media (min-width: 1200px) {
-            /* HOMEPAGE START */
-            .girl-looking-left h2 {
-                width: 40%;
-                font-size: 2rem;
-                top: 71px;
-            }
-            .affordable-prices {
-                top: 157px;
-                width: 42%;
-            }
-            .girl-looking-left a {
-                top: 219px;
-            }
-            .womens-collection-container h2 {
-                left: 32%;
-            }
-            .mens-collection-container h2 {
-                left: 40%;
-            }
-            .virtual-container a {
-                left: 30%;
-            }
-            .map-container a {
-                left: 32%;
-            }
-            /* HOMEPAGE END */
-            /* EYEGLASSES START */
-            #frames1,
-            #frames2,
-            #frames4,
-            #frames5,
-            #frames7,
-            #frames8 {
-                border-right: solid;
-            }
-            /* EYEGLASSES END */
-        }
-        /********************** END 1200PX MEDIA QUERY **********************/
+            /********************** END 1200PX MEDIA QUERY **********************/
