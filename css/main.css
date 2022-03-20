@@ -480,7 +480,7 @@ img {
         }
 
         .customers {
-            margin: 0 5%;
+            margin: 15px 5%;
         }
         
         .testimonial-1,
@@ -538,6 +538,63 @@ img {
             text-align: center;
         }
         
+        #womens-collection {
+         font-family: 'Montserrat', sans-serif;
+         text-align: center;
+         font-size: 2rem;
+         padding: 20px 3%;
+         border-left: gold solid 5px;
+         position: absolute;
+         z-index: 100;
+         left: 5%;
+         font-weight: 700;
+        }
+
+        .womens-collection-hero {
+         width: 100%;
+         max-width: 1920px;
+         opacity: .7;
+        }
+
+       .inline {
+         text-align: center;
+         font-family: 'Montserrat', sans-serif;
+       }
+
+       .inline a {
+          color:rgba(53, 207, 233, 0.9);
+       }
+
+       .inline li {
+         list-style-type: none;
+       }
+
+        .womens-container {
+         padding: 2%;
+         display: flex;
+         flex-flow: row wrap;
+         justify-content: space-evenly;
+       }
+       .womens-container .col-md-4 img {
+         padding: 8% 0;
+       }
+       .womens-container .row {
+         padding: 7%;
+       }
+       .womens-container .card-text {
+         text-align: left;
+       }
+       .womens-container .card-title {
+         text-align: left;
+       }
+       .womens-container .back-style {
+         width: 100%;
+       }
+       .womens-container .line {
+         width: 100%;
+         border-bottom: 1px solid #D7745B;
+         margin: 5% 0;
+       }
         .eyeglasses-container {
             text-align: center;
         }
@@ -907,6 +964,10 @@ img {
                 border-image-slice: 1;
                 border-width: 10px;
                 border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
+            }
+            .inline li {
+               margin: 4% 8px;
+               display: inline;
             }
             /* END EYEGLASSES */
             .faq-space p {
