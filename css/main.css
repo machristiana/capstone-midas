@@ -311,13 +311,14 @@ img {
             font-family: montserrat, sans-serif;
             font-weight: 700;
             font-style: normal;
-            color: #051938;
+            color: #051938 !important;
             transition: 0.3s;
         }
         
         footer ul li a:hover {
-            border-bottom: #35CFE9 4px solid;
+            border-bottom: #35CFE9 4px solid !important;
             transition: 0.3s;
+            text-decoration: none !important;
         }
         
         footer p {
