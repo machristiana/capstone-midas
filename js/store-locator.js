@@ -29,7 +29,7 @@ function initMap() {
     // show store info in text box
     function showStoreInfo(storeInfo) {
         var info_div = document.getElementById('info_div');
-        info_div.innerHTML = 'Store name: ' +
+        info_div.innerHTML = 'Store Name: ' +
             storeInfo.name +
             '<br>Hours: ' + storeInfo.hours;
     }
