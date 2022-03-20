@@ -686,6 +686,16 @@ img {
                 border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
                 padding: 25px 3%;
             }
+
+            .follow-us {
+               text-align: center;
+               margin: 40px 0;
+               font-family: 'Montserrat';
+               font-size: 2.5em;
+               color: white;
+               background-color: rgba(53, 207, 233, 0.9);
+               padding: 20px 5%;
+            }
             /************************* END EYEGLASSES PAGE STYLING ************************/
             /************************* START ABOUT PAGE STYLING ************************/
             
