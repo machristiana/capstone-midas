@@ -310,11 +310,84 @@ img {
             padding: 0 2% 5% 2%;
         }
         /************************* START HOMEPAGE STYLING ************************/
-        
+        .homepage-top-image {
+           position: relative;
+        }
+
         .girl-looking-left h2 {
             font-family: 'Montserrat', sans-serif;
-            color: white;
+            color: #051938;
+            position: absolute;
+            top: 68px;
+            left: 4%;
+            width: 40%;
         }
+
+        .affordable-prices {
+           display: none;
+        }
+
+        .girl-looking-left a {
+         text-decoration: none;
+         font-family: 'Montserrat', sans-serif;
+         position: absolute;
+         top: 165px;
+         left: 4%;
+        }
+
+        .girl-looking-left a p {
+         background-color: #051938;
+         color: white;
+         padding: 10px 10px;
+        }
+
+        .girl-looking-left a p:hover {
+           color:rgba(53, 207, 233, 0.9);
+        }
+
+         .sparkle {
+            max-width: 10em;
+            margin: auto auto;
+         }
+
+         .sparkle:hover {
+            cursor: pointer;
+         }
+
+         .u-hover--sparkle {
+            box-sizing: border-box;
+            position: relative;
+          }
+
+          .u-hover--sparkle::before,
+          .u-hover--sparkle::after {
+            content: '';
+            box-sizing: border-box;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            transform-origin: center;
+          }
+        
+          .u-hover--sparkle::before {
+            border-top: 0.2em solid rgba(53, 207, 233, 0.9);
+            border-bottom: 0.2em solid rgba(53, 207, 233, 0.9);
+            transform: scale3d(0,1,1);
+          }
+        
+          .u-hover--sparkle::after {
+            border-left: 0.2em solid rgba(53, 207, 233, 0.9);
+            border-right: 0.2em solid rgba(53, 207, 233, 0.9);
+            transform: scale3d(1,0,1);
+          }
+        
+          .u-hover--sparkle:hover::before,
+          .u-hover--sparkle:hover::after {
+            transform: scale3d(1,1,1);
+            transition: transform 900ms;
+          }
         
         #girl-top-homepage {
             width: 100%;
@@ -404,7 +477,6 @@ img {
             text-align: center;
             color: #051938;
             font-size: 1.25em;
-            margin: 20px 0;
         }
 
         .customers {
@@ -638,6 +710,17 @@ img {
             /* EYEGLASSES END */
         }
         /********************** END 400PX MEDIA QUERY **********************/
+
+        /********************** START 480PX MEDIA QUERY **********************/
+        @media (min-width:480px) {
+           /* HOMEPAGE */
+           .girl-looking-left a {
+            top: 138px;
+           }
+        }
+
+        /********************** END 480PX MEDIA QUERY **********************/
+
         /********************** START 500PX MEDIA QUERY **********************/
         
         @media (min-width:500px) {
@@ -656,7 +739,8 @@ img {
             }
             /* HOMEPAGE END */
         }
-        /********************** START 500PX MEDIA QUERY **********************/
+        /********************** END 500PX MEDIA QUERY **********************/
+
         /********************** START 600PX MEDIA QUERY **********************/
         /************** DESKTOP NAV STYLING **************/
         
@@ -779,6 +863,23 @@ img {
                 height: 100%;
             }
             /* HOMEPAGE */
+            .girl-looking-left h2 {
+               width: 50%;
+               font-size: 2rem;
+            }
+            .affordable-prices {
+               display: flex;
+               position: absolute;
+               font-family: 'Montserrat';
+               top: 158px;
+               left: 4%;
+               width: 42%;
+               font-size: 1.15em;
+               color: #3f70da;
+            }
+            .girl-looking-left a {
+               top: 221px;
+           }
             .mens-collection-container h2 {
                 font-size: 4rem;
                 left: 40%;
@@ -816,6 +917,12 @@ img {
         
         @media (min-width: 700px) {
             /* HOMEPAGE START*/
+            .girl-looking-left h2 {
+               width: 40%;
+            }
+            .affordable-prices {
+               top: 154px;
+            }
             .womens-collection-container h2 {
                 left: 33%;
             }
@@ -836,6 +943,19 @@ img {
         
         @media (min-width: 800px) {
             /* Homepage */
+            .girl-looking-left h2 {
+               font-size: 1.75em;
+               top: 20px;
+            }
+
+            .affordable-prices {
+               top: 126px;
+               font-size: 1em;
+               width: 30%;
+           }
+           .girl-looking-left a {
+            top: 226px;
+           }           
             #girl-top-homepage {
                 padding: 0px;
                 margin: 0;
@@ -854,6 +974,18 @@ img {
             .virtual-container,
             .map-container {
                 width: 50%;
+            }
+            .mens-collection-container {
+               padding: 3% 1.5% 1.5% 3%;
+            }
+            .womens-collection-container {
+               padding: 3% 3% 1.5% 1.5%;
+            }
+            .virtual-container {
+               padding: 1.5% 1.5% 3% 3%;
+            }
+            .map-container {
+               padding: 1.5% 3% 3% 1.5%;
             }
             .border-gradient-gold-home {
                 border: 10px solid;
@@ -981,6 +1113,19 @@ img {
         
         @media (min-width: 1050px) {
             /* Homepage */
+            .girl-looking-left h2 {
+               width: 50%;
+               font-size: 2rem;
+            }
+            .affordable-prices {
+               top: 108px;
+               left: 4%;
+               width: 40%;
+               font-size: 1.15em;
+            }
+            .girl-looking-left a {
+               top: 196px;
+           }
             .womens-collection-container h2 {
                 left: 27%;
             }
@@ -996,6 +1141,18 @@ img {
         
         @media (min-width: 1200px) {
             /* HOMEPAGE START */
+            .girl-looking-left h2 {
+               width: 40%;
+               font-size: 2rem;
+               top: 71px;
+            }
+            .affordable-prices {
+               top: 157px;
+               width: 42%;
+            }
+            .girl-looking-left a {
+               top: 219px;
+           }
             .womens-collection-container h2 {
                 left: 32%;
             }
