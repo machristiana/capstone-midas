@@ -625,6 +625,16 @@ img {
                 padding: 7%;
             }
             
+            .card-title, .card-text {
+               font-family: 'Montserrat', sans-serif;
+            }
+
+            .card-title {
+               color:rgba(53, 207, 233, 0.9);
+               font-weight: 600;
+               font-size: 1.5rem;
+            }
+
             .womens-container .card-text,
             .mens-container .card-text {
                 text-align: left;
@@ -1561,14 +1571,14 @@ img {
                 }
                 /* HOMEPAGE END */
                 /* EYEGLASSES START */
-                #frames1,
+                /* #frames1,
                 #frames2,
                 #frames4,
                 #frames5,
                 #frames7,
                 #frames8 {
                     border-right: solid;
-                }
+                } */
                 /* EYEGLASSES END */
             }
             /********************** END 1200PX MEDIA QUERY **********************/
