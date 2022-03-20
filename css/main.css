@@ -691,6 +691,7 @@ img {
                 background-size: cover;
                 background-position: center;
                 min-height: 50vh;
+                margin: 2% 0;
             }
             
             .border-gradient-gold {
