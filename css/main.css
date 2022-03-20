@@ -538,7 +538,8 @@ img {
             text-align: center;
         }
         
-        #womens-collection {
+        #womens-collection,
+        #mens-collection {
          font-family: 'Montserrat', sans-serif;
          text-align: center;
          font-size: 2rem;
@@ -550,7 +551,8 @@ img {
          font-weight: 700;
         }
 
-        .womens-collection-hero {
+        .womens-collection-hero,
+        .mens-collection-hero {
          width: 100%;
          max-width: 1920px;
          opacity: .7;
@@ -569,28 +571,34 @@ img {
          list-style-type: none;
        }
 
-        .womens-container {
-         padding: 2%;
+        .womens-container,
+        .mens-container {
          display: flex;
          flex-flow: row wrap;
          justify-content: space-evenly;
        }
-       .womens-container .col-md-4 img {
+       .womens-container .col-md-4 img,
+       .mens-container .col-md-4 img {
          padding: 8% 0;
        }
-       .womens-container .row {
+       .womens-container .row,
+       .mens-container .row {
          padding: 7%;
        }
-       .womens-container .card-text {
+       .womens-container .card-text,
+       .mens-container .card-text {
          text-align: left;
        }
-       .womens-container .card-title {
+       .womens-container .card-title,
+       .mens-container .card-title {
          text-align: left;
        }
-       .womens-container .back-style {
+       .womens-container .back-style,
+       .mens-container .back-style {
          width: 100%;
        }
-       .womens-container .line {
+       .womens-container .line,
+       .mens-container .line {
          width: 100%;
          border-bottom: 1px solid #D7745B;
          margin: 5% 0;
@@ -607,7 +615,15 @@ img {
         #frames6,
         #frames7,
         #frames8,
-        #frames9 {
+        #frames9,
+        #mens-frames1,
+        #mens-frames2,
+        #mens-frames3,
+        #mens-frames4,
+        #mens-frames5,
+        #mens-frames6,
+        #mens-frames7,
+        #mens-frames8 {
             width: 100%;
             max-width: 334px;
             border-bottom: solid;
