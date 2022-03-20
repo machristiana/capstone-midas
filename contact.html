@@ -21,12 +21,12 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/70a4005e9d.js" crossorigin="anonymous"></script>
 
-
     <!-- Main CSS -->
     <link type="text/css" rel="stylesheet" href="css/main.css" />
 
     <!-- jQuery Library -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!--[if lt IE 9]>
 			<script src="js/html5shiv-printshiv.min.js"></script>
@@ -60,8 +60,8 @@
                             <a href="sunglasses.html">SUNGLASSES</a>
                         </div>
                     </div>
-                    <li>
-                        <a class="btn" href="blog.html">BLOG</a></li>
+                    <!-- <li>
+                        <a class="btn" href="blog.html">BLOG</a></li> -->
                     <li>
                         <a class="btn" href="contact.html">CONTACT</a></li>
 
@@ -79,9 +79,9 @@
 
         <section class="contact-headings">
             <h1 class="contact-title">Contact Us</h1>
-            <h2>Looking for information?</h2>
-            <h3>Check out our Frequently Asked Questions, call, email or use the Contact Us form below.
-            </h3>
+            <p>Looking for information?</p>
+            <p class="faq-p">Check out our Frequently Asked Questions, call, email or use the Contact Us form below.
+            </p>
         </section>
 
         <h2 class="faq-title">Frequently Asked Questions</h2>
@@ -134,9 +134,90 @@
             </div>
         </section>
 
+        <section class="info">
+            <p>Still have a question? Fill out the form and our Customer Service team will respond in 24 hours.</p>
+            <p class="info-p">If you would like to contact us directly: CUSTOMER SERVICE can be reached during business hours at 1-844-387-4289 or info@tnbglasses.com</p>
+        </section>
+        <section class="contact-section">
+            <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+                <div class="radiobutton input-section">
+                    <input type="radio" name="choice" value="consumer" id="consumer" />
+                    <label for="consumer">Consumer</label>
+                    <input type="radio" name="choice" value="retailer" id="retailer" />
+                    <label for="retailer">Retailer</label>
+                </div>
+                <!-- <div id="new-radio-button" class="radiobutton input-section">
+                    <label for="account" class="label_input_wrap">Has B2B account?</label>
+                    <input type="radio" name="choice" value="yes" id="yes" />
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="choice" value="no" id="no" />
+                    <label for="no">No</label>
+                </div> -->
+                <figure>
+                    <div class="first-name input-section flex-grow">
+                        <label for="firstname" class="label_input_wrap">First Name:</label>
+                        <input type="text" name="req_firstname" id="firstname" placeholder="ex. John" />
+                    </div>
+
+                    <div class="last-name input-section flex-grow">
+                        <label for="lastname" class="label_input_wrap">Last Name:</label>
+                        <input type="text" name="req_lastname" id="lastname" placeholder="ex. Smith" />
+                    </div>
+                </figure>
+
+                <figure>
+                    <div class="email input-section flex-grow">
+                        <label for="email" class="label_input_wrap">Email:</label>
+                        <input type="email" name="req_email" id="email" placeholder="jsmith@example.com" />
+                    </div>
+
+                    <div class="telephone input-section flex-grow">
+                        <label for="telephone" class="label_input_wrap">Telephone:</label>
+                        <input type="tel" name="telephone" id="telephone" placeholder="555-555-5555" />
+                    </div>
+                </figure>
+
+                <div class="comments input-section">
+                    <label for="comments" class="label_input_wrap">Comments:</label>
+                    <textarea name="comments" id="comments" cols="32" rows="5" placeholder="Your Comment Goes Here"></textarea>
+                </div>
+
+                <div class="input-section">
+                    <label for="question" class="label_input_wrap">My Question</label>
+                    <select name="question" id="question">
+                    <option value="choose" selected>Choose an option</option>
+                    <option value="product">Product</option>
+                    <option value="order">Order</option>
+                    <option value="return">Return</option>
+                    <option value="partnership">Partnership</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+
+                <div class="uploadfile">
+                    <label for="uploadfile">Upload a file</label>
+                    <input type="file" name="myfile" id="uploadfile" />
+                    <p class="upload-file-copy">*You can attach images of your item, please do not include any personal information.</p>
+                </div>
+
+                <div class="submit">
+                    <input class="submit-hover-form" type="submit" value="Submit" />
+                </div>
+
+            </form>
+        </section>
+
 
         <section class="newsletter">
             <p>SIGN UP FOR OUR NEWSLETTER</p>
+            <figure class="newsletter-form">
+                <div class="email input-section">
+                    <input type="email" name="req_email" id="email" placeholder="jsmith@example.com" />
+                </div>
+                <div class="submit newsletter-submit">
+                    <input class="submit-hover" type="submit" value="Submit" />
+                </div>
+            </figure>
         </section>
 
     </main>
@@ -154,6 +235,12 @@
             <li><a href="blog.html">BLOG</a></li>
             <li><a href="contact.html">CONTACT</a></li>
         </ul>
+
+        <div class="footer-icons">
+            <a href="https://www.facebook.com/tnbglasses/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/midas_eyewear/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/TNBGlasses" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
 
         <p>COPYRIGHT 2022 | DESIGNED BY GMS</p>
 

@@ -18,8 +18,16 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/70a4005e9d.js" crossorigin="anonymous"></script>
+
     <!-- Main CSS -->
     <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+    <!-- jQuery Library -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 
     <!--[if lt IE 9]>
 			<script src="js/html5shiv-printshiv.min.js"></script>
@@ -70,17 +78,25 @@
 
         </section>
 
-        <section>
-            <h2>Midas Eyewear Store Locator</h2>
+        <section class="store-locator-title">
+            <h1>Midas Eyewear Store Locator</h1>
             <!-- this div will hold your map -->
             <div id="map"></div>
 
             <!-- this div will hold your store info -->
             <div id="info_div"></div>
         </section>
-        </section>
+
         <section class="newsletter">
             <p>SIGN UP FOR OUR NEWSLETTER</p>
+            <figure class="newsletter-form">
+                <div class="email input-section">
+                    <input type="email" name="req_email" id="email" placeholder="jsmith@example.com" />
+                </div>
+                <div class="submit newsletter-submit">
+                    <input class="submit-hover" type="submit" value="Submit" />
+                </div>
+            </figure>
         </section>
 
     </main>
@@ -98,6 +114,12 @@
             <li><a href="blog.html">BLOG</a></li>
             <li><a href="contact.html">CONTACT</a></li>
         </ul>
+
+        <div class="footer-icons">
+            <a href="https://www.facebook.com/tnbglasses/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/midas_eyewear/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/TNBGlasses" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
 
         <p>COPYRIGHT 2022 | DESIGNED BY GMS</p>
 

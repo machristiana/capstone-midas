@@ -260,16 +260,34 @@ img {
         /****************** START NEWSLETTER STYLING ***************************/
         
         .newsletter {
-            background-color: #F9C784;
+            background-color: #E3F2FD;
+            margin-top: 5%;
         }
         
         .newsletter p {
             text-align: center;
-            padding-top: 2%;
-            padding-bottom: 2%;
+            padding: 2%;
             font-family: montserrat, sans-serif;
             font-weight: 700;
             font-style: normal;
+        }
+        
+        .newsletter-form {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 2%;
+        }
+        
+        .newsletter-submit {
+            padding-left: 2%;
+            transition: 0.3s;
+        }
+        
+        .submit-hover:hover {
+            background-color: #35CFE9;
+            color: white;
+            transition: 0.3s;
+            cursor: pointer;
         }
         /****************** END NEWSLETTER STYLING ***************************/
         /************************* START FOOTER STYLING ***************************/
@@ -309,11 +327,29 @@ img {
             color: #051938;
             padding: 0 2% 5% 2%;
         }
-        /************************* START HOMEPAGE STYLING ************************/
-        .homepage-top-image {
-           position: relative;
+        
+        footer .footer-icons {
+            text-align: center;
+            padding-bottom: 5%;
+            font-size: 35px;
         }
-
+        
+        .footer-icons a {
+            color: #051938;
+            text-decoration: none;
+            padding-right: 1%;
+        }
+        
+        .footer-icons a:hover {
+            border-bottom: 2px solid #35CFE9;
+            transition: 0.1s;
+        }
+        /************************* START HOMEPAGE STYLING ************************/
+        
+        .homepage-top-image {
+            position: relative;
+        }
+        
         .girl-looking-left h2 {
             font-family: 'Montserrat', sans-serif;
             color: #051938;
@@ -322,45 +358,45 @@ img {
             left: 4%;
             width: 40%;
         }
-
+        
         .affordable-prices {
-           display: none;
+            display: none;
         }
-
+        
         .girl-looking-left a {
-         text-decoration: none;
-         font-family: 'Montserrat', sans-serif;
-         position: absolute;
-         top: 165px;
-         left: 4%;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            position: absolute;
+            top: 165px;
+            left: 4%;
         }
-
+        
         .girl-looking-left a p {
-         background-color: #051938;
-         color: white;
-         padding: 10px 10px;
+            background-color: #051938;
+            color: white;
+            padding: 10px 10px;
         }
-
+        
         .girl-looking-left a p:hover {
-           color:rgba(53, 207, 233, 0.9);
+            color: rgba(53, 207, 233, 0.9);
         }
-
-         .sparkle {
+        
+        .sparkle {
             max-width: 10em;
             margin: auto auto;
-         }
-
-         .sparkle:hover {
+        }
+        
+        .sparkle:hover {
             cursor: pointer;
-         }
-
-         .u-hover--sparkle {
+        }
+        
+        .u-hover--sparkle {
             box-sizing: border-box;
             position: relative;
-          }
-
-          .u-hover--sparkle::before,
-          .u-hover--sparkle::after {
+        }
+        
+        .u-hover--sparkle::before,
+        .u-hover--sparkle::after {
             content: '';
             box-sizing: border-box;
             position: absolute;
@@ -369,25 +405,25 @@ img {
             height: 100%;
             width: 100%;
             transform-origin: center;
-          }
+        }
         
-          .u-hover--sparkle::before {
+        .u-hover--sparkle::before {
             border-top: 0.2em solid rgba(53, 207, 233, 0.9);
             border-bottom: 0.2em solid rgba(53, 207, 233, 0.9);
-            transform: scale3d(0,1,1);
-          }
+            transform: scale3d(0, 1, 1);
+        }
         
-          .u-hover--sparkle::after {
+        .u-hover--sparkle::after {
             border-left: 0.2em solid rgba(53, 207, 233, 0.9);
             border-right: 0.2em solid rgba(53, 207, 233, 0.9);
-            transform: scale3d(1,0,1);
-          }
+            transform: scale3d(1, 0, 1);
+        }
         
-          .u-hover--sparkle:hover::before,
-          .u-hover--sparkle:hover::after {
-            transform: scale3d(1,1,1);
+        .u-hover--sparkle:hover::before,
+        .u-hover--sparkle:hover::after {
+            transform: scale3d(1, 1, 1);
             transition: transform 900ms;
-          }
+        }
         
         #girl-top-homepage {
             width: 100%;
@@ -478,7 +514,7 @@ img {
             color: #051938;
             font-size: 1.25em;
         }
-
+        
         .customers {
             margin: 15px 5%;
         }
@@ -494,13 +530,13 @@ img {
             margin: 20px 10%;
             padding: 20px 5%;
         }
-
+        
         .testimonials h3 {
-           font-family:'Coustard', serif;
-           color: #051938;
-           font-size: 5rem;
-           margin-bottom: -44px;
-           margin-top: -14px;
+            font-family: 'Coustard', serif;
+            color: #051938;
+            font-size: 5rem;
+            margin-bottom: -44px;
+            margin-top: -14px;
         }
         
         .whats-trending {
@@ -540,69 +576,76 @@ img {
         
         #womens-collection,
         #mens-collection {
-         font-family: 'Montserrat', sans-serif;
-         text-align: center;
-         font-size: 2rem;
-         padding: 20px 3%;
-         border-left: gold solid 5px;
-         position: absolute;
-         z-index: 100;
-         left: 5%;
-         font-weight: 700;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            font-size: 2rem;
+            padding: 20px 3%;
+            border-left: gold solid 5px;
+            position: absolute;
+            z-index: 100;
+            left: 5%;
+            font-weight: 700;
         }
-
+        
         .womens-collection-hero,
         .mens-collection-hero {
-         width: 100%;
-         max-width: 1920px;
-         opacity: .7;
+            width: 100%;
+            max-width: 1920px;
+            opacity: .7;
         }
-
-       .inline {
-         text-align: center;
-         font-family: 'Montserrat', sans-serif;
-       }
-
-       .inline a {
-          color:rgba(53, 207, 233, 0.9);
-       }
-
-       .inline li {
-         list-style-type: none;
-       }
-
+        
+        .inline {
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .inline a {
+            color: rgba(53, 207, 233, 0.9);
+        }
+        
+        .inline li {
+            list-style-type: none;
+        }
+        
         .womens-container,
         .mens-container {
-         display: flex;
-         flex-flow: row wrap;
-         justify-content: space-evenly;
-       }
-       .womens-container .col-md-4 img,
-       .mens-container .col-md-4 img {
-         padding: 8% 0;
-       }
-       .womens-container .row,
-       .mens-container .row {
-         padding: 7%;
-       }
-       .womens-container .card-text,
-       .mens-container .card-text {
-         text-align: left;
-       }
-       .womens-container .card-title,
-       .mens-container .card-title {
-         text-align: left;
-       }
-       .womens-container .back-style,
-       .mens-container .back-style {
-         width: 100%;
-       }
-       .womens-container .line,
-       .mens-container .line {
-         width: 100%;
-         border-bottom: 1px solid #D7745B;
-         margin: 5% 0;
-       }
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+        }
+        
+        .womens-container .col-md-4 img,
+        .mens-container .col-md-4 img {
+            padding: 8% 0;
+        }
+        
+        .womens-container .row,
+        .mens-container .row {
+            padding: 7%;
+        }
+        
+        .womens-container .card-text,
+        .mens-container .card-text {
+            text-align: left;
+        }
+        
+        .womens-container .card-title,
+        .mens-container .card-title {
+            text-align: left;
+        }
+        
+        .womens-container .back-style,
+        .mens-container .back-style {
+            width: 100%;
+        }
+        
+        .womens-container .line,
+        .mens-container .line {
+            width: 100%;
+            border-bottom: 1px solid #D7745B;
+            margin: 5% 0;
+        }
+        
         .eyeglasses-container {
             text-align: center;
         }
@@ -651,10 +694,29 @@ img {
         /************************* END ABOUT PAGE STYLING ************************/
         /**************** START STORE LOCATOR PAGE STYLING ************************/
         
+        .store-locator-title h1 {
+            font-size: 35px;
+            color: #051938;
+            font-family: condor, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            padding: 2%;
+        }
+        
         #map {
             width: 900px;
             max-width: 100%;
             height: 500px;
+            margin: 0 auto;
+        }
+        
+        #info_div {
+            text-align: center;
+            padding-top: 2%;
+            font-family: montserrat, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #051938;
         }
         /******************** END STORE LOCATOR PAGE STYLING *******************/
         /********************* START CONTACT PAGE STYLING ************************/
@@ -678,7 +740,7 @@ img {
             font-style: normal;
         }
         
-        .contact-headings h2 {
+        .contact-headings p {
             padding-top: 3%;
             font-family: hero-new, sans-serif;
             font-weight: 400;
@@ -686,12 +748,8 @@ img {
             color: #051938;
         }
         
-        .contact-headings h3 {
+        .contact-headings .faq-p {
             padding-top: 1%;
-            font-family: hero-new, sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            color: #051938;
         }
         
         .faq-title {
@@ -706,6 +764,7 @@ img {
         .faq {
             padding: 5%;
         }
+        /* ACCORDION START */
         
         .accordion {
             background-color: #E3F2FD;
@@ -759,6 +818,96 @@ img {
         .faq-space p {
             padding-bottom: 4%;
         }
+        /* ACCORDION END */
+        
+        .info {
+            padding: 5%;
+            font-family: hero-new, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #051938;
+        }
+        
+        .info p {
+            padding-top: 3%;
+        }
+        /* CONTACT FORM START */
+        
+        .contact-section {
+            max-width: 900px;
+            text-align: center;
+        }
+        
+        .contact-form {
+            background: #B89055;
+            padding: 20px;
+            max-width: 500px;
+            border-radius: 4px;
+            color: white;
+            font-family: montserrat, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            margin: 20px auto;
+            text-align: left;
+        }
+        
+        .label_input_wrap {
+            display: block;
+        }
+        /* label {
+            font-weight: bold;
+        } */
+        
+        .reset input,
+        .submit input {
+            background: #051938;
+            color: white;
+            padding: 5px 20px;
+            display: inline;
+        }
+        
+        .reset,
+        .submit {
+            display: inline;
+        }
+        
+        .input-section {
+            margin-bottom: 10px;
+        }
+        
+        input {
+            padding: 5px 10px;
+            border-radius: 3px;
+        }
+        
+        textarea {
+            font-family: sans-serif;
+            padding: 10px 10px;
+            border-radius: 4px;
+        }
+        
+        .upload-file-copy {
+            margin-bottom: 5%;
+            font-weight: bold;
+        }
+        
+        select {
+            width: 185px;
+            padding: 8px 0;
+            border-radius: 4px;
+        }
+        
+        .submit-hover-form {
+            transition: 0.3s;
+        }
+        
+        .submit-hover-form:hover {
+            background-color: #35CFE9;
+            color: white;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        /* CONTACT FORM END */
         /********************** END CONTACT PAGE STYLING ***********************/
         /********************** START 400PX MEDIA QUERY **********************/
         
@@ -783,17 +932,23 @@ img {
             /* EYEGLASSES END */
         }
         /********************** END 400PX MEDIA QUERY **********************/
-
-        /********************** START 480PX MEDIA QUERY **********************/
-        @media (min-width:480px) {
-           /* HOMEPAGE */
-           .girl-looking-left a {
-            top: 138px;
-           }
+        /********************* START 450PX MEDIA QUERY **************************/
+        
+        @media (min-width: 450px) {
+            form {
+                width: 80%;
+            }
         }
-
+        /********************** END 450PX MEDIA QUERY **********************/
+        /********************** START 480PX MEDIA QUERY **********************/
+        
+        @media (min-width:480px) {
+            /* HOMEPAGE */
+            .girl-looking-left a {
+                top: 138px;
+            }
+        }
         /********************** END 480PX MEDIA QUERY **********************/
-
         /********************** START 500PX MEDIA QUERY **********************/
         
         @media (min-width:500px) {
@@ -811,9 +966,23 @@ img {
                 font-size: 1.5em;
             }
             /* HOMEPAGE END */
+            #email {
+                width: 250px
+            }
         }
         /********************** END 500PX MEDIA QUERY **********************/
-
+        /********************* START 550PX MEDIA QUERY ************************/
+        
+        @media (min-width: 550px) {
+            form {
+                width: 70%;
+            }
+            textarea {
+                min-width: 307px;
+                min-height: 122px;
+            }
+        }
+        /********************* END 550PX MEDIA QUERY ************************/
         /********************** START 600PX MEDIA QUERY **********************/
         /************** DESKTOP NAV STYLING **************/
         
@@ -937,22 +1106,22 @@ img {
             }
             /* HOMEPAGE */
             .girl-looking-left h2 {
-               width: 50%;
-               font-size: 2rem;
+                width: 50%;
+                font-size: 2rem;
             }
             .affordable-prices {
-               display: flex;
-               position: absolute;
-               font-family: 'Montserrat';
-               top: 158px;
-               left: 4%;
-               width: 42%;
-               font-size: 1.15em;
-               color: #3f70da;
+                display: flex;
+                position: absolute;
+                font-family: 'Montserrat';
+                top: 158px;
+                left: 4%;
+                width: 42%;
+                font-size: 1.15em;
+                color: #3f70da;
             }
             .girl-looking-left a {
-               top: 221px;
-           }
+                top: 221px;
+            }
             .mens-collection-container h2 {
                 font-size: 4rem;
                 left: 40%;
@@ -982,23 +1151,38 @@ img {
                 border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
             }
             .inline li {
-               margin: 4% 8px;
-               display: inline;
+                margin: 4% 8px;
+                display: inline;
             }
             /* END EYEGLASSES */
             .faq-space p {
                 padding-bottom: 2%;
             }
         }
+        /********************** START 650PX MEDIA QUERY **********************/
+        
+        @media (min-width: 650px) {
+            form figure {
+                display: flex;
+            }
+            form .flex-grow {
+                flex-grow: 2;
+            }
+            textarea {
+                min-width: 390px;
+                min-height: 142px;
+            }
+        }
+        /********************** END 650PX MEDIA QUERY **********************/
         /********************** START 700PX MEDIA QUERY **********************/
         
         @media (min-width: 700px) {
             /* HOMEPAGE START*/
             .girl-looking-left h2 {
-               width: 40%;
+                width: 40%;
             }
             .affordable-prices {
-               top: 154px;
+                top: 154px;
             }
             .womens-collection-container h2 {
                 left: 33%;
@@ -1021,18 +1205,17 @@ img {
         @media (min-width: 800px) {
             /* Homepage */
             .girl-looking-left h2 {
-               font-size: 1.75em;
-               top: 20px;
+                font-size: 1.75em;
+                top: 20px;
             }
-
             .affordable-prices {
-               top: 126px;
-               font-size: 1em;
-               width: 30%;
-           }
-           .girl-looking-left a {
-            top: 226px;
-           }           
+                top: 126px;
+                font-size: 1em;
+                width: 30%;
+            }
+            .girl-looking-left a {
+                top: 226px;
+            }
             #girl-top-homepage {
                 padding: 0px;
                 margin: 0;
@@ -1053,16 +1236,16 @@ img {
                 width: 50%;
             }
             .mens-collection-container {
-               padding: 3% 1.5% 1.5% 3%;
+                padding: 3% 1.5% 1.5% 3%;
             }
             .womens-collection-container {
-               padding: 3% 3% 1.5% 1.5%;
+                padding: 3% 3% 1.5% 1.5%;
             }
             .virtual-container {
-               padding: 1.5% 1.5% 3% 3%;
+                padding: 1.5% 1.5% 3% 3%;
             }
             .map-container {
-               padding: 1.5% 3% 3% 1.5%;
+                padding: 1.5% 3% 3% 1.5%;
             }
             .border-gradient-gold-home {
                 border: 10px solid;
@@ -1099,11 +1282,10 @@ img {
                 display: flex;
             }
             .customers {
-               font-weight: 600;
-               font-size: 2rem;
-               margin: 0 5% 14px;
+                font-weight: 600;
+                font-size: 2rem;
+                margin: 0 5% 14px;
             }
-
             .testimonial-1,
             .testimonial-2,
             .testimonial-3 {
@@ -1127,6 +1309,12 @@ img {
             /* EYEGLASSES END */
             .faq-space p {
                 padding-bottom: 1%;
+            }
+            .info {
+                padding: 0 5% 5% 5%;
+            }
+            .info p {
+                padding-top: 2%;
             }
         }
         /* @media screen and (max-width: 600px) {
@@ -1186,23 +1374,32 @@ img {
             }
         }
         /********************** END 950PX MEDIA QUERY **********************/
+        /********************* START 1000PX MEDIA QUERY *********************/
+        
+        @media (min-width: 1000px) {
+            .contact-section {
+                max-width: 1000px;
+                margin: 0 auto;
+            }
+        }
+        /********************** END 1000PX MEDIA QUERY **********************/
         /********************** START 1050PX MEDIA QUERY **********************/
         
         @media (min-width: 1050px) {
             /* Homepage */
             .girl-looking-left h2 {
-               width: 50%;
-               font-size: 2rem;
+                width: 50%;
+                font-size: 2rem;
             }
             .affordable-prices {
-               top: 108px;
-               left: 4%;
-               width: 40%;
-               font-size: 1.15em;
+                top: 108px;
+                left: 4%;
+                width: 40%;
+                font-size: 1.15em;
             }
             .girl-looking-left a {
-               top: 196px;
-           }
+                top: 196px;
+            }
             .womens-collection-container h2 {
                 left: 27%;
             }
@@ -1219,17 +1416,17 @@ img {
         @media (min-width: 1200px) {
             /* HOMEPAGE START */
             .girl-looking-left h2 {
-               width: 40%;
-               font-size: 2rem;
-               top: 71px;
+                width: 40%;
+                font-size: 2rem;
+                top: 71px;
             }
             .affordable-prices {
-               top: 157px;
-               width: 42%;
+                top: 157px;
+                width: 42%;
             }
             .girl-looking-left a {
-               top: 219px;
-           }
+                top: 219px;
+            }
             .womens-collection-container h2 {
                 left: 32%;
             }
