@@ -625,16 +625,17 @@ img {
                 padding: 7%;
             }
             
-            .card-title, .card-text {
-               font-family: 'Montserrat', sans-serif;
+            .card-title,
+            .card-text {
+                font-family: 'Montserrat', sans-serif;
             }
-
+            
             .card-title {
-               color:rgba(53, 207, 233, 0.9);
-               font-weight: 600;
-               font-size: 1.5rem;
+                color: rgba(53, 207, 233, 0.9);
+                font-weight: 600;
+                font-size: 1.5rem;
             }
-
+            
             .womens-container .card-text,
             .mens-container .card-text {
                 text-align: left;
@@ -686,15 +687,15 @@ img {
                 border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
                 padding: 25px 3%;
             }
-
+            
             .follow-us {
-               text-align: center;
-               margin: 40px 0;
-               font-family: 'Montserrat';
-               font-size: 2.5em;
-               color: white;
-               background-color: rgba(53, 207, 233, 0.9);
-               padding: 20px 5%;
+                text-align: center;
+                margin: 40px 0;
+                font-family: 'Montserrat';
+                font-size: 2.5em;
+                color: white;
+                background-color: rgba(53, 207, 233, 0.9);
+                padding: 20px 5%;
             }
             /************************* END EYEGLASSES PAGE STYLING ************************/
             /************************* START ABOUT PAGE STYLING ************************/
@@ -730,8 +731,15 @@ img {
                 padding: 2%;
             }
             
+            .about-flex,
+            .about-flex2 {
+                background-color: #E3F2FD;
+                padding-top: 2%;
+            }
+            
             .headshot,
-            .about-image {
+            .about-image,
+            .about-glasses {
                 width: 100%;
             }
             
@@ -1058,11 +1066,9 @@ img {
                 .girl-looking-left a {
                     top: 147px;
                 }
-
                 .girl-looking-left h2 {
-                  width: 46%;
-               }
-
+                    width: 46%;
+                }
             }
             /********************** END 480PX MEDIA QUERY **********************/
             /********************** START 500PX MEDIA QUERY **********************/
@@ -1453,7 +1459,7 @@ img {
                     padding-top: 2%;
                 }
                 .our-story {
-                    padding: 0% 5% 0 5%;
+                    padding: 2% 5% 0 5%;
                 }
                 .our-story p {
                     padding-bottom: 2%;
@@ -1525,6 +1531,9 @@ img {
                 }
                 .our-story-flex {
                     width: 180%;
+                }
+                .about-flex2 {
+                    display: flex;
                 }
             }
             /********************** END 1000PX MEDIA QUERY **********************/
