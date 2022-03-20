@@ -753,6 +753,7 @@ img {
                 background-size: cover;
                 background-position: center;
                 min-height: 50vh;
+                margin: 2% 0;
             }
             
             .eyeglasses-product-title h1 {
@@ -771,6 +772,7 @@ img {
                 background-size: cover;
                 background-position: center;
                 min-height: 50vh;
+                margin: 2% 0;
             }
             
             .store-locator-title h1 {
@@ -780,6 +782,15 @@ img {
                 font-weight: 400;
                 font-style: normal;
                 padding: 2%;
+            }
+            
+            .store-locator-title p {
+                padding: 5%;
+                font-family: montserrat, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                color: #051938;
+                text-align: center;
             }
             
             #map {
@@ -1292,6 +1303,14 @@ img {
                 }
             }
             /********************** END 700PX MEDIA QUERY **********************/
+            /********************** START 750PX MEDIA QUERY ********************/
+            
+            @media (min-width: 750px) {
+                .store-locator-title p {
+                    padding: 2%;
+                }
+            }
+            /********************** END 750PX MEDIA QUERY **********************/
             /********************** START 800PX MEDIA QUERY **********************/
             
             @media (min-width: 800px) {
