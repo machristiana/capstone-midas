@@ -680,7 +680,7 @@ img {
         /************************* START ABOUT PAGE STYLING ************************/
         
         .about-hero {
-            background-image: url(../images/about-hero2.jpeg);
+            background-image: url(../images/about-hero3.jpeg);
             background-size: cover;
             background-position: center;
             min-height: 50vh;
@@ -692,8 +692,43 @@ img {
             border-width: 5px;
             border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
         }
+        
+        .about-title h1 {
+            font-size: 35px;
+            color: #051938;
+            font-family: condor, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            padding: 2%;
+        }
+        /**
         /************************* END ABOUT PAGE STYLING ************************/
+        /**************** START INDIVIDUAL PRODUCT PAGE STYLING *******************/
+        
+        .eyeglasses-product-hero {
+            background-image: url(../images/eyeglasses-product-hero.jpeg);
+            background-size: cover;
+            background-position: center;
+            min-height: 50vh;
+        }
+        
+        .eyeglasses-product-title h1 {
+            font-size: 35px;
+            color: #051938;
+            font-family: condor, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            padding: 2%;
+        }
+        /**************** END INDIVIDUAL PRODUCT PAGE STYLING *******************/
         /**************** START STORE LOCATOR PAGE STYLING ************************/
+        
+        .store-locator-hero {
+            background-image: url(../images/store-locator-hero.jpeg);
+            background-size: cover;
+            background-position: center;
+            min-height: 50vh;
+        }
         
         .store-locator-title h1 {
             font-size: 35px;
