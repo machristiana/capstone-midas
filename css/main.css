@@ -576,7 +576,8 @@ img {
             }
             
             #womens-collection,
-            #mens-collection {
+            #mens-collection,
+            #sunglasses-collection {
                 font-family: 'Montserrat', sans-serif;
                 text-align: center;
                 font-size: 2rem;
@@ -589,7 +590,8 @@ img {
             }
             
             .womens-collection-hero,
-            .mens-collection-hero {
+            .mens-collection-hero,
+            .sunglasses-hero {
                 width: 100%;
                 max-width: 1920px;
                 opacity: .7;
@@ -609,19 +611,22 @@ img {
             }
             
             .womens-container,
-            .mens-container {
+            .mens-container,
+            .sunglasses-container {
                 display: flex;
                 flex-flow: row wrap;
                 justify-content: space-evenly;
             }
             
             .womens-container .col-md-4 img,
-            .mens-container .col-md-4 img {
+            .mens-container .col-md-4 img,
+            .sunglasses-container .col-md-4 img  {
                 padding: 8% 0;
             }
             
             .womens-container .row,
-            .mens-container .row {
+            .mens-container .row,
+            .sunglasses-container .row {
                 padding: 7%;
             }
             
@@ -637,22 +642,26 @@ img {
             }
             
             .womens-container .card-text,
-            .mens-container .card-text {
+            .mens-container .card-text,
+            .sunglasses-container .card-text {
                 text-align: left;
             }
             
             .womens-container .card-title,
-            .mens-container .card-title {
+            .mens-container .card-title,
+            .sunglasses-container .card-title {
                 text-align: left;
             }
             
             .womens-container .back-style,
-            .mens-container .back-style {
+            .mens-container .back-style,
+            .sunglasses-container .back-style {
                 width: 100%;
             }
             
             .womens-container .line,
-            .mens-container .line {
+            .mens-container .line,
+            .sunglasses-container .line {
                 width: 100%;
                 border-bottom: 1px solid #D7745B;
                 margin: 5% 0;
@@ -678,7 +687,15 @@ img {
             #mens-frames5,
             #mens-frames6,
             #mens-frames7,
-            #mens-frames8 {
+            #mens-frames8,
+            #sunglasses1,
+            #sunglasses2,
+            #sunglasses3,
+            #sunglasses4,
+            #sunglasses5,
+            #sunglasses6,
+            #sunglasses7,
+            #sunglasses8 {
                 width: 100%;
                 max-width: 334px;
                 border-bottom: solid;
