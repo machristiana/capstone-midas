@@ -620,7 +620,7 @@ img {
             
             .womens-container .col-md-4 img,
             .mens-container .col-md-4 img,
-            .sunglasses-container .col-md-4 img  {
+            .sunglasses-container .col-md-4 img {
                 padding: 8% 0;
             }
             
@@ -809,6 +809,41 @@ img {
                 font-style: normal;
                 padding: 2%;
             }
+            
+            .eyeglasses-product-title p {
+                font-family: montserrat, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                color: #051938;
+                padding: 3%;
+            }
+            /* PIC ZOOMER START */
+            
+            .piclist {
+                margin-top: 30px;
+            }
+            
+            .piclist li {
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+            }
+            
+            .piclist li img {
+                width: 100%;
+                height: auto;
+            }
+            /* custom style */
+            
+            .picZoomer-pic-wp,
+            .picZoomer-zoom-wp {
+                border: 1px solid #fff;
+            }
+            
+            .pic-zoom {
+                padding-left: 2%;
+            }
+            /* PIC ZOOMER END */
             /**************** END INDIVIDUAL PRODUCT PAGE STYLING *******************/
             /**************** START STORE LOCATOR PAGE STYLING ************************/
             
@@ -1433,22 +1468,21 @@ img {
                     font-size: 1.25em;
                     bottom: 12%;
                 }
-
                 .whats-trending {
-                   position: relative;
+                    position: relative;
                 }
                 .whats-trending h3 {
-                   position: absolute;
-                   font-family: 'Montserrat', sans-serif;
-                   color: white;
-                   font-size: 3rem;
-                   bottom: 50%;
-                   left: 5%;
+                    position: absolute;
+                    font-family: 'Montserrat', sans-serif;
+                    color: white;
+                    font-size: 3rem;
+                    bottom: 50%;
+                    left: 5%;
                 }
                 .whats-trending span {
-                  background-color: #F9C784;
-                  padding: 5px;
-                  color: #051938;
+                    background-color: #F9C784;
+                    padding: 5px;
+                    color: #051938;
                 }
                 #whats-trending-pic {
                     width: 100%;
@@ -1497,6 +1531,9 @@ img {
                 }
                 .our-story p {
                     padding-bottom: 2%;
+                }
+                .eyeglasses-product-title p {
+                    padding: 1% 2% 1% 2%;
                 }
             }
             /* @media screen and (max-width: 600px) {
