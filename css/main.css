@@ -641,6 +641,10 @@ img {
                 font-size: 1.5rem;
             }
             
+            .card-title a {
+                color: rgba(53, 207, 233, 0.9);
+            }
+            
             .womens-container .card-text,
             .mens-container .card-text,
             .sunglasses-container .card-text {
