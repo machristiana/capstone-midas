@@ -252,6 +252,7 @@ img {
                 margin: 25px;
                 border: #3e3d3d 1px solid;
                 position: relative;
+                max-width: 1200px;
             }
             
             .site-content {
