@@ -468,12 +468,12 @@ img {
             
             #mens-collection-pic {
                 width: 100%;
-                max-width: 1000px;
+                max-width: 600px;
             }
             
             #womens-collection-pic {
                 width: 100%;
-                max-width: 1000px;
+                max-width: 600px;
             }
             
             .virtual-container,
@@ -503,12 +503,12 @@ img {
             
             #virtual-tryon {
                 width: 100%;
-                max-width: 1000px;
+                max-width: 600px;
             }
             
             #store-locator {
                 width: 100%;
-                max-width: 1000px;
+                max-width: 600px;
             }
             
             .testimonials {
@@ -1492,7 +1492,7 @@ img {
                 }
                 #whats-trending-pic {
                     width: 100%;
-                    max-width: 1920px;
+                    max-width: 1400px;
                 }
                 .test-container {
                     display: flex;
