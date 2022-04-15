@@ -76,20 +76,12 @@
             <nav class="desktop-nav">
                 <!-- Main Menu -->
                 <ul class="topnav">
-                    <li>
-                        <a class="btn" href="about.html">ABOUT</a></li>
-                    <div class="dropdown">
-                        <li><a href="#" class="btn">SHOP</a></li>
-                        <!-- Sub Menu -->
-                        <div class="dropdown-content">
-                            <a href="eyeglasses.html">EYEGLASSES</a>
-                            <a href="sunglasses.html">SUNGLASSES</a>
-                        </div>
-                    </div>
+                    <li><a class="btn" href="about.html">ABOUT</a></li>
+                    <li><a class="btn" href="eyeglasses.html">EYEGLASSES</a></li>
+                    <li><a class="btn" href="sunglasses.html">SUNGLASSES</a></li>
                     <!-- <li>
                         <a class="btn" href="blog.html">BLOG</a></li> -->
-                    <li>
-                        <a class="btn" href="contact.html">CONTACT</a></li>
+                    <li><a class="btn" href="contact.html">CONTACT</a></li>
                 </ul>
             </nav>
         </div>
@@ -232,14 +224,14 @@
 
         <section class="newsletter">
             <p>SIGN UP FOR OUR NEWSLETTER</p>
-            <figure class="newsletter-form">
+            <form class="newsletter-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
                 <div class="email input-section">
                     <input type="email" name="req_email" id="email" placeholder="jsmith@example.com" />
                 </div>
                 <div class="submit newsletter-submit">
-                    <input class="submit-hover" type="submit" value="Submit" />
+                    <input class="submit-hover" type="submit" value="Subscribe" />
                 </div>
-            </figure>
+            </form>
         </section>
 
     </main>

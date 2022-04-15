@@ -545,14 +545,14 @@ img {
             .whats-trending {
                 display: none;
             }
-
+            
             .instafeed-mobile {
-               display: flex;
+                display: flex;
             }
-
-            .instafeed-three, 
+            
+            .instafeed-three,
             .instafeed-desktop {
-               display: none;
+                display: none;
             }
             /************************* END HOMEPAGE STYLING ************************/
             /************************* START EYEGLASSES PAGE STYLING ************************/
@@ -1121,7 +1121,7 @@ img {
             /********************* START 450PX MEDIA QUERY **************************/
             
             @media (min-width: 450px) {
-                form {
+                .contact-form {
                     width: 80%;
                 }
             }
@@ -1163,7 +1163,7 @@ img {
             /********************* START 550PX MEDIA QUERY ************************/
             
             @media (min-width: 550px) {
-                form {
+                .contact-form {
                     width: 70%;
                 }
                 textarea {
@@ -1176,7 +1176,6 @@ img {
             /************** DESKTOP NAV STYLING **************/
             
             @media (min-width: 600px) {
-                
                 /* HOMEPAGE */
                 .girl-looking-left h2 {
                     width: 50%;
@@ -1195,9 +1194,9 @@ img {
                 .girl-looking-left a {
                     top: 237px;
                 }
-                .collections-container, 
+                .collections-container,
                 .store-tryon-container {
-                   text-align: center;
+                    text-align: center;
                 }
                 .mens-collection-container h2 {
                     font-size: 4rem;
@@ -1212,10 +1211,10 @@ img {
                     left: 24%;
                 }
                 .instafeed-mobile {
-                   display: none;
+                    display: none;
                 }
                 .instafeed-desktop {
-                   display: flex;
+                    display: flex;
                 }
                 /* END HOMEPAGE */
                 /* EYEGLASSES PAGE */
@@ -1245,10 +1244,10 @@ img {
             /********************** START 650PX MEDIA QUERY **********************/
             
             @media (min-width: 650px) {
-                form figure {
+                .contact-form figure {
                     display: flex;
                 }
-                form .flex-grow {
+                .contact-form .flex-grow {
                     flex-grow: 2;
                 }
                 textarea {
@@ -1272,8 +1271,8 @@ img {
             /********************** START 700PX MEDIA QUERY **********************/
             
             @media (min-width: 700px) {
-               /* Switch in Nav */
-               .hamburger,
+                /* Switch in Nav */
+                .hamburger,
                 .cross,
                 .menu,
                 .mobile-logo-container {
