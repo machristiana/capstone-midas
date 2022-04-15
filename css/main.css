@@ -545,6 +545,15 @@ img {
             .whats-trending {
                 display: none;
             }
+
+            .instafeed-mobile {
+               display: flex;
+            }
+
+            .instafeed-three, 
+            .instafeed-desktop {
+               display: none;
+            }
             /************************* END HOMEPAGE STYLING ************************/
             /************************* START EYEGLASSES PAGE STYLING ************************/
             
@@ -1167,7 +1176,104 @@ img {
             /************** DESKTOP NAV STYLING **************/
             
             @media (min-width: 600px) {
-                .hamburger,
+                
+                /* HOMEPAGE */
+                .girl-looking-left h2 {
+                    width: 50%;
+                    font-size: 2rem;
+                }
+                .affordable-prices {
+                    display: flex;
+                    position: absolute;
+                    font-family: 'Montserrat';
+                    top: 158px;
+                    left: 4%;
+                    width: 42%;
+                    font-size: 1.15em;
+                    color: #3f70da;
+                }
+                .girl-looking-left a {
+                    top: 237px;
+                }
+                .collections-container, 
+                .store-tryon-container {
+                   text-align: center;
+                }
+                .mens-collection-container h2 {
+                    font-size: 4rem;
+                    left: 40%;
+                }
+                .womens-collection-container h2 {
+                    font-size: 4rem;
+                    left: 28%;
+                }
+                .virtual-container a,
+                .map-container a {
+                    left: 24%;
+                }
+                .instafeed-mobile {
+                   display: none;
+                }
+                .instafeed-desktop {
+                   display: flex;
+                }
+                /* END HOMEPAGE */
+                /* EYEGLASSES PAGE */
+                #mobile-shop-hero {
+                    display: none;
+                }
+                #desktop-shop-hero {
+                    display: flex;
+                    width: 100%;
+                    max-width: 1495px;
+                    margin: 30px 0 30px;
+                    border-top: solid;
+                    border-bottom: solid;
+                    border-image-slice: 1;
+                    border-width: 10px;
+                    border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
+                }
+                .inline li {
+                    margin: 4% 8px;
+                    display: inline;
+                }
+                /* END EYEGLASSES */
+                .faq-space p {
+                    padding-bottom: 2%;
+                }
+            }
+            /********************** START 650PX MEDIA QUERY **********************/
+            
+            @media (min-width: 650px) {
+                form figure {
+                    display: flex;
+                }
+                form .flex-grow {
+                    flex-grow: 2;
+                }
+                textarea {
+                    min-width: 390px;
+                    min-height: 142px;
+                }
+                /* ABOUT PAGE START*/
+                .about-flex {
+                    display: flex;
+                    padding-left: 2%;
+                    padding-right: 2%;
+                    padding-bottom: 5%;
+                }
+                .our-story-flex {
+                    padding: 0% 5% 0 5%;
+                    width: 175%;
+                }
+                /* ABOUT PAGE END*/
+            }
+            /********************** END 650PX MEDIA QUERY **********************/
+            /********************** START 700PX MEDIA QUERY **********************/
+            
+            @media (min-width: 700px) {
+               /* Switch in Nav */
+               .hamburger,
                 .cross,
                 .menu,
                 .mobile-logo-container {
@@ -1284,91 +1390,6 @@ img {
                     width: 100%;
                     height: 100%;
                 }
-                /* HOMEPAGE */
-                .girl-looking-left h2 {
-                    width: 50%;
-                    font-size: 2rem;
-                }
-                .affordable-prices {
-                    display: flex;
-                    position: absolute;
-                    font-family: 'Montserrat';
-                    top: 158px;
-                    left: 4%;
-                    width: 42%;
-                    font-size: 1.15em;
-                    color: #3f70da;
-                }
-                .girl-looking-left a {
-                    top: 237px;
-                }
-                .mens-collection-container h2 {
-                    font-size: 4rem;
-                    left: 40%;
-                }
-                .womens-collection-container h2 {
-                    font-size: 4rem;
-                    left: 28%;
-                }
-                .virtual-container a,
-                .map-container a {
-                    left: 24%;
-                }
-                /* END HOMEPAGE */
-                /* EYEGLASSES PAGE */
-                #mobile-shop-hero {
-                    display: none;
-                }
-                #desktop-shop-hero {
-                    display: flex;
-                    width: 100%;
-                    max-width: 1495px;
-                    margin: 30px 0 30px;
-                    border-top: solid;
-                    border-bottom: solid;
-                    border-image-slice: 1;
-                    border-width: 10px;
-                    border-image-source: linear-gradient(to left, #8f6B29, #FDE08D, #DF9F28);
-                }
-                .inline li {
-                    margin: 4% 8px;
-                    display: inline;
-                }
-                /* END EYEGLASSES */
-                .faq-space p {
-                    padding-bottom: 2%;
-                }
-            }
-            /********************** START 650PX MEDIA QUERY **********************/
-            
-            @media (min-width: 650px) {
-                form figure {
-                    display: flex;
-                }
-                form .flex-grow {
-                    flex-grow: 2;
-                }
-                textarea {
-                    min-width: 390px;
-                    min-height: 142px;
-                }
-                /* ABOUT PAGE START*/
-                .about-flex {
-                    display: flex;
-                    padding-left: 2%;
-                    padding-right: 2%;
-                    padding-bottom: 5%;
-                }
-                .our-story-flex {
-                    padding: 0% 5% 0 5%;
-                    width: 175%;
-                }
-                /* ABOUT PAGE END*/
-            }
-            /********************** END 650PX MEDIA QUERY **********************/
-            /********************** START 700PX MEDIA QUERY **********************/
-            
-            @media (min-width: 700px) {
                 /* HOMEPAGE START*/
                 .girl-looking-left h2 {
                     width: 40%;
