@@ -1084,12 +1084,17 @@ img {
                 transition: max-height 0.2s ease-out;
             }
             
-            .panel p {
+            .panel p,
+            .panel li {
                 margin-top: 2%;
                 margin-bottom: 2%;
                 font-family: 'montserrat', sans-serif;
                 font-weight: 400;
                 font-style: normal;
+            }
+            
+            .panel ul {
+                padding-left: 18px;
             }
             
             .faq-space p {
