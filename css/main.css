@@ -216,6 +216,12 @@
 img {
     width: 100%;
 } */
+            /************************ START MODAL STYLING *************************/
+            
+            .modalContent_content {
+                background-color: #051938 !important;
+            }
+            /************************ END MODAL STYLING *************************/
             /********************** START HEADER STYLING ************************/
             
             .coupon-code {
