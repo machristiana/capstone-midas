@@ -17,7 +17,8 @@ function initMap() {
         var marker = new google.maps.Marker({
             map: map,
             position: storeInfo.location,
-            title: storeInfo.name
+            title: storeInfo.name,
+            address: storeInfo.address
         });
 
         // show store info when marker is clicked
@@ -30,16 +31,16 @@ function initMap() {
     function showStoreInfo(storeInfo) {
         var info_div = document.getElementById('info_div');
         info_div.innerHTML = 'Store Name: ' +
-            storeInfo.name +
-            '<br>Hours: ' + storeInfo.hours;
+            storeInfo.name + '<br>Address: ' + storeInfo.address + '<br>Hours: ' + storeInfo.hours;
     }
 
     var stores = [{
         name: 'Hakim Optical Bay & Wellesley',
         location: {
             lat: 43.68170,
-            lng: -79.41099
+            lng: -79.41099,
         },
+        Address: '1033 Bay St., Toronto, ON M5S 3A5, Canada',
         hours: 'Monday-Friday: 10AM to 7PM'
     }, {
         name: 'Hakim Optical Bay & Queen',
@@ -56,12 +57,13 @@ function initMap() {
         },
         hours: 'Monday-Sunday: 9AM to 7PM'
     }, {
-        name: 'Hakim Optical Bay & Queen',
+        name: 'Specs & Specs Optical',
         location: {
-            lat: 44.14600,
-            lng: -79.67195
+            lat: 43.645566,
+            lng: -79.39296
         },
-        hours: 'Monday-Friday: 9AM to 7PM'
+        hours: 'Monday-Saturday: 12PM to 6PM',
+        Address: '292 Queen St W, Toronto, ON M5V 2A1, Canada'
     }, {
         name: 'Hakim Optical Bay & Queen',
         location: {
