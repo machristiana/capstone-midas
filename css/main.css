@@ -291,6 +291,18 @@ img {
                 transition: 0.3s;
                 cursor: pointer;
             }
+            
+            #mc_embed_signup {
+                /* background: #fff;
+                clear: left; */
+                font: 14px Helvetica, Arial, sans-serif;
+                text-align: center;
+                padding-bottom: 2%;
+            }
+            
+            #submit {
+                margin-top: 2%;
+            }
             /****************** END NEWSLETTER STYLING ***************************/
             /************************* START FOOTER STYLING ***************************/
             
