@@ -216,6 +216,12 @@
 img {
     width: 100%;
 } */
+            /************************ START MODAL STYLING *************************/
+            
+            .modalContent_content {
+                background-color: #051938 !important;
+            }
+            /************************ END MODAL STYLING *************************/
             /********************** START HEADER STYLING ************************/
             
             .coupon-code {
@@ -268,7 +274,7 @@ img {
             
             .newsletter p {
                 text-align: center;
-                padding: 2% 2% 0 2%;
+                padding: 2%;
                 font-family: montserrat, sans-serif;
                 font-weight: 700;
                 font-style: normal;
@@ -820,6 +826,10 @@ img {
                 color: #051938;
             }
             
+            .newsletter p {
+                font-weight: 700;
+            }
+            
             .about-hero {
                 background-image: url(../images/about-hero6.jpg);
                 background-size: cover;
@@ -1074,12 +1084,17 @@ img {
                 transition: max-height 0.2s ease-out;
             }
             
-            .panel p {
+            .panel p,
+            .panel li {
                 margin-top: 2%;
                 margin-bottom: 2%;
                 font-family: 'montserrat', sans-serif;
                 font-weight: 400;
                 font-style: normal;
+            }
+            
+            .panel ul {
+                padding-left: 18px;
             }
             
             .faq-space p {
@@ -1120,6 +1135,10 @@ img {
             
             .label_input_wrap {
                 display: block;
+            }
+            
+            .consumer-radio {
+                margin-right: 10px;
             }
             /* label {
             font-weight: bold;
@@ -1390,7 +1409,7 @@ img {
                     float: left;
                     display: block;
                     text-align: center;
-                    padding: 14px 16px;
+                    padding: 8px 8px;
                     text-decoration: none;
                     font-size: 17px;
                 }

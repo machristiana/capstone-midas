@@ -112,7 +112,11 @@
 
             <button class="accordion">How much is shipping?</button>
             <div class="panel">
-                <p>We offer free shipping within Canada and free returns for orders more than 10 frames of business accounts.</p>
+                <p>We offer:</p>
+                <ul>
+                    <li>Free shipping within Canada.</li>
+                    <li>Free returns for orders more than 10 frames of business accounts.</li>
+                </ul>
             </div>
 
             <button class="accordion">I received a damaged item, what is the Return Policy?</button>
@@ -156,7 +160,7 @@
             <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
                 <div class="radiobutton input-section">
                     <input type="radio" name="choice" value="consumer" id="consumer" />
-                    <label for="consumer">Consumer</label>
+                    <label class="consumer-radio" for="consumer">Consumer</label>
                     <input type="radio" name="choice" value="retailer" id="retailer" />
                     <label for="retailer">Retailer</label>
                 </div>
