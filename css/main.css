@@ -268,7 +268,7 @@ img {
             
             .newsletter p {
                 text-align: center;
-                padding: 2%;
+                padding: 2% 2% 0 2%;
                 font-family: montserrat, sans-serif;
                 font-weight: 700;
                 font-style: normal;
@@ -297,8 +297,58 @@ img {
                 clear: left; */
                 font: 14px Helvetica, Arial, sans-serif;
                 text-align: center;
-                padding-bottom: 2%;
+                /* padding-bottom: 2%; */
             }
+            
+            #mc_embed_signup form {
+                padding: 0;
+            }
+            
+            #mc_embed_signup .mc-field-group input {
+                width: 70% !important;
+                margin: 0 auto !important;
+            }
+            
+            #mc_embed_signup .mc-field-group label {
+                text-align: center !important;
+            }
+            
+            #mc_embed_signup #mce-success-response {
+                color: #051938 !important;
+                margin: 0 auto !important;
+                float: none !important;
+                text-align: center !important;
+                /* width: none !important; */
+            }
+            
+            #mc_embed_signup .mc-field-group {
+                padding-bottom: 0 !important;
+            }
+            
+            #mc_embed_signup .foot {
+                grid-template-columns: none !important;
+            }
+            
+            #mc_embed_signup .button {
+                margin: 2% auto !important;
+                background-color: #051938 !important;
+                transition: 0.3s !important;
+            }
+            
+            #mc_embed_signup .button:hover {
+                margin: 2% auto !important;
+                background-color: #35CFE9 !important;
+                color: white !important;
+                transition: 0.3s !important;
+            }
+            /* #mc_embed_signup div#mce-responses {
+                margin: 0 auto !important;
+                float: none !important;
+                width: none !important;
+            } */
+            /* #mc_embed_signup .foot {
+                display: inline !important;
+            } */
             
             #submit {
                 margin-top: 2%;
@@ -1252,6 +1302,11 @@ img {
                 .faq-space p {
                     padding-bottom: 2%;
                 }
+                /* NEWSLETTER START*/
+                #mc_embed_signup .mc-field-group input {
+                    width: 50% !important;
+                }
+                /* NEWSLETTER END*/
             }
             /********************** START 650PX MEDIA QUERY **********************/
             
@@ -1416,12 +1471,14 @@ img {
                     left: 28%;
                 }
                 /* HOMEPAGE END */
+                /* FOOTER START*/
                 footer ul li {
                     padding-bottom: 2%;
                 }
                 footer p {
                     padding: 0 2% 2% 2%;
                 }
+                /* FOOTER END*/
             }
             /********************** END 700PX MEDIA QUERY **********************/
             /********************** START 750PX MEDIA QUERY ********************/
@@ -1703,6 +1760,11 @@ img {
                     left: 32%;
                 }
                 /* HOMEPAGE END */
+                /* NEWSLETTER START*/
+                #mc_embed_signup .mc-field-group input {
+                    width: 25% !important;
+                }
+                /* NEWSLETTER END*/
                 /* EYEGLASSES START */
                 /* #frames1,
                 #frames2,
