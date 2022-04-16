@@ -1121,6 +1121,10 @@ img {
             .label_input_wrap {
                 display: block;
             }
+            
+            .consumer-radio {
+                margin-right: 10px;
+            }
             /* label {
             font-weight: bold;
         } */
@@ -1390,7 +1394,7 @@ img {
                     float: left;
                     display: block;
                     text-align: center;
-                    padding: 14px 16px;
+                    padding: 8px 8px;
                     text-decoration: none;
                     font-size: 17px;
                 }
