@@ -483,7 +483,7 @@ img {
             }
             
             .sparkle {
-                max-width: 10em;
+                max-width: 20em;
                 margin: auto auto;
             }
             
@@ -595,15 +595,11 @@ img {
             .map-container h2 {
                 background-color: #051938;
                 color: white;
-                padding: 10px 5px;
+                padding: 10px 10px;
                 /* margin: 0 70px; */
             }
             
-            #virtual-tryon {
-                width: 100%;
-                max-width: 600px;
-            }
-            
+            #virtual-tryon,
             #store-locator {
                 width: 100%;
                 max-width: 600px;
@@ -1326,18 +1322,8 @@ img {
                     width: 50%;
                     font-size: 2rem;
                 }
-                .affordable-prices {
-                    display: flex;
-                    position: absolute;
-                    font-family: 'Montserrat';
-                    top: 158px;
-                    left: 4%;
-                    width: 42%;
-                    font-size: 1.15em;
-                    color: #3f70da;
-                }
                 .girl-looking-left a {
-                    top: 237px;
+                    top: 164px;
                 }
                 .collections-container,
                 .store-tryon-container {
@@ -1351,15 +1337,11 @@ img {
                     font-size: 4rem;
                     left: 28%;
                 }
-                .virtual-container a,
+                .virtual-container a {
+                    left: 30%;
+                }
                 .map-container a {
-                    left: 24%;
-                }
-                .instafeed-mobile {
-                    display: none;
-                }
-                .instafeed-desktop {
-                    display: flex;
+                   left: 25%;
                 }
                 /* END HOMEPAGE */
                 /* EYEGLASSES PAGE */
@@ -1425,9 +1407,9 @@ img {
                 .girl-looking-left h2 {
                     width: 40%;
                 }
-                .affordable-prices {
+                /* .affordable-prices {
                     top: 154px;
-                }
+                } */
                 .womens-collection-container h2 {
                     left: 33%;
                 }
@@ -1579,14 +1561,10 @@ img {
                 .girl-looking-left h2 {
                     font-size: 1.5em;
                     top: 9px;
-                }
-                .affordable-prices {
-                    top: 100px;
-                    font-size: 1em;
-                    width: 30%;
+                    width: 42%;
                 }
                 .girl-looking-left a {
-                    top: 200px;
+                    top: 108px;
                 }
                 #girl-top-homepage {
                     padding: 0px;
@@ -1637,7 +1615,7 @@ img {
                     left: 19%;
                 }
                 .virtual-container a {
-                    left: 17%;
+                    left: 25%;
                     font-size: 1.25em;
                     bottom: 12%;
                 }
@@ -1756,11 +1734,14 @@ img {
             
             @media (min-width: 950px) {
                 /* Homepage */
+                .girl-looking-left a {
+                  top: 79px;
+                }
                 .womens-collection-container h2 {
                     left: 23%;
                 }
                 .virtual-container a {
-                    left: 22%;
+                    left: 29%;
                 }
                 .map-container a {
                     left: 23%;
@@ -1794,14 +1775,8 @@ img {
                     width: 49%;
                     font-size: 2rem;
                 }
-                .affordable-prices {
-                    top: 127px;
-                    left: 4%;
-                    width: 40%;
-                    font-size: 1.15em;
-                }
                 .girl-looking-left a {
-                    top: 208px;
+                    top: 100px;
                 }
                 .womens-collection-container h2 {
                     left: 27%;
@@ -1827,9 +1802,15 @@ img {
                     top: 60px;
                 }
                 .affordable-prices {
-                    top: 140px;
-                    width: 42%;
-                }
+                  display: flex;
+                  position: absolute;
+                  font-family: 'Montserrat';
+                  top: 145px;
+                  left: 4%;
+                  width: 42%;
+                  font-size: 1.15em;
+                  color: #3f70da;
+               }
                 .girl-looking-left a {
                     top: 210px;
                 }
@@ -1840,10 +1821,10 @@ img {
                     left: 40%;
                 }
                 .virtual-container a {
-                    left: 30%;
+                    left: 35%;
                 }
                 .map-container a {
-                    left: 32%;
+                    left: 30%;
                 }
                 /* HOMEPAGE END */
                 /* NEWSLETTER START*/
