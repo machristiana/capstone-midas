@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
     <meta charset="utf-8">
 
-    <title>Midas Eyewear Store Locator</title>
+    <title>Midas Eyewear</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon3.png" />
@@ -22,20 +22,18 @@
     <script src="https://kit.fontawesome.com/70a4005e9d.js" crossorigin="anonymous"></script>
 
     <!-- Pic Zoomer CSS -->
-    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <!-- <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/jquery-picZoomer.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-picZoomer.css"> -->
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- Main CSS -->
     <link type="text/css" rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/jquery-picZoomer.css">
 
-    <!-- jQuery Library -->
+    <!-- JQuery Library -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 
     <!-- Pic Zoomer -->
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -52,7 +50,6 @@
         });
     </script>
 
-
     <!--[if lt IE 9]>
 			<script src="js/html5shiv-printshiv.min.js"></script>
 		<![endif]-->
@@ -66,7 +63,7 @@
         </div>
 
         <figure class="mobile-logo-container">
-            <img id="mobile_logo" src="images/logo-white.png" alt="Midas white logo" />
+            <a href="index.html"><img id="mobile_logo" src="images/logo-white.png" alt="Midas white logo" /></a>
         </figure>
 
         <!-- <img id="desktop_logo" src="images/midas-logo.png" alt="Midas navy logo" /> -->
@@ -101,29 +98,24 @@
             <nav class="desktop-nav">
                 <!-- Main Menu -->
                 <ul class="topnav">
-                    <li>
-                        <a class="btn" href="about.html">ABOUT</a></li>
-                    <div class="dropdown">
-                        <li><a href="#" class="btn">SHOP</a></li>
-                        <!-- Sub Menu -->
-                        <div class="dropdown-content">
-                            <a href="eyeglasses.html">EYEGLASSES</a>
-                            <a href="sunglasses.html">SUNGLASSES</a>
-                        </div>
-                    </div>
+                    <li><a class="btn" href="about.html">ABOUT</a></li>
+                    <li><a class="btn" href="eyeglasses.html">EYEGLASSES</a></li>
+                    <li><a class="btn" href="sunglasses.html">SUNGLASSES</a></li>
+                    <li><a class="btn" href="store-locator.html">STORE LOCATOR</a></li>
                     <!-- <li>
                         <a class="btn" href="blog.html">BLOG</a></li> -->
-                    <li>
-                        <a class="btn" href="contact.html">CONTACT</a></li>
+                    <li><a class="btn" href="contact.html">CONTACT</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <main class="site-content">
+
+    <main class="site-content about-page">
         <section class="eyeglasses-product-hero border-gradient-gold">
 
         </section>
+
 
 
         <section class="eyeglasses-product-title">
@@ -177,8 +169,7 @@
                         <!-- <h2></h2> -->
                         <!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
                         <div class="mc-field-group">
-                            <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-</label>
+                            <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
                             <input type="email" value="jsmith@gmail.com" name="EMAIL" class="required email" id="mce-EMAIL">
                         </div>
                         <div id="mce-responses" class="clear foot">
@@ -191,8 +182,8 @@
                             <div class="clear foot">
                                 <input id="subscribe" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
                                 <!-- <p class="brandingLogo">
-                                    <a href="http://eepurl.com/hZNo3f" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a>
-                                </p> -->
+                            <a href="http://eepurl.com/hZNo3f" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a>
+                        </p> -->
                             </div>
                         </div>
                     </div>
@@ -219,18 +210,10 @@
                 var $mcj = jQuery.noConflict(true);
             </script>
             <!--End mc_embed_signup-->
-            <!-- <form class="newsletter-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
-                <div class="email input-section">
-                    <input type="email" name="req_email" id="email" placeholder="jsmith@example.com" />
-                </div>
-                <div class="submit newsletter-submit">
-                    <input class="submit-hover" type="submit" value="Subscribe" />
-                </div>
-            </form> -->
+
         </section>
 
     </main>
-
 
     <footer>
         <div>
@@ -256,7 +239,6 @@
 
     </footer>
     <script src="js/hamburger.js"></script>
-
     <script type="text/javascript">
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-36251023-1']);
@@ -272,7 +254,8 @@
             s.parentNode.insertBefore(ga, s);
         })();
     </script>
-</body>
+    <!-- <script src="js/nav-dropdown.js"></script> -->
 
+</body>
 
 </html>
