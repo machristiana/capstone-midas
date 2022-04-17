@@ -40,7 +40,7 @@ function initMap() {
             lat: 43.68170,
             lng: -79.41099,
         },
-        Address: '1033 Bay St., Toronto, ON M5S 3A5, Canada',
+        address: '1033 Bay St., Toronto, ON M5S 3A5, Canada',
         hours: 'Monday-Friday: 10AM to 7PM'
     }, {
         name: 'Hakim Optical Bay & Queen',
@@ -48,64 +48,72 @@ function initMap() {
             lat: 43.65212,
             lng: -79.38236
         },
-        hours: 'Monday-Friday: 11AM to 7PM'
+        address: '65 Queen St W, Toronto, ON M5H 2M5, Canada',
+        hours: 'Monday-Friday: 9AM to 6PM'
     }, {
-        name: 'Zeiss Vision Centre',
+        name: 'Optical Thirty 8',
         location: {
-            lat: 43.65496,
-            lng: -79.38115
+            lat: 43.647210,
+            lng: -79.402930
         },
-        hours: 'Monday-Sunday: 9AM to 7PM'
+        address: '623 Queen St W, Toronto, ON M5V 2B7, Canada',
+        hours: 'Monday-Sunday: 11AM to 7PM'
     }, {
         name: 'Specs & Specs Optical',
         location: {
-            lat: 43.645566,
-            lng: -79.39296
+            lat: 43.649750,
+            lng: -79.393110
         },
+        address: '292 Queen St W, Toronto, ON M5V 2A1, Canada',
         hours: 'Monday-Saturday: 12PM to 6PM',
-        Address: '292 Queen St W, Toronto, ON M5V 2A1, Canada'
     }, {
-        name: 'Hakim Optical Bay & Queen',
+        name: '312 Optical Studio',
         location: {
-            lat: 44.14600,
-            lng: -79.67195
+            lat: 43.657760,
+            lng: -79.402310
         },
-        hours: 'Monday-Friday: 9AM to 7PM'
+        address: '312 College St, Toronto, ON M5T 1S3, Canada',
+        hours: 'Sunday-Thursday: 11AM to 5PM'
     }, {
-        name: 'Hakim Optical Bay & Queen',
+        name: 'Economy Optical',
         location: {
-            lat: 44.14600,
-            lng: -79.67195
+            lat: 43.661420,
+            lng: -79.383610
         },
-        hours: 'Monday-Friday: 9AM to 7PM'
+        address: '4 College St, Toronto, ON M5G 1K2, Canada',
+        hours: 'Monday-Friday: 9AM to 6PM'
     }, {
-        name: 'Hakim Optical Bay & Queen',
+        name: 'Optical Outlook Ltd',
         location: {
-            lat: 44.14600,
-            lng: -79.67195
+            lat: 43.670970,
+            lng: -79.392820
         },
-        hours: 'Monday-Friday: 9AM to 7PM'
+        address: '110 Yorkville Ave, Toronto, ON M5R 1B9, Canada',
+        hours: 'Monday-Saturday: 11AM to 5PM'
     }, {
-        name: 'Hakim Optical Bay & Queen',
+        name: 'Bright Eyes Optical',
         location: {
-            lat: 44.14600,
-            lng: -79.67195
+            lat: 43.653470,
+            lng: -79.397110
         },
-        hours: 'Monday-Friday: 9AM to 7PM'
+        address: '480 Dundas St W, Toronto, ON M5T 1G9, Canada',
+        hours: 'Monday-Saturday: 10:30AM to 6PM'
     }, {
-        name: 'Hakim Optical Bay & Queen',
+        name: "Wally's Optical",
         location: {
-            lat: 44.14600,
-            lng: -79.67195
+            lat: 43.656170,
+            lng: -79.454640
         },
-        hours: 'Monday-Friday: 9AM to 7PM'
+        address: '1586 Bloor St W, Toronto, ON M6P 1A7, Canada',
+        hours: 'Monday-Saturday: 11AM to 6PM'
     }, {
-        name: 'Hakim Optical Bay & Queen',
+        name: 'Warby Parker',
         location: {
-            lat: 44.14600,
-            lng: -79.67195
+            lat: 43.646640,
+            lng: -79.407600
         },
-        hours: 'Monday-Friday: 9AM to 7PM'
+        address: '684 Queen St W, Toronto, ON M6J 1E5, Canada',
+        hours: 'Monday-Sunday: 11AM to 7PM'
     }];
 
     stores.forEach(function(store) {
