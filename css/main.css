@@ -605,7 +605,16 @@ img {
                 color: #051938;
                 font-size: 1.25em;
             }
+
+            .testimonials p {
+               margin-bottom: 20px;
+            }
             
+            .testimonials span {
+               color: #59d4ec;
+               font-weight: bold;
+            }
+
             .customers {
                 margin: 15px 5%;
             }
@@ -695,6 +704,32 @@ img {
                 max-width: 1920px;
                 opacity: .7;
             }
+
+            .mens-collection-container a h2:after,
+            .womens-collection-container a h2:after{
+                  content: '';
+                  position: absolute;
+                  height: 5px;
+                  width: 100%;
+                  left: 0;
+                  bottom: 0;
+                  visibility: hidden;
+                  background-color: #59d4ec;
+                  -webkit-transition: all .1s ease;
+                  transition: all 0.3s ease;  
+                  -webkit-transform: scaleX(0);
+                  -ms-transform: scaleX(0);
+                  transform: scaleX(0);
+                }
+                
+            .mens-collection-container a h2:hover:after,
+            .womens-collection-container a h2:hover:after{
+                  visibility: visible;
+                  -webkit-transform: scaleX(1);
+                  -ms-transform: scaleX(1);
+                  transform: scaleX(1);
+                }
+            
             
             .inline {
                 text-align: center;
