@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
 
-    <title>Midas Eyewear</title>
+    <title>Midas Eyewear Eyeglasses Individual Product Page</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon3.png" />
@@ -19,21 +19,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/70a4005e9d.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/fb29729b1c.js" crossorigin="anonymous"></script>
 
     <!-- Pic Zoomer CSS -->
-    <!-- <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/jquery-picZoomer.css"> -->
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/jquery-picZoomer.css">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- Main CSS -->
     <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/jquery-picZoomer.css">
 
-    <!-- JQuery Library -->
+    <!-- jQuery Library -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
 
     <!-- Pic Zoomer -->
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -50,9 +52,10 @@
         });
     </script>
 
+
     <!--[if lt IE 9]>
-			<script src="js/html5shiv-printshiv.min.js"></script>
-		<![endif]-->
+             <script src="js/html5shiv-printshiv.min.js"></script>
+         <![endif]-->
 
 </head>
 
@@ -120,42 +123,120 @@
 
         <section class="eyeglasses-product-title">
             <h1>Women's Eyeglasses - Midas - MC-L12</h1>
-            <p>Sophisticated, small and light-weight, these durable frames are made with luxurious high quality acetate and marble-like temples.</p>
-            <!-- <div class="womens-container">
-
-                <div class="card mb-3 shadow" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <a href="images/frames1.png" data-lightbox="womens"><img id="frames1" src="images/frames1.png" alt="Midas womens frames on white background"></a>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Midas-RD397</h5>
-                                <p class="card-text">Be noticeable with these eye-catching acetate women eyeglasses by Midas. Perfect for those who like to add a dash of fashion to their business attire and carry an air of sophistication with a bit of style. Available in
-                                    a range of colours</p>
-                                <p class="card-text"><small class="text-muted">USD $195.60</small></p>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-
+            <!-- <p>USD $198.74 | CAD $253</p> -->
+            <!-- <p>Sophisticated, small and light-weight, these durable frames are made with luxurious high quality acetate and marble-like temples.</p> -->
         </section>
 
-        <section class="pic-zoom">
-            <div class="picZoomer">
-                <img src="images/MC-L12-C4.jpeg" max-height="400" max-width="400" alt="Midas eyeglasses">
+        <div class="individual-prodict-flex">
+            <section class="pic-zoom">
+                <div class="picZoomer">
+                    <a href="images/MC-L12-C4.jpeg" data-lightbox="eyeglasses"><img src="images/MC-L12-C4.jpeg" max-height="400" max-width="400" alt="Midas eyeglasses"></a>
+                </div>
+
+                <ul class="piclist">
+                    <li><img src="images/MC-L12-C4.jpeg" alt="Midas eyeglasses"></li>
+                    <li><img src="images/MC-L12-C3.jpeg" alt="Midas eyeglasses"></li>
+                    <li><img src="images/MC-L12-C3_2.jpeg" alt="Midas eyeglasses"></li>
+                    <li><img src="images/MC-L12-C2.jpeg" alt="Midas eyeglasses"></li>
+                    <li><img src="images/MC-L12-C2_2.jpeg" alt="Midas eyeglasses"></li>
+                    <li><img src="images/MC-L12-C1.jpeg" alt="Midas eyeglasses"></li>
+                    <li><img src="images/MC-L12-C1_2.jpeg" alt="Midas eyeglasses"></li>
+                </ul>
+            </section>
+
+            <section class="product-cart">
+                <img class="product-cart-image" src="images/individual-product2.png" alt="Add to cart">
+            </section>
+        </div>
+
+        <section class="adopt-section4 individual-flex-grow">
+            <!-- <h2>Adoption Tips</h2> -->
+            <div id="tabs" class="c-tabs no-js">
+                <div class="c-tabs-nav">
+                    <a href="#" class="c-tabs-nav__link is-active">
+                        <i class="fa-solid fa-glasses"></i>
+                        <span>Features</span>
+                    </a>
+                    <a href="#" class="c-tabs-nav__link">
+                        <i class="fa-solid fa-eye"></i>
+                        <span>Description</span>
+                    </a>
+                    <a href="#" class="c-tabs-nav__link">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Reviews</span>
+                    </a>
+                </div>
+                <div class="c-tab is-active">
+                    <div class="c-tab__content">
+                        <h2>Features</h2>
+                        <ul class="features-flex">
+                            <div>
+                                <li>
+                                    Brand: Midas
+                                </li>
+                                <li>
+                                    Frame Material: Acetate
+                                </li>
+                                <li>
+                                    Gender: Women
+                                </li>
+                                <li>
+                                    Rim: Full Rim
+                                </li>
+                                <li>
+                                    Shape: Rectangle
+                                </li>
+                                <li>
+                                    Size: Small (125 mm~129mm)
+                                </li>
+                            </div>
+                            <div class="features-bullets">
+                                <li>
+                                    Lens Width: 50mm / 1.97in
+                                </li>
+                                <li>
+                                    Bridge Width: 17mm / 0.67in
+                                </li>
+                                <li>
+                                    Temple Length: 135mm / 5.31in
+                                </li>
+                                <li>
+                                    B Size: 34
+                                </li>
+                                <li>
+                                    Weight: 18
+                                </li>
+                                <li>
+                                    Add Features: Spring Hinge
+                                </li>
+                            </div>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="c-tab">
+                    <div class="c-tab__content">
+                        <h2>Description</h2>
+                        <ul>
+                            <li>Sophisticated, small and light, durable glasses, made with luxurious high quality acetate and marble-like temples.</li>
+                            <li>Available in Black, Leopard, Brown, Red and Purple</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="c-tab">
+                    <div class="c-tab__content">
+                        <h2>Reviews</h2>
+                        <ul>
+                            <li>These eyeglasses are the best pair of glasses I've ever owned. I thought that glasses would always be clunky and heavy, but this pair is so light and delicate...not to mention they last forever. The craftsmanship is beautiful
+                                and I cannot recommend them enough!! - Mercy N</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
-            <ul class="piclist">
-                <li><img src="images/MC-L12-C4.jpeg" alt="Midas eyeglasses"></li>
-                <li><img src="images/MC-L12-C3.jpeg" alt="Midas eyeglasses"></li>
-                <li><img src="images/MC-L12-C3_2.jpeg" alt="Midas eyeglasses"></li>
-                <li><img src="images/MC-L12-C2.jpeg" alt="Midas eyeglasses"></li>
-                <li><img src="images/MC-L12-C2_2.jpeg" alt="Midas eyeglasses"></li>
-                <li><img src="images/MC-L12-C1.jpeg" alt="Midas eyeglasses"></li>
-                <li><img src="images/MC-L12-C1_2.jpeg" alt="Midas eyeglasses"></li>
-            </ul>
         </section>
+
+
 
         <section class="newsletter">
             <p>SIGN UP FOR OUR NEWSLETTER</p>
@@ -239,6 +320,7 @@
 
     </footer>
     <script src="js/hamburger.js"></script>
+
     <script type="text/javascript">
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-36251023-1']);
@@ -254,8 +336,8 @@
             s.parentNode.insertBefore(ga, s);
         })();
     </script>
-    <!-- <script src="js/nav-dropdown.js"></script> -->
-
+    <script src="js/tabs.js"></script>
+    <script src="js/tabbed-content.js"></script>
 </body>
 
 </html>
