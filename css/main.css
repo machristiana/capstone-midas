@@ -691,7 +691,8 @@ img {
             
             #womens-collection,
             #mens-collection,
-            #sunglasses-collection {
+            #sunglasses-collection,
+            #bestsellers-collection {
                 font-family: 'Montserrat', sans-serif;
                 text-align: center;
                 font-size: 2rem;
@@ -705,14 +706,17 @@ img {
             
             .womens-collection-hero,
             .mens-collection-hero,
-            .sunglasses-hero {
+            .sunglasses-hero,
+            .bestsellers-collection-hero {
                 width: 100%;
-                max-width: 1920px;
+                max-width: 1400px;
                 opacity: .7;
             }
             
             .mens-collection-container a h2:after,
-            .womens-collection-container a h2:after {
+            .womens-collection-container a h2:after,
+            .bestsellers-container a h2:after,
+            .sunglasses-container a h2:after {
                 content: '';
                 position: absolute;
                 height: 5px;
@@ -729,7 +733,9 @@ img {
             }
             
             .mens-collection-container a h2:hover:after,
-            .womens-collection-container a h2:hover:after {
+            .womens-collection-container a h2:hover:after,
+            .bestsellers-container a h2:hover:after,
+            .sunglasses-container a h2:hover:after {
                 visibility: visible;
                 -webkit-transform: scaleX(1);
                 -ms-transform: scaleX(1);
@@ -751,7 +757,8 @@ img {
             
             .womens-container,
             .mens-container,
-            .sunglasses-container {
+            .sunglasses-container,
+            .bestsellers-container {
                 display: flex;
                 flex-flow: row wrap;
                 justify-content: space-evenly;
@@ -759,13 +766,15 @@ img {
             
             .womens-container .col-md-4 img,
             .mens-container .col-md-4 img,
-            .sunglasses-container .col-md-4 img {
+            .sunglasses-container .col-md-4 img,
+            .bestsellers-container .col-md-4 img {
                 padding: 8% 0;
             }
             
             .womens-container .row,
             .mens-container .row,
-            .sunglasses-container .row {
+            .sunglasses-container .row,
+            .bestsellers-container .row {
                 padding: 7%;
             }
             
@@ -786,25 +795,29 @@ img {
             
             .womens-container .card-text,
             .mens-container .card-text,
-            .sunglasses-container .card-text {
+            .sunglasses-container .card-text,
+            .bestsellers-container .card-text {
                 text-align: left;
             }
             
             .womens-container .card-title,
             .mens-container .card-title,
-            .sunglasses-container .card-title {
+            .sunglasses-container .card-title,
+            .bestsellers-container .card-title {
                 text-align: left;
             }
             
             .womens-container .back-style,
             .mens-container .back-style,
-            .sunglasses-container .back-style {
+            .sunglasses-container .back-style,
+            .bestsellers-container .back-style {
                 width: 100%;
             }
             
             .womens-container .line,
             .mens-container .line,
-            .sunglasses-container .line {
+            .sunglasses-container .line,
+            .bestsellers-container .line {
                 width: 100%;
                 border-bottom: 1px solid #D7745B;
                 margin: 5% 0;
@@ -814,6 +827,14 @@ img {
                 text-align: center;
             }
             
+            #bestsellers-frames1,
+            #bestsellers-frames2,
+            #bestsellers-frames3,
+            #bestsellers-frames4,
+            #bestsellers-frames5,
+            #bestsellers-frames6,
+            #bestsellers-frames7,
+            #bestsellers-frames8,
             #frames1,
             #frames2,
             #frames3,
