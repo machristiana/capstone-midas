@@ -692,7 +692,8 @@ img {
             #womens-collection,
             #mens-collection,
             #sunglasses-collection,
-            #bestsellers-collection {
+            #bestsellers-collection,
+            #blog-collection {
                 font-family: 'Montserrat', sans-serif;
                 text-align: center;
                 font-size: 2rem;
@@ -707,7 +708,8 @@ img {
             .womens-collection-hero,
             .mens-collection-hero,
             .sunglasses-hero,
-            .bestsellers-collection-hero {
+            .bestsellers-collection-hero,
+            .blog-hero {
                 width: 100%;
                 max-width: 1400px;
                 opacity: .7;
@@ -1057,6 +1059,71 @@ img {
                 color: #051938;
             }
             /******************** END STORE LOCATOR PAGE STYLING *******************/
+
+            /******************** START BLOG PAGE STYLING *******************/
+            .blog-container {
+               font-family: 'Montserrat', sans-serif;
+               margin-top: 36px;
+               background-color: #e4e1d9;
+               padding-bottom: 40px;
+               margin-bottom: -70px;
+            }
+
+            .blog-container h3 {
+               color: white;
+            }
+
+            .card h2 {
+               padding: 10px 0 0px;
+            }
+            .card h5,
+            .card p {
+               padding: 10px 0;
+            }
+
+            .card h3 {
+               color: black;
+               padding-bottom: 5%;
+            }
+
+            .card a {
+               text-decoration: none;
+               color: #59d4ec;
+            }
+            /* Create two unequal columns that floats next to each other */
+            /* Left column */
+            .leftcolumn {
+               float: left;
+               width: 75%;
+            }
+            
+            /* Right column */
+            .rightcolumn {
+               float: left;
+               width: 25%;
+               margin-bottom: 20px;
+            }
+            
+            /* Add a card effect for articles */
+            .card {
+               background-color: white;
+               padding: 20px;
+               margin-top: 20px;
+            }
+            
+            /* Clear floats after the columns */
+            .row:after {
+               content: "";
+               display: table;
+               clear: both;
+            }
+
+            .blog-image img {
+               width: 100%;
+               max-width: 600px;
+            }
+            /******************** END BLOG PAGE STYLING *******************/
+ 
             /********************* START CONTACT PAGE STYLING ************************/
             
             .contact-hero {
@@ -1457,9 +1524,22 @@ img {
                 }
             }
             /********************** END 750PX MEDIA QUERY **********************/
+            /********************** START SPECIAL 800PX MEDIA QUERY FOR BLOG **********************/
+            /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+               @media screen and (max-width: 800px) {
+                  .leftcolumn,
+                  .rightcolumn {
+                     width: 100%;
+                  }
+               }
+            /********************** END SPECIAL 800PX MEDIA QUERY FOR BLOG**********************/   
             /********************** START 800PX MEDIA QUERY **********************/
             
             @media (min-width: 800px) {
+               /* Blog */
+               .rightcolumn {
+                  padding-left: 20px;
+               }
                 /* Switch in Nav */
                 .hamburger,
                 .cross,
