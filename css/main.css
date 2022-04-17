@@ -1377,6 +1377,160 @@ img {
             
             @media (min-width: 700px) {
                 /* Switch in Nav */
+                /* .hamburger,
+                .cross,
+                .menu,
+                .mobile-logo-container {
+                    display: none;
+                }
+                .coupon-code {
+                    width: 100%;
+                }
+                .flex-nav {
+                    display: flex;
+                }
+                .desktop-nav {
+                    flex-grow: 2;
+                }
+                .desktop-nav ul {
+                    display: flex;
+                    list-style: none;
+                    justify-content: space-evenly;
+                    padding-top: 90px
+                }
+                .desktop-nav a {
+                    text-decoration: none;
+                    font-family: montserrat, sans-serif;
+                    font-weight: 700;
+                    font-style: normal;
+                    color: #051938;
+                }
+                .topnav a {
+                    float: left;
+                    display: block;
+                    text-align: center;
+                    padding: 8px 8px;
+                    text-decoration: none;
+                    font-size: 14px;
+                }
+                .dropdown {
+                    float: left;
+                    overflow: hidden;
+                }
+                .dropdown .dropbtn {
+                    font-size: 17px;
+                    border: none;
+                    outline: none;
+                    color: white;
+                    padding: 14px 16px;
+                    background-color: inherit;
+                    font-family: inherit;
+                    margin: 20px;
+                }
+                .dropdown-content {
+                    display: none;
+                    position: absolute;
+                    background-color: #f9f9f9;
+                    min-width: 160px;
+                    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                    z-index: 1;
+                    margin-top: 48px;
+                } */
+                /* .dropdown-content a {
+                    float: none;
+                    color: black;
+                    padding: 12px 16px;
+                    text-decoration: none;
+                    display: block;
+                    text-align: left;
+                }
+                .topnav a:hover,
+                .dropdown:hover .dropbtn {
+                    background-color: #051938;
+                    color: white;
+                }
+                .dropdown-content a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+                .dropdown:hover .dropdown-content {
+                    display: block;
+                } */
+                /********* DESKTOP NAV HOVER ANIMATION ********/
+                /* .btn {
+                    cursor: pointer;
+                    position: relative;
+                    padding: 10px 10px;
+                    border-top-right-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                    transition: all 1s;
+                }
+                .btn:after,
+                .btn:before {
+                    content: " ";
+                    width: 10px;
+                    height: 10px;
+                    position: absolute;
+                    transition: all 1s;
+                }
+                .btn:after {
+                    top: -1px;
+                    left: -1px;
+                    border-top: 4px solid rgba(53, 207, 233, 0.9);
+                    border-left: 4px solid rgba(53, 207, 233, 0.9);
+                }
+                .btn:before {
+                    bottom: -1px;
+                    right: -1px;
+                    border-bottom: 4px solid rgba(53, 207, 233, 0.9);
+                    border-right: 4px solid rgba(53, 207, 233, 0.9);
+                }
+                .btn:hover {
+                    border-top-right-radius: 0px;
+                    border-bottom-left-radius: 0px;
+                }
+                .btn:hover:before,
+                .btn:hover:after {
+                    width: 100%;
+                    height: 100%;
+                } */
+                /* HOMEPAGE START*/
+                .girl-looking-left h2 {
+                    width: 40%;
+                }
+                .affordable-prices {
+                    top: 154px;
+                }
+                .womens-collection-container h2 {
+                    left: 33%;
+                }
+                .virtual-container a,
+                .map-container a {
+                    left: 28%;
+                }
+                /* HOMEPAGE END */
+                /* FOOTER START*/
+                footer ul li {
+                    padding-bottom: 2%;
+                }
+                footer p {
+                    padding: 0 2% 2% 2%;
+                }
+                /* FOOTER END*/
+            }
+            /********************** END 700PX MEDIA QUERY **********************/
+            /********************** START 750PX MEDIA QUERY ********************/
+            
+            @media (min-width: 750px) {
+                .store-locator-title p {
+                    padding: 2%;
+                }
+            }
+            /********************** END 750PX MEDIA QUERY **********************/
+            /********************** START 800PX MEDIA QUERY **********************/
+            
+            @media (min-width: 800px) {
+                /* Switch in Nav */
                 .hamburger,
                 .cross,
                 .menu,
@@ -1411,7 +1565,7 @@ img {
                     text-align: center;
                     padding: 8px 8px;
                     text-decoration: none;
-                    font-size: 17px;
+                    font-size: 14px;
                 }
                 .dropdown {
                     float: left;
@@ -1494,42 +1648,6 @@ img {
                     width: 100%;
                     height: 100%;
                 }
-                /* HOMEPAGE START*/
-                .girl-looking-left h2 {
-                    width: 40%;
-                }
-                .affordable-prices {
-                    top: 154px;
-                }
-                .womens-collection-container h2 {
-                    left: 33%;
-                }
-                .virtual-container a,
-                .map-container a {
-                    left: 28%;
-                }
-                /* HOMEPAGE END */
-                /* FOOTER START*/
-                footer ul li {
-                    padding-bottom: 2%;
-                }
-                footer p {
-                    padding: 0 2% 2% 2%;
-                }
-                /* FOOTER END*/
-            }
-            /********************** END 700PX MEDIA QUERY **********************/
-            /********************** START 750PX MEDIA QUERY ********************/
-            
-            @media (min-width: 750px) {
-                .store-locator-title p {
-                    padding: 2%;
-                }
-            }
-            /********************** END 750PX MEDIA QUERY **********************/
-            /********************** START 800PX MEDIA QUERY **********************/
-            
-            @media (min-width: 800px) {
                 /* Homepage */
                 .girl-looking-left h2 {
                     font-size: 1.5em;
@@ -1641,7 +1759,7 @@ img {
                     padding-left: 16px;
                 }
                 .desktop-nav ul {
-                    width: 80%;
+                    /* width: 80%; */
                     margin: 0 auto;
                 }
                 /* EYEGLASSES START */
@@ -1772,6 +1890,9 @@ img {
             /********************** START 1200PX MEDIA QUERY **********************/
             
             @media (min-width: 1200px) {
+                .desktop-nav ul {
+                    width: 90%;
+                }
                 /* HOMEPAGE START */
                 .girl-looking-left h2 {
                     width: 43%;
