@@ -598,6 +598,8 @@ img {
                 padding: 10px 10px;
                 /* margin: 0 70px; */
             }
+
+
             
             #virtual-tryon,
             #store-locator {
@@ -1187,11 +1189,15 @@ img {
                 font-family: 'Montserrat', sans-serif;
                 margin-top: 36px;
                 padding-bottom: 40px;
-                margin-bottom: -70px;
             }
             
             .blog-container h3 {
                 color: white;
+            }
+
+            .blog-btn h4 {
+               color: black;
+               font-weight: bolder;
             }
             
             .card h2 {
