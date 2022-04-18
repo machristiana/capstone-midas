@@ -33,6 +33,21 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+    <!-- Pic Zoomer -->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.picZoomer.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('.picZoomer').picZoomer();
+
+
+            $('.piclist li').on('click', function(event) {
+                var $pic = $(this).find('img');
+                $('.picZoomer-pic').attr('src', $pic.attr('src'));
+            });
+        });
+    </script>
+
 
     <!--[if lt IE 9]>
 			<script src="js/html5shiv-printshiv.min.js"></script>
